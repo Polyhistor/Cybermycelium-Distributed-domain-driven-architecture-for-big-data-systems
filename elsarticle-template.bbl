@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{AtaeiACIS}
+P.~Ataei, A.~T. Litchfield, Big data reference architectures, a systematic
+  literature review.
+
+\bibitem{AtaeiBigDataEnvirons}
+B.~B. Rad, P.~Ataei, The big data ecosystem and its environs, International
+  Journal of Computer Science and Network Security (IJCSNS) 17~(3) (2017) 38.
+
+\bibitem{AtaeiApsec}
+P.~Ataei, A.~Litchfield,
+  \href{https://doi.ieeecomputersociety.org/10.1109/APSEC53868.2021.00052}{Neomycelia:
+  A software reference architecturefor big data systems}, in: 2021 28th
+  Asia-Pacific Software Engineering Conference (APSEC), IEEE Computer Society,
+  Los Alamitos, CA, USA, 2021, pp. 452--462.
+\newblock \href {http://dx.doi.org/10.1109/APSEC53868.2021.00052}
+  {\path{doi:10.1109/APSEC53868.2021.00052}}.
+\newline\urlprefix\url{https://doi.ieeecomputersociety.org/10.1109/APSEC53868.2021.00052}
+
+\bibitem{internet2019internet}
+I.~L. Stats, Internet live stats (2019).
+
+\end{thebibliography}
