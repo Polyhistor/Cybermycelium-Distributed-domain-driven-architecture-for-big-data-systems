@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -38,5 +38,36 @@ B.~B. Rada, P.~Ataeib, Y.~Khakbizc, N.~Akbarzadehd, The hype of emerging
 M.~Huberty, Awaiting the second big data revolution: from digital noise to
   value creation, Journal of Industry, Competition and Trade 15~(1) (2015)
   35--47.
+
+\bibitem{DataBricksSurvey}
+M.~technology review insights in partnership~with Databricks,
+  \href{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}{Building
+  a high-performance data organization} (2021).
+\newline\urlprefix\url{https://databricks.com/p/whitepaper/mit-technology-review-insights-report}
+
+\bibitem{NewVantageSurvey}
+N.~Partners,
+  \href{https://www.supplychain247.com/paper/big_data_and_ai_executive_survey_2021/pragmadik}{Big
+  data and ai executive survey 2021} (2021).
+\newline\urlprefix\url{https://www.supplychain247.com/paper/big_data_and_ai_executive_survey_2021/pragmadik}
+
+\bibitem{analytics2016age}
+M.~Analytics, The age of analytics: competing in a data-driven world, Tech.
+  rep., Technical report, San Francisco: McKinsey \& Company (2016).
+
+\bibitem{Nash}
+H.~Nash, Cio survey 2015, Association with KPMG.
+
+\bibitem{Singh}
+N.~Singh, K.-H. Lai, M.~Vejvar, T.~Cheng, Big data technology: Challenges,
+  prospects and realities, IEEE Engineering Management Review.
+
+\bibitem{Gorton}
+I.~Gorton, J.~Klein, Distribution, data, deployment, STC 2015 (2015) 78.
+
+\bibitem{Nadal}
+S.~Nadal, V.~Herrero, O.~Romero, A.~Abelló, X.~Franch, S.~Vansummeren,
+  D.~Valerio, A software reference architecture for semantic-aware big data
+  systems, Information and software technology 90 (2017) 75--92.
 
 \end{thebibliography}

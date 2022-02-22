@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  21 FEB 2022 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  22 FEB 2022 20:21
 entering extended mode
-**"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/elsarticle-template.tex"
-("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/elsarticle-template.tex"
+**"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex"
+("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-05-15> (D:\MikTex\tex/latex/elsarticle\elsarticle.cls
 Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
@@ -77,7 +77,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \@enLab=\toks17
 \@sep=\skip49
 \@@sep=\skip50
- ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\elsarticle-template.spl") (D:\MikTex\tex/latex/natbib\natbib.sty
+ ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.spl") (D:\MikTex\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
 \bibsep=\skip52
@@ -85,7 +85,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count187
 )
 \splwrite=\write3
-\openout3 = `elsarticle-template.spl'.
+\openout3 = `Domain-driven-distributed-RA-for-BD.spl'.
 
 \appnamewidth=\dimen141
 ) (D:\MikTex\tex/latex/lineno\lineno.sty
@@ -201,8 +201,8 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip53
-) ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\elsarticle-template.aux")
-\openout1 = `elsarticle-template.aux'.
+) ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.aux")
+\openout1 = `Domain-driven-distributed-RA-for-BD.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -251,9 +251,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
- ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\elsarticle-template.out") ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\elsarticle-template.out")
+ ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out") ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out")
 \@outlinefile=\write4
-\openout4 = `elsarticle-template.out'.
+\openout4 = `Domain-driven-distributed-RA-for-BD.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 64.
@@ -305,43 +305,62 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [1
 
 
-{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (4.77847pt too wide) in paragraph at lines 86--87
+\OT1/cmr/m/n/10 'data en-gi-neer-ing com-plex-i-ties', 'big data ar-chi-tec-ture', 'rapid tech-nol-ogy change',
+ []
 
-Package natbib Warning: Citation `Feynman1963118' on page 3 undefined on input line 119.
+[2]
+
+Package natbib Warning: Citation `Nadal' on page 3 undefined on input line 96.
+
+[3]
+
+Package natbib Warning: Citation `Feynman1963118' on page 4 undefined on input line 131.
 
 
-Package natbib Warning: Citation `Dirac1953888' on page 3 undefined on input line 119.
+Package natbib Warning: Citation `Dirac1953888' on page 4 undefined on input line 131.
 
-("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\elsarticle-template.bbl"
+("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.bbl" [4]
 Underfull \hbox (badness 10000) in paragraph at lines 17--25
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / doi . ieeecomputersociety . org / 10 . 1109 / APSEC53868 .
  []
 
-[3])
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--47
+\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / databricks . com / p / whitepaper /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--53
+\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . supplychain247 . com / paper / big _ data _ and _ ai _
+ []
+
+[5])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
- ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\elsarticle-template.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
-Package rerunfilecheck Info: File `elsarticle-template.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+ ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package rerunfilecheck Info: File `Domain-driven-distributed-RA-for-BD.out' has not changed.
 (rerunfilecheck)             Checksum: FF538C691D6C37EF001B00D16AD56BA0;162.
  ) 
 Here is how much of TeX's memory you used:
- 6849 strings out of 480795
- 107766 string characters out of 2913777
- 377790 words of memory out of 3000000
- 22727 multiletter control sequences out of 15000+200000
+ 6875 strings out of 480795
+ 108556 string characters out of 2913777
+ 378948 words of memory out of 3000000
+ 22745 multiletter control sequences out of 15000+200000
  537400 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,36p,882b,448s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,36p,1023b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\elsarticle-template.pdf" (4 pages, 188500 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.pdf" (6 pages, 201031 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
