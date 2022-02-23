@@ -62,6 +62,10 @@ H.~Nash, Cio survey 2015, Association with KPMG.
 N.~Singh, K.-H. Lai, M.~Vejvar, T.~Cheng, Big data technology: Challenges,
   prospects and realities, IEEE Engineering Management Review.
 
+\bibitem{rad2017evaluating}
+B.~B. Rad, P.~Ataei, Evaluating major issues regarding reliability management
+  for cloud-based applications, IJCSNS 17~(7) (2017) 168.
+
 \bibitem{Gorton}
 I.~Gorton, J.~Klein, Distribution, data, deployment, STC 2015 (2015) 78.
 
@@ -69,5 +73,19 @@ I.~Gorton, J.~Klein, Distribution, data, deployment, STC 2015 (2015) 78.
 S.~Nadal, V.~Herrero, O.~Romero, A.~Abelló, X.~Franch, S.~Vansummeren,
   D.~Valerio, A software reference architecture for semantic-aware big data
   systems, Information and software technology 90 (2017) 75--92.
+
+\bibitem{SoftwareArchitectureKazman}
+R.~K. Len~Bass, Dr. Paul~Clements, Software Architecture in Practice (SEI
+  Series in Software Engineering) 4th Edition, Addison-Wesley Professional; 4th
+  edition, 2021.
+
+\bibitem{Cloutier}
+R.~Cloutier, G.~Muller, D.~Verma, R.~Nilchiani, E.~Hole, M.~Bone, The concept
+  of reference architectures, Systems Engineering 13~(1) (2010) 14--27.
+
+\bibitem{kohler2019towards}
+J.~Kohler, T.~Specht, Towards a secure, distributed, and reliable cloud-based
+  reference architecture for big data in smart cities, in: Big Data Analytics
+  for Smart and Connected Cities, IGI Global, 2019, pp. 38--70.
 
 \end{thebibliography}

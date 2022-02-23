@@ -9,45 +9,45 @@ Warning--I didn't find a database entry for "Feynman1963118"
 Warning--I didn't find a database entry for "Dirac1953888"
 Warning--empty journal in AtaeiACIS
 Warning--empty journal in AtaeiHype
-You've used 14 entries,
+You've used 18 entries,
             2937 wiz_defined-function locations,
-            757 strings with 7424 characters,
-and the built_in function-call counts, 3241 in all, are:
-= -- 280
-> -- 104
-< -- 1
-+ -- 44
-- -- 30
-* -- 170
-:= -- 464
-add.period$ -- 15
-call.type$ -- 14
-change.case$ -- 15
+            782 strings with 8166 characters,
+and the built_in function-call counts, 4399 in all, are:
+= -- 381
+> -- 141
+< -- 2
++ -- 59
+- -- 41
+* -- 242
+:= -- 612
+add.period$ -- 19
+call.type$ -- 18
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 112
-empty$ -- 389
-format.name$ -- 37
-if$ -- 865
+cite$ -- 20
+duplicate$ -- 154
+empty$ -- 534
+format.name$ -- 51
+if$ -- 1179
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 9
-newline$ -- 54
-num.names$ -- 14
-pop$ -- 106
+int.to.str$ -- 18
+missing$ -- 14
+newline$ -- 66
+num.names$ -- 18
+pop$ -- 139
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 240
+skip$ -- 322
 stack$ -- 0
-substring$ -- 70
-swap$ -- 23
-text.length$ -- 1
+substring$ -- 118
+swap$ -- 32
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 20
-width$ -- 16
-write$ -- 115
+while$ -- 29
+width$ -- 20
+write$ -- 147
 (There were 4 warnings)
