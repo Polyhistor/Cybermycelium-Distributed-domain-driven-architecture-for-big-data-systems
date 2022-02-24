@@ -93,4 +93,36 @@ M.~Derras, L.~Deruelle, J.-M. Douin, N.~Levy, F.~Losavio, Y.~Pollet, V.~Reiner,
   Reference architecture design: A practical approach, in: ICSOFT, pp.
   633--640.
 
+\bibitem{bayer2004definition}
+J.~Bayer, T.~Forster, D.~Ganesan, J.-F. Girard, I.~John, J.~Knodel, R.~Kolb,
+  D.~Muthig, Definition of reference architectures based on existing systems,
+  Fraunhofer IESE, March.
+
+\bibitem{stricker2010creating}
+V.~Stricker, K.~Lauenroth, P.~Corte, F.~Gittler, S.~De~Panfilis, K.~Pohl,
+  Creating a reference architecture for service-based systems--a pattern-based
+  approach, in: Towards the Future Internet, IOS Press, 2010, pp. 149--160.
+
+\bibitem{gamma1995design}
+E.~Gamma, R.~Helm, R.~Johnson, R.~E. Johnson, J.~Vlissides, et~al., Design
+  patterns: elements of reusable object-oriented software, Pearson Deutschland
+  GmbH, 1995.
+
+\bibitem{nakagawa2009towards}
+E.~Y. Nakagawa, R.~M. Martins, K.~R. Felizardo, J.~C. Maldonado, Towards a
+  process to design aspect-oriented reference architectures, in: XXXV Latin
+  American Informatics Conference (CLEI) 2009, 2009.
+
+\bibitem{galster2011empirically}
+M.~Galster, P.~Avgeriou, Empirically-grounded reference architectures: a
+  proposal, in: Proceedings of the joint ACM SIGSOFT conference--QoSA and ACM
+  SIGSOFT symposium--ISARCS on Quality of software architectures--QoSA and
+  architecting critical systems--ISARCS, 2011, pp. 153--158.
+
+\bibitem{derras2018reference}
+M.~Derras, L.~Deruelle, J.~M. Douin, N.~Levy, F.~Losavio, Y.~Pollet, V.~Reiner,
+  Reference architecture design: a practical approach, in: 13th International
+  Conference on Software Technologies (ICSOFT), SciTePress-Science and
+  Technology Publications, 2018, pp. 633--640.
+
 \end{thebibliography}
