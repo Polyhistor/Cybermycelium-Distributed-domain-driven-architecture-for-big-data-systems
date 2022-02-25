@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Domain-driven-distributed-RA-for-BD.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+The style file: elsarticle-num.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Database file #1: mybibfile.bib
+Warning--I didn't find a database entry for "angelov"
+Warning--empty journal in AtaeiACIS
+Warning--empty journal in AtaeiHype
+Warning--empty year in Derras
+Warning--empty pages in nakagawa2009towards
+You've used 37 entries,
+            2937 wiz_defined-function locations,
+            888 strings with 11935 characters,
+and the built_in function-call counts, 9871 in all, are:
+= -- 847
+> -- 337
+< -- 7
++ -- 137
+- -- 100
+* -- 535
+:= -- 1315
+add.period$ -- 38
+call.type$ -- 37
+change.case$ -- 33
+chr.to.int$ -- 0
+cite$ -- 41
+duplicate$ -- 354
+empty$ -- 1206
+format.name$ -- 122
+if$ -- 2658
+int.to.chr$ -- 0
+int.to.str$ -- 37
+missing$ -- 36
+newline$ -- 124
+num.names$ -- 37
+pop$ -- 303
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 733
+stack$ -- 0
+substring$ -- 339
+swap$ -- 82
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 67
+width$ -- 39
+write$ -- 295
+(There were 5 warnings)
