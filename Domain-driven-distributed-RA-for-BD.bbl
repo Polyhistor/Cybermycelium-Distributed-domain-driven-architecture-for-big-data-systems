@@ -119,6 +119,23 @@ M.~Galster, P.~Avgeriou, Empirically-grounded reference architectures: a
   SIGSOFT symposium--ISARCS on Quality of software architectures--QoSA and
   architecting critical systems--ISARCS, 2011, pp. 153--158.
 
+\bibitem{nakagawa2014consolidating}
+E.~Y. Nakagawa, M.~Guessi, J.~C. Maldonado, D.~Feitosa, F.~Oquendo,
+  Consolidating a process for the design, representation, and evaluation of
+  reference architectures, in: 2014 IEEE/IFIP Conference on Software
+  Architecture, IEEE, 2014, pp. 143--152.
+
+\bibitem{nakagawa2012ramodel}
+E.~Y. Nakagawa, F.~Oquendo, M.~Becker, Ramodel: A reference model for reference
+  architectures, in: 2012 Joint Working IEEE/IFIP Conference on Software
+  Architecture and European Conference on Software Architecture, IEEE, 2012,
+  pp. 297--301.
+
+\bibitem{santos2013checklist}
+J.~F.~M. Santos, M.~Guessi, M.~Galster, D.~Feitosa, E.~Y. Nakagawa, A checklist
+  for evaluation of reference architectures of embedded systems (s)., in: SEKE,
+  Vol.~13, 2013, pp. 1--4.
+
 \bibitem{derras2018reference}
 M.~Derras, L.~Deruelle, J.~M. Douin, N.~Levy, F.~Losavio, Y.~Pollet, V.~Reiner,
   Reference architecture design: a practical approach, in: 13th International
@@ -128,6 +145,22 @@ M.~Derras, L.~Deruelle, J.~M. Douin, N.~Levy, F.~Losavio, Y.~Pollet, V.~Reiner,
 \bibitem{wg2015iso}
 I.~WG, Iso/iec 26550: 2015-software and systems engineering--reference model
   for product line engineering and management, ISO/IEC, Tech. Rep.
+
+\bibitem{angelov2008towards}
+S.~Angelov, J.~J. Trienekens, P.~Grefen, Towards a method for the evaluation of
+  reference architectures: Experiences from a case, in: European Conference on
+  Software Architecture, Springer, 2008, pp. 225--240.
+
+\bibitem{angelov2014extending}
+S.~Angelov, J.~J. Trienekens, P.~Grefen, Extending and adapting the
+  architecture tradeoff analysis method for the evaluation of software
+  reference architectures.
+
+\bibitem{kazman1998architecture}
+R.~Kazman, M.~Klein, M.~Barbacci, T.~Longstaff, H.~Lipson, J.~Carriere, The
+  architecture tradeoff analysis method, in: Proceedings. fourth ieee
+  international conference on engineering of complex computer systems (cat. no.
+  98ex193), IEEE, 1998, pp. 68--78.
 
 \bibitem{angelov2009classification}
 S.~Angelov, P.~Grefen, D.~Greefhorst, A classification of software reference
@@ -158,6 +191,9 @@ OATH,
 \bibitem{pope1998corba}
 A.~L. Pope, The CORBA reference guide: understanding the common object request
   broker architecture, Addison-Wesley Longman Publishing Co., Inc., 1998.
+
+\bibitem{kreps2014questioning}
+J.~Kreps, Questioning the lambda architecture, Online article, July 205.
 
 \bibitem{microsoft2002application}
 M.~Press, L.~Joyner, G.~Malcolm, Application Architecture for. NET: Designing

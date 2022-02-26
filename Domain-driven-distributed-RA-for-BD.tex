@@ -131,11 +131,15 @@ Based on the premises discussed and taking all into consideration, RAs can facil
 
 There are a few studies that have addressed the systematic development of reference architectures. Cloutier et al \cite{Cloutier} present a high-level model for RA development through collection of contemporary information and capturing the essence of architectural advancements. In another effort,PuLSE-DSSA is proposed by Bayer et al. \cite{bayer2004definition} in the context of product line development and domain engineering. PulSE-DSSA emphasizes on capturing the existing architectural knowledge. Stricker et al. \cite{stricker2010creating} propose a pattern-based approach for creating an RA. This study revolves around software engineering patterns motivated by the work of Gamma et al  \cite{gamma1995design}; proposing a structural approach that includes three layers of patterns with well-defined hierarchical relationships. Nakagawa, Martins, Felizardo, and Maldonado \cite{nakagawa2009towards} propose an approach to RA design outside of product line management context that is concentrated towards aspect-oriented systems. 
 
-Galster and Avgeriou \cite{galster2011empirically} propose an empirically grounded reference architecture based on two main facets; Existing RAs in practice and available literature on RAs. In a recent study, Derras et al. \cite{derras2018reference} propose a schema of practical RA development in the context of software product line and domain engineering. This study is based on capturing knowledge from architectures in practice with attention to variability, configurability and product line development. The findings provide a four-phase process to develop quality driven reference architectures. This approach is influenced by ISO/IEC 26550 \cite{wg2015iso}.
+Galster and Avgeriou \cite{galster2011empirically} propose an empirically grounded reference architecture based on two main facets; Existing RAs in practice and available literature on RAs. Along the same vein, Nakagawa et al \cite{nakagawa2014consolidating} presented ProSA-RA which is a 4 phase methodology that unlike many other methodologies do provide a more comprehensive instructions on RA evaluation. In addition, this methodology benefits from an ecosystem of complementary constructs that aid in RA design and evaluation such as RAModel \cite{nakagawa2012ramodel} and a framework for evaluation of RAs (FERA) \cite{santos2013checklist}.In a recent study, Derras et al. \cite{derras2018reference} propose a schema of practical RA development in the context of software product line and domain engineering. This study is based on capturing knowledge from architectures in practice with attention to variability, configurability and product line development. The findings provide a four-phase process to develop quality driven reference architectures. This approach is influenced by ISO/IEC 26550 \cite{wg2015iso}.
 
-By analysis and study of all these approaches for design and development of RAs, a common pattern has been witnessed. Whereas some of them are more recent and some belong to years ago, there are commonalities that has been observed. All these approaches are grounded on three main pillars, 1) Existing RAs 2) RAs in literature 3) Architectures in practice. Taking this into consideration and by analyzing the results of the systematic literature review conducted by Ataei et al \cite{AtaeiACIS} we found'Empirically-grounded reference architectures' proposed by Galster and Avgeriou \cite{galster2011empirically}, a suitable methodology, because firstly it's been adopted by many studies, and secondly it's comparatively more comprehensive and in-line with the nature of our study.
+By analysis and study of all these approaches for design and development of RAs, a common pattern has been witnessed. Whereas some of them are more recent and some belong to years ago, there are commonalities that has been observed. All these approaches are grounded on three main pillars, 1) Existing RAs 2) RAs in literature 3) Architectures in practice. Taking this into consideration and by analyzing the results of the systematic literature review conducted by Ataei et al \cite{AtaeiACIS} we found'Empirically-grounded reference architectures' proposed by Galster and Avgeriou \cite{galster2011empirically}, a suitable methodology, because firstly it's been adopted by many studies, and secondly it's comparatively in-line with the nature of our study. 
+
+Nevertheless, we did not fully adopt this methodology and rather customized to the needs of this particular research. This is due to some inherent limitations that has been witnessed with the methodology. For instance we could not find a comprehensive guideline on how to identify data sources and how it could be categorized and synthesized into the creation of the RA in the third step of the methodology, therefore we employed the Nakagawa's information source investigation guidelines and the overall idea of the RAModel. Another limitation we've faced was with evaluation of the RA. As evaluation, second to a sound research methodology is one of the key elements of any good design science research, we had to look for a stronger and more systematic evaluation approach than what was discussed in 'empirically grounded RAs' methodology. For this purpose, and inspired by the works of Angelov et al \cite{angelov2008towards}; \cite{angelov2014extending}, we first created an prototype of the RA in practice, and then used 'The architecture tradeoff analysis method' (ATAM) \cite{kazman1998architecture} to evaluate the artefact.
 
 This research methodology is constituent of 6 phases which are respectively; 1) Decision on the type of the RA 2) Design strategy 3) Empirical acquisition of data 4) Construction of the RA 5) Enable RA with variability 6) Evaluation of the RA. The phrase 'empirically grounded' refers to two major elements; firstly the reference architecture should be grounded in well-established and proven principles; secondly, the reference architecture should be evaluated for applicability and validity. These don't only belong to Galster and Avgeriou methodology, and other researchers such as Cloutier \cite{Cloutier} and Derras et al \cite{Derras} have promoted the same ideas. 
+
+It is worth mentioning that this methodology is iterative, meaning that the results gained from the evaluation phase (6th phase) determines the subsequent iterations until the design reaches saturation.
 
 \subsection{Decision on type of the RA}
 
@@ -145,7 +149,8 @@ Based on the classification framework proposed by Angelov et al. \cite{angelov20
 
 The interrogatives ‘When’, ‘Where’, and ‘Who’ have been used to address the ‘context’, ‘Why’ has been used to address ‘goal’, and ‘How’ and ‘What’ have been used to address ‘design’ dimension. The outcome of the study categorizes RAs in two major groups; 1) standardization RAs and 2) Facilitation RAs. This framework has been chosen because it is completely in-line with the purposes of this study and aims to demarcate a clear domain for the RA to be developed. The comprehensive classification of the RAs with examples in practice illuminates on how different RAs are playing roles in the industry and how they are classified. This brings clarity on what should be developed and what boundaries should be drawn.  
 
-The classification types are as below; 
+By reading the results of the recent SLR conducted by Ataei et al on BD RAs \cite{AtaeiACIS}, we've added more examples of the RAs on top of what was provided by Angelov \cite{angelov2009classification}, and provided the following updated list of RA classifications with examples;
+
 \begin{enumerate}
 
     \item Standardization RAs
@@ -158,6 +163,9 @@ The classification types are as below;
         \item OSI RM \cite{zimmermann1980osi}
         \item OATH \cite{OATH}
         \item COBRA \cite{pope1998corba}
+        \item Neomycelia \cite{AtaeiApsec}
+        \item Kappa \cite{kreps2014questioning}
+        \item Bolster \cite{Nadal}
       \end{enumerate}
 
       \item Type 2: classical, standardization architectures designed to be implemented in a single organization 
@@ -166,7 +174,7 @@ The classification types are as below;
       \end{enumerate}
     \end{enumerate}
 
-    \item Standardization RAs
+    \item Facilitation  RAs
     \begin{enumerate}   
         \item Type 3: classical, facilitation reference architectures for multiple organizations designed by a software organization in cooperation with user organizations
         \begin{enumerate}
@@ -191,7 +199,7 @@ The classification types are as below;
     \end{enumerate}
   \end{enumerate}
 
-
+The domain driven distributed BD RA chosen for the purposes of this study pursues two major goals; 1) enabling and support the development and data engineering of big data systems 2) concurrently ensuring that interoperability between different heterogeneous components of the big data system is established. Therefore, the outcome artefact will be a BD RA that is a classical standardization RA designed to be implemented in multiple organizations. 
 
 
 \section*{References}

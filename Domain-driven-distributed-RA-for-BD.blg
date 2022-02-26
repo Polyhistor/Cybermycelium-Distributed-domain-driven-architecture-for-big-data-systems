@@ -10,45 +10,46 @@ Warning--empty journal in AtaeiACIS
 Warning--empty journal in AtaeiHype
 Warning--empty year in Derras
 Warning--empty pages in nakagawa2009towards
-You've used 37 entries,
+Warning--empty journal in angelov2014extending
+You've used 44 entries,
             2937 wiz_defined-function locations,
-            888 strings with 11935 characters,
-and the built_in function-call counts, 9871 in all, are:
-= -- 847
-> -- 337
-< -- 7
-+ -- 137
-- -- 100
-* -- 535
-:= -- 1315
-add.period$ -- 38
-call.type$ -- 37
-change.case$ -- 33
+            925 strings with 13520 characters,
+and the built_in function-call counts, 12479 in all, are:
+= -- 1085
+> -- 422
+< -- 13
++ -- 170
+- -- 126
+* -- 681
+:= -- 1633
+add.period$ -- 45
+call.type$ -- 44
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 354
-empty$ -- 1206
-format.name$ -- 122
-if$ -- 2658
+cite$ -- 49
+duplicate$ -- 459
+empty$ -- 1513
+format.name$ -- 154
+if$ -- 3363
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 36
-newline$ -- 124
-num.names$ -- 37
-pop$ -- 303
+int.to.str$ -- 44
+missing$ -- 43
+newline$ -- 145
+num.names$ -- 44
+pop$ -- 368
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 733
+skip$ -- 932
 stack$ -- 0
-substring$ -- 339
-swap$ -- 82
-text.length$ -- 7
+substring$ -- 475
+swap$ -- 122
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 67
-width$ -- 39
-write$ -- 295
-(There were 5 warnings)
+warning$ -- 5
+while$ -- 89
+width$ -- 46
+write$ -- 355
+(There were 6 warnings)
