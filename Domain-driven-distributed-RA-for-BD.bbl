@@ -215,4 +215,41 @@ H.~Wu, A reference architecture for Adaptive Hypermedia Applications, Citeseer,
 A.~H. Norta, Exploring dynamic inter-organizational business process
   collaboration (2007).
 
+\bibitem{gan2019open}
+Y.~Gan, Y.~Zhang, D.~Cheng, A.~Shetty, P.~Rathi, N.~Katarki, A.~Bruno, J.~Hu,
+  B.~Ritchken, B.~Jackson, et~al., An open-source benchmark suite for
+  microservices and their hardware-software implications for cloud \& edge
+  systems, in: Proceedings of the Twenty-Fourth International Conference on
+  Architectural Support for Programming Languages and Operating Systems, 2019,
+  pp. 3--18.
+
+\bibitem{laigner2021data}
+R.~Laigner, Y.~Zhou, M.~A.~V. Salles, Y.~Liu, M.~Kalinowski, Data management in
+  microservices: State of the practice, challenges, and research directions,
+  arXiv preprint arXiv:2103.00170.
+
+\bibitem{dragoni2017microservices}
+N.~Dragoni, S.~Giallorenzo, A.~L. Lafuente, M.~Mazzara, F.~Montesi,
+  R.~Mustafin, L.~Safina, Microservices: yesterday, today, and tomorrow,
+  Present and ulterior software engineering (2017) 195--216.
+
+\bibitem{QCON}
+\href{https://qconferences.com/}{Qcon software conferences} (2022).
+\newline\urlprefix\url{https://qconferences.com/}
+
+\bibitem{ThoughtWorks}
+\href{https://www.thoughtworks.com/about-us/events/state-of-data-mesh-2022}{State
+  of data mesh 2022} (2022).
+\newline\urlprefix\url{https://www.thoughtworks.com/about-us/events/state-of-data-mesh-2022}
+
+\bibitem{Geekle}
+\href{https://events.geekle.us/software_architecture/}{Worldwide software
+  architecture summit'21} (2021).
+\newline\urlprefix\url{https://events.geekle.us/software_architecture/}
+
+\bibitem{KafkaSummit}
+\href{https://www.confluent.io/events/kafka-summit-europe-2021/}{Kafka summit
+  europe 2021} (2021).
+\newline\urlprefix\url{https://www.confluent.io/events/kafka-summit-europe-2021/}
+
 \end{thebibliography}
