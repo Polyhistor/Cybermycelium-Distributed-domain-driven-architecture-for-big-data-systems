@@ -1,4 +1,7 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Why reference architecture?}{}% 2
 \BOOKMARK [1][-]{section.3}{Research Methodology}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Decision on type of the RA}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Step1: Decision on type of the RA}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Step2: Selection of Design Strategy}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Step 3: Empirical Acquisition of Data }{section.3}% 6
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Identification of data sources}{subsection.3.3}% 7
