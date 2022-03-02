@@ -258,4 +258,31 @@ D.~Moher, L.~Shamseer, M.~Clarke, D.~Ghersi, A.~Liberati, M.~Petticrew,
   and meta-analysis protocols (prisma-p) 2015 statement, Systematic reviews
   4~(1) (2015) 1--9.
 
+\bibitem{castellanos2021smart}
+C.~Castellanos, B.~Perez, D.~Correal, Smart transportation: A reference
+  architecture for big data analytics, in: Smart Cities: A Data Analytics
+  Perspective, Springer, 2021, pp. 161--179.
+
+\bibitem{sang2017simplifying}
+G.~M. Sang, L.~Xu, P.~d. Vrieze, Simplifying big data analytics systems with a
+  reference architecture, in: Working Conference on Virtual Enterprises,
+  Springer, 2017, pp. 242--249.
+
+\bibitem{ISO20546}
+I.~O. for Standardization~(ISO/IEC),
+  \href{https://www.iso.org/standard/68305.html}{Iso/iec 20546:2019} (2019).
+\newline\urlprefix\url{https://www.iso.org/standard/68305.html}
+
+\bibitem{ISO20547}
+I.~O. for Standardization~(ISO/IEC),
+  \href{https://www.iso.org/standard/71275.html}{Iso/iec tr 20547-1:2020}
+  (2020).
+\newline\urlprefix\url{https://www.iso.org/standard/71275.html}
+
+\bibitem{nvivo}
+\href{https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home}{Unlock
+  insights in your data with the best qualitative data analysis software}
+  (2022).
+\newline\urlprefix\url{https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home}
+
 \end{thebibliography}
