@@ -285,4 +285,14 @@ I.~O. for Standardization~(ISO/IEC),
   (2022).
 \newline\urlprefix\url{https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home}
 
+\bibitem{ISO42010}
+I.~International Organization~for Standardization~(ISO/IEC),
+  \href{https://www.iso.org/standard/50508.html}{Iso/iec/ieee 42010:2011}
+  (2020).
+\newline\urlprefix\url{https://www.iso.org/standard/50508.html}
+
+\bibitem{vogel2009software}
+O.~Vogel, I.~Arnold, A.~Chughtai, E.~Ihler, T.~Kehrer, U.~Mehlig, U.~Zdun,
+  Software-architektur: Grundlagen--konzepte, Praxis 2.
+
 \end{thebibliography}
