@@ -291,6 +291,11 @@ I.~International Organization~for Standardization~(ISO/IEC),
   (2020).
 \newline\urlprefix\url{https://www.iso.org/standard/50508.html}
 
+\bibitem{angelov2012framework}
+S.~Angelov, P.~Grefen, D.~Greefhorst, A framework for analysis and design of
+  software reference architectures, Information and Software Technology 54~(4)
+  (2012) 417--431.
+
 \bibitem{vogel2009software}
 O.~Vogel, I.~Arnold, A.~Chughtai, E.~Ihler, T.~Kehrer, U.~Mehlig, U.~Zdun,
   Software-architektur: Grundlagen--konzepte, Praxis 2.
@@ -303,5 +308,19 @@ V.~Stricker, K.~Lauenroth, P.~Corte, F.~Gittler, S.~De~Panfilis, K.~Pohl,
 \bibitem{Chang}
 W.~L. Chang, D.~Boyd, Nist big data interoperability framework: Volume 6, big
   data reference architecture, Report (2018).
+
+\bibitem{lankhorst2013language}
+M.~Lankhorst, A language for enterprise modelling, in: Enterprise Architecture
+  at Work, Springer, 2013, pp. 75--114.
+
+\bibitem{lankhorst2010anatomy}
+M.~M. Lankhorst, H.~A. Proper, H.~Jonkers, The anatomy of the archimate
+  language, International Journal of Information System Modeling and Design
+  (IJISMD) 1~(1) (2010) 1--32.
+
+\bibitem{engelsman2011extending}
+W.~Engelsman, D.~Quartel, H.~Jonkers, M.~van Sinderen, Extending enterprise
+  architecture modelling with business goals and requirements, Enterprise
+  information systems 5~(1) (2011) 9--36.
 
 \end{thebibliography}
