@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 MAR 2022 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  4 MAR 2022 22:03
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex"
@@ -325,13 +325,13 @@ Overfull \hbox (2.16508pt too wide) in paragraph at lines 226--227
  []
 
 [11] [12]
-<PRISMA.JPG, id=295, 1031.35312pt x 610.53094pt>
+<PRISMA.JPG, id=299, 1031.35312pt x 610.53094pt>
 File: PRISMA.JPG Graphic file (type jpg)
 <use PRISMA.JPG>
 Package pdftex.def Info: PRISMA.JPG  used on input line 264.
 (pdftex.def)             Requested size: 312.9803pt x 185.2754pt.
  [13 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/PRISMA.JPG>]
-<databases-statitistic.jpg, id=305, 1003.75pt x 668.4975pt>
+<databases-statitistic.jpg, id=309, 1003.75pt x 668.4975pt>
 File: databases-statitistic.jpg Graphic file (type jpg)
 <use databases-statitistic.jpg>
 Package pdftex.def Info: databases-statitistic.jpg  used on input line 274.
@@ -370,27 +370,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--287
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
 [23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
  ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
 Package rerunfilecheck Info: File `Domain-driven-distributed-RA-for-BD.out' has not changed.
-(rerunfilecheck)             Checksum: 03ED1CA22C25AA3AA98351A482BFB20B;577.
+(rerunfilecheck)             Checksum: 7008D447FFB73379FE50595D8EE3A4F2;654.
  ) 
 Here is how much of TeX's memory you used:
- 7178 strings out of 480795
- 114288 string characters out of 2913777
+ 7179 strings out of 480795
+ 114308 string characters out of 2913777
  381856 words of memory out of 3000000
- 22920 multiletter control sequences out of 15000+200000
+ 22921 multiletter control sequences out of 15000+200000
  537400 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,36p,1477b,685s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.pdf" (23 pages, 517909 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.pdf" (23 pages, 518810 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
+ 505 PDF objects out of 1000 (max. 8388607)
  158 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
