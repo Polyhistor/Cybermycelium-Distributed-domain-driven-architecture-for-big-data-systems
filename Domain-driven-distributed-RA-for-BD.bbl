@@ -295,4 +295,13 @@ I.~International Organization~for Standardization~(ISO/IEC),
 O.~Vogel, I.~Arnold, A.~Chughtai, E.~Ihler, T.~Kehrer, U.~Mehlig, U.~Zdun,
   Software-architektur: Grundlagen--konzepte, Praxis 2.
 
+\bibitem{Stricker}
+V.~Stricker, K.~Lauenroth, P.~Corte, F.~Gittler, S.~De~Panfilis, K.~Pohl,
+  Creating a reference architecture for service-based systems-a pattern-based
+  approach, in: Future Internet Assembly, pp. 149--160.
+
+\bibitem{Chang}
+W.~L. Chang, D.~Boyd, Nist big data interoperability framework: Volume 6, big
+  data reference architecture, Report (2018).
+
 \end{thebibliography}
