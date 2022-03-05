@@ -24,7 +24,9 @@ P.~Ataei, A.~Litchfield,
 \newline\urlprefix\url{https://doi.ieeecomputersociety.org/10.1109/APSEC53868.2021.00052}
 
 \bibitem{internet2019internet}
-I.~L. Stats, Internet live stats (2019).
+I.~L. Stats, \href{https://www.internetlivestats.com/}{Internet live stats}
+  (2019).
+\newline\urlprefix\url{https://www.internetlivestats.com/}
 
 \bibitem{lycett2013datafication}
 M.~Lycett, ‘datafication’: Making sense of (big) data in a complex world
