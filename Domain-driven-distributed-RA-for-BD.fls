@@ -99,8 +99,14 @@ INPUT D:\MikTex\tex\latex\refcount\refcount.sty
 INPUT D:\MikTex\tex\latex\refcount\refcount.sty
 INPUT D:\MikTex\tex\generic\gettitlestring\gettitlestring.sty
 INPUT D:\MikTex\tex\generic\gettitlestring\gettitlestring.sty
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out
 OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.pdf
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out
+OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out
 INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmti10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmtt10.tfm
@@ -110,10 +116,11 @@ INPUT D:\MikTex\fonts\tfm\public\cm\cmmi8.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmmi6.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmsy8.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmsy6.tfm
+INPUT D:\MikTex\fonts\tfm\public\cm\cmti8.tfm
+INPUT D:\MikTex\fonts\tfm\public\cm\cmtt8.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmr12.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmmi12.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmsy10.tfm
-INPUT D:\MikTex\fonts\tfm\public\cm\cmti8.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmti7.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
@@ -128,6 +135,13 @@ INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Sys
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\databases-statitistic.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\databases-statitistic.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\databases-statitistic.jpg
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\variability-model.JPG
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\variability-model.JPG
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\variability-model.JPG
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\variability-model.JPG
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\variability-model.JPG
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.bbl
+INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.bbl
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.aux
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.out
@@ -135,6 +149,8 @@ INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
@@ -159,3 +175,5 @@ INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti8.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti8.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmtt8.pfb
+INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmtt8.pfb
