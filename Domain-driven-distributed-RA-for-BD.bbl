@@ -371,4 +371,23 @@ K.~Czarnecki, P.~Gr{\"u}nbacher, R.~Rabiser, K.~Schmid, A.~Wasowski, Cool
   approaches, in: Proceedings of the sixth international workshop on
   variability modeling of software-intensive systems, 2012, pp. 173--182.
 
+\bibitem{sharpe2019industrial}
+R.~Sharpe, K.~Van~Lopik, A.~Neal, P.~Goodall, P.~P. Conway, A.~A. West, An
+  industrial evaluation of an industry 4.0 reference architecture demonstrating
+  the need for the inclusion of security and human components, Computers in
+  industry 108 (2019) 37--44.
+
+\bibitem{Avgeriou}
+P.~Avgeriou, Describing, instantiating and evaluating a reference architecture:
+  A case study, Enterprise Architecture Journal 342 (2003) 1--24.
+
+\bibitem{Cioroaica}
+E.~Cioroaica, S.~Chren, B.~Buhnova, T.~Kuhn, D.~Dimitrov, Towards creation of a
+  reference architecture for trust-based digital ecosystems, in: Proceedings of
+  the 13th European Conference on Software Architecture-Volume 2, pp. 273--276.
+
+\bibitem{Maier}
+M.~Maier, A.~Serebrenik, I.~Vanderfeesten, Towards a big data reference
+  architecture, University of Eindhoven.
+
 \end{thebibliography}
