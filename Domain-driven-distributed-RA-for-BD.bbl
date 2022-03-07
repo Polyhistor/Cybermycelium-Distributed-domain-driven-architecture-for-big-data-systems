@@ -390,4 +390,25 @@ E.~Cioroaica, S.~Chren, B.~Buhnova, T.~Kuhn, D.~Dimitrov, Towards creation of a
 M.~Maier, A.~Serebrenik, I.~Vanderfeesten, Towards a big data reference
   architecture, University of Eindhoven.
 
+\bibitem{kazman1994saam}
+R.~Kazman, L.~Bass, G.~Abowd, M.~Webb, Saam: A method for analyzing the
+  properties of software architectures, in: Proceedings of 16th International
+  Conference on Software Engineering, IEEE, 1994, pp. 81--90.
+
+\bibitem{Bengtsson}
+P.~Bengtsson, N.~Lassing, J.~Bosch, H.~van Vliet, Architecture-level
+  modifiability analysis (alma), Journal of Systems and Software 69~(1-2)
+  (2004) 129--147.
+
+\bibitem{Williams}
+L.~G. Williams, C.~U. Smith, Pasasm: a method for the performance assessment of
+  software architectures, in: Proceedings of the 3rd international workshop on
+  Software and performance, pp. 179--189.
+
+\bibitem{KazmanATAM}
+R.~Kazman, M.~Klein, M.~Barbacci, T.~Longstaff, H.~Lipson, J.~Carriere, The
+  architecture tradeoff analysis method, in: Proceedings. Fourth IEEE
+  International Conference on Engineering of Complex Computer Systems (Cat. No.
+  98EX193), IEEE, pp. 68--78.
+
 \end{thebibliography}
