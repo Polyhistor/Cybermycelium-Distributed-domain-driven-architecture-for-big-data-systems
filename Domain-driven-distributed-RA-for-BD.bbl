@@ -411,4 +411,25 @@ R.~Kazman, M.~Klein, M.~Barbacci, T.~Longstaff, H.~Lipson, J.~Carriere, The
   International Conference on Engineering of Complex Computer Systems (Cat. No.
   98EX193), IEEE, pp. 68--78.
 
+\bibitem{bengtsson1998scenario}
+P.~Bengtsson, J.~Bosch, Scenario-based software architecture reengineering, in:
+  Proceedings. Fifth International Conference on Software Reuse (Cat. No.
+  98TB100203), IEEE, 1998, pp. 308--317.
+
+\bibitem{graaf2005evaluating}
+B.~Graaf, H.~Van~Dijk, A.~Van~Deursen, Evaluating an embedded software
+  reference architecture-industrial experience report, in: Ninth European
+  Conference on Software Maintenance and Reengineering, IEEE, 2005, pp.
+  354--363.
+
+\bibitem{rohling2019reference}
+A.~J. Rohling, V.~V.~G. Neto, M.~G.~V. Ferreira, W.~A. Dos~Santos, E.~Y.
+  Nakagawa, A reference architecture for satellite control systems, Innovations
+  in Systems and Software Engineering 15~(2) (2019) 139--153.
+
+\bibitem{Nakagawa}
+E.~Y. Nakagawa, R.~M. Martins, K.~R. Felizardo, J.~C. Maldonado, Towards a
+  process to design aspect-oriented reference architectures, in: XXXV Latin
+  American Informatics Conference (CLEI) 2009, 2009.
+
 \end{thebibliography}
