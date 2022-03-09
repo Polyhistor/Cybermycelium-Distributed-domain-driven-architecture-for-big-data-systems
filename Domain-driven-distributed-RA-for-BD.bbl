@@ -287,6 +287,52 @@ I.~O. for Standardization~(ISO/IEC),
   (2022).
 \newline\urlprefix\url{https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home}
 
+\bibitem{Maier}
+M.~Maier, A.~Serebrenik, I.~Vanderfeesten, Towards a big data reference
+  architecture, University of Eindhoven.
+
+\bibitem{geerdink2013reference}
+B.~Geerdink, A reference architecture for big data solutions introducing a
+  model to perform predictive analytics using big data technology, in: 8th
+  international conference for internet technology and secured transactions
+  (ICITST-2013), IEEE, 2013, pp. 71--76.
+
+\bibitem{viana2014proposal}
+P.~Viana, L.~Sato, A proposal for a reference architecture for long-term
+  archiving, preservation, and retrieval of big data, in: 2014 IEEE 13th
+  International Conference on Trust, Security and Privacy in Computing and
+  Communications, IEEE, 2014, pp. 622--629.
+
+\bibitem{demchenko2014defining}
+Y.~Demchenko, C.~De~Laat, P.~Membrey, Defining architecture components of the
+  big data ecosystem, in: 2014 International conference on collaboration
+  technologies and systems (CTS), IEEE, 2014, pp. 104--112.
+
+\bibitem{ghandour2015big}
+A.~Ghandour, Big data driven e-commerce architecture, International Journal of
+  Economics, Commerce and Management 3~(5) (2015) 940--947.
+
+\bibitem{martinez2015solid}
+M.~A. Mart{\'\i}nez-Prieto, C.~E. Cuesta, M.~Arias, J.~D. Fern{\'a}ndez, The
+  solid architecture for real-time management of big semantic data, Future
+  Generation Computer Systems 47 (2015) 62--79.
+
+\bibitem{paakkonen2015reference}
+P.~P{\"a}{\"a}kk{\"o}nen, D.~Pakkala, Reference architecture and classification
+  of technologies, products and services for big data systems, Big data
+  research 2~(4) (2015) 166--186.
+
+\bibitem{sang2016reference}
+G.~M. Sang, L.~Xu, P.~De~Vrieze, A reference architecture for big data systems,
+  in: 2016 10th International Conference on Software, Knowledge, Information
+  Management \& Applications (SKIMA), IEEE, 2016, pp. 370--375.
+
+\bibitem{klein2016reference}
+J.~Klein, R.~Buglak, D.~Blockow, T.~Wuttke, B.~Cooper, A reference architecture
+  for big data systems in the national security domain, in: 2016 IEEE/ACM 2nd
+  International Workshop on Big Data Software Engineering (BIGDSE), IEEE, 2016,
+  pp. 51--57.
+
 \bibitem{ISO42010}
 I.~International Organization~for Standardization~(ISO/IEC),
   \href{https://www.iso.org/standard/50508.html}{Iso/iec/ieee 42010:2011}
@@ -385,10 +431,6 @@ P.~Avgeriou, Describing, instantiating and evaluating a reference architecture:
 E.~Cioroaica, S.~Chren, B.~Buhnova, T.~Kuhn, D.~Dimitrov, Towards creation of a
   reference architecture for trust-based digital ecosystems, in: Proceedings of
   the 13th European Conference on Software Architecture-Volume 2, pp. 273--276.
-
-\bibitem{Maier}
-M.~Maier, A.~Serebrenik, I.~Vanderfeesten, Towards a big data reference
-  architecture, University of Eindhoven.
 
 \bibitem{kazman1994saam}
 R.~Kazman, L.~Bass, G.~Abowd, M.~Webb, Saam: A method for analyzing the

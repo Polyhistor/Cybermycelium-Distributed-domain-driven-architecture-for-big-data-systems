@@ -269,7 +269,7 @@ After pooling the studies, we removed 11 studies before screening because either
 \end{figure}
 
 
-These 68 studies are comprising of journal papers, conference papers, book chapters, tech reports, tech surveys white papers, standards, master thesis, and PhD dissertations. Out of the pool of these studies, 39.4\% are from IEEE Explore, 4.4\% are from ScienceDirect, 23.5\% are from Springerlink, 13.2\% are from ACM, and 29.4\% are from other sources such as citation search, Google Scholar and Research Gate. 30 journal articles, 14 conference papers, 6 whitepapers, 2 ISO standards, 14 book chapters, and 2 postgraduate studies have been selected. 26\% of these studies are from the year 2010-2013, 33\% are from the years 2013-2015, and 51\% are from the years 2016-2022. These stats are portrayed in figure \ref{fig:SLRStats}.
+These 68 studies are comprising of journal papers, conference papers, book chapters, tech reports, tech surveys white papers, standards, master thesis, and PhD dissertations. Out of the pool of these studies, 39.4\% are from IEEE Explore, 4.4\% are from ScienceDirect, 23.5\% are from Springerlink, 13.2\% are from ACM, and 29.4\% are from other sources such as citation search, Google Scholar and Research Gate. 30 journal articles, 14 conference papers, 6 whitepapers, 2 ISO standards, 14 book chapters, and 2 postgraduate studies have been selected. 26\% of these studies are from the year 2010-2013, 33\% are from the years 2013-2015, and 51\% are from the years 2016-2022. These stats are portrayed in figure \ref{fig:SLRStats}. 
 
 \begin{figure}[h!]
     \centering
@@ -279,7 +279,40 @@ These 68 studies are comprising of journal papers, conference papers, book chapt
 \end{figure}
 
 
-By this stage, the research objective is set, studies are pooled, assessed and refined, thus the research embarked on the actual synthesis of data. For this purposes, the software Nvivo \cite{nvivo} has been used to code, label, and classify studies. Initially, all the keywords aforementioned has been created as nodes in the software, which are then associated to relevant sentences in studies. After coding all the studies, the findings have been synthesized to create theories, which in turn emerged themes and patterns. The findings gained from this SLR grounded the foundation for various aspect of the SLR development. 
+By this stage, the research objective is set, studies are pooled, assessed and refined, thus the research embarked on the actual synthesis of data. To increase transparency, RAs and standards found as the result of this SRL is presented in table \ref{table:SLR}. For this purposes, the software Nvivo \cite{nvivo} has been used to code, label, and classify studies. Initially, all the keywords aforementioned has been created as nodes in the software, which are then associated to relevant sentences in studies. After coding all the studies, the findings have been synthesized to create theories, which in turn emerged themes and patterns. The findings gained from this SLR grounded the foundation for various aspect of the SLR development. 
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|p{5cm} | p{1cm}  | p{1cm} | p{3.4cm}|} 
+     \hline
+     Study  & Author & Year & Type \\ [0.5ex] 
+     \hline
+     Towards a big Data reference architecture  & \cite{Maier}& 2013 & Master's Dissertation \\ 
+     \hline
+     A reference architecture for Big Data solutions introducing a model to perform predictive analytics using Big Data technology  & \cite{geerdink2013reference}  & 2013 & Conference Paper \\
+     \hline
+     A proposal for a reference architecture for long-term archiving, preservation, and retrieval of Big Data  & \cite{viana2014proposal}  & 2014 & Conference Paper \\ 
+     \hline
+     Questioning the Lambda architecture; Kappa Architecture  & \cite{kreps2014questioning}  & 2014 & Practice \\
+     \hline
+     Defining architecture components of the Big Data Ecosystem  & \cite{demchenko2014defining} & 2014 & Conference Paper   \\ [1ex] 
+     \hline
+     Big Data driven e-commerce architecture   & \cite{ghandour2015big} & 2015 & Journal Article \\ [1ex] 
+     \hline
+     The solid architecture for real-time management of big semantic data & \cite{martinez2015solid} & 2015 &  Journal Article \\ [1ex] 
+     \hline
+     Reference architecture and classification of technologies, products and services for big data systems  & \cite{paakkonen2015reference}  & 2015 & Journal Article \\ [1ex] 
+     \hline
+     A Reference Architecture for Big Data Systems  & \cite{sang2016reference}  & 2016 & Conference Paper  \\  
+     \hline
+     A reference architecture for Big Data systems in the national security domain  & \cite{klein2016reference}  & 2016 & Conference Paper \\ [1ex] 
+     \hline
+       & 88  & 6344 &  \\ [1ex] 
+     \hline
+    \end{tabular}
+    \caption{RAs and Standards found by the result of the SLR}
+    \label{table:SLR}
+\end{table}
 
 \subsection{Construction of the RA}
 
@@ -347,11 +380,9 @@ In one study, Angelov et al \cite{angelov2008towards}, modified ATAM and extende
 
 In addition to extending ATAM for RAs, Graaf et al \cite{graaf2005evaluating} presented an evaluation approach in which SAAM is extended to help reduce the organizational impact of it. In Another study by Maier et al, Maier et al. (2013) as a postgraduate thesis in Eindhoven University of Technology, the evaluation of the RA has been conducted by mapping it against existing concrete architectures described in industrial whitepapers and reports. Along the lines, Galstar et al \cite{galster2011empirically} suggested reference implementations, prototyping and incremental approach for the validation of the RA. 
 
-Rohling et al \cite{rohling2019reference} have evaluated their RA by mapping it against the requirements set for the study. This was facilitated by the RA research methodology created by Nakagawa et al \cite{Nakagawa} and the complementary RAModel \cite{nakagawa2012ramodel}.
+Rohling et al \cite{rohling2019reference} have evaluated their RA by mapping it against the requirements set for the study. This was facilitated by the RA research methodology created by Nakagawa et al \cite{Nakagawa} and the complementary RAModel \cite{nakagawa2012ramodel}.Inspired by all the studies listed, for the purposes of this study, we will first create a prototype of the RA in an actual organizational setup and then we will use ATAM to evaluate the concrete architecture. 
 
-Inspired by all the studies listed, for the purposes of this study, we will first create a prototype of the RA in an actual organizational setup and then we will use ATAM to evaluate the concrete architecture. 
-
-
+\section{Cybermycelium: A Domain Driven Distributed Reference Architecture for Big Data Systems}
 
 \bibliography{mybibfile}
 

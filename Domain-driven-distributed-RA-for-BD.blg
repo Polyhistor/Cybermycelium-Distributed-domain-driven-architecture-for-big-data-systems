@@ -17,45 +17,45 @@ Warning--empty year in Cioroaica
 Warning--empty year in Williams
 Warning--empty year in KazmanATAM
 Warning--empty pages in Nakagawa
-You've used 87 entries,
+You've used 95 entries,
             2937 wiz_defined-function locations,
-            1147 strings with 21367 characters,
-and the built_in function-call counts, 26003 in all, are:
-= -- 2323
-> -- 888
-< -- 27
-+ -- 354
-- -- 267
-* -- 1549
-:= -- 3372
-add.period$ -- 88
-call.type$ -- 87
-change.case$ -- 83
+            1188 strings with 23142 characters,
+and the built_in function-call counts, 29019 in all, are:
+= -- 2620
+> -- 959
+< -- 32
++ -- 383
+- -- 288
+* -- 1732
+:= -- 3731
+add.period$ -- 96
+call.type$ -- 95
+change.case$ -- 91
 chr.to.int$ -- 0
-cite$ -- 98
-duplicate$ -- 949
-empty$ -- 3088
-format.name$ -- 328
-if$ -- 6949
+cite$ -- 106
+duplicate$ -- 1067
+empty$ -- 3450
+format.name$ -- 355
+if$ -- 7762
 int.to.chr$ -- 0
-int.to.str$ -- 87
-missing$ -- 78
-newline$ -- 283
-num.names$ -- 82
-pop$ -- 721
+int.to.str$ -- 95
+missing$ -- 86
+newline$ -- 307
+num.names$ -- 90
+pop$ -- 789
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1837
+skip$ -- 2052
 stack$ -- 0
-substring$ -- 1179
-swap$ -- 264
-text.length$ -- 27
+substring$ -- 1392
+swap$ -- 308
+text.length$ -- 32
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
-while$ -- 192
-width$ -- 89
-write$ -- 702
+while$ -- 221
+width$ -- 97
+write$ -- 771
 (There were 12 warnings)
