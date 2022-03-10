@@ -11,51 +11,53 @@ Warning--empty journal in AtaeiHype
 Warning--empty year in Derras
 Warning--empty pages in nakagawa2009towards
 Warning--empty journal in angelov2014extending
-Warning--empty year in Stricker
+Warning--empty author in SAPRA
+Warning--empty journal in SAPRA
 Warning--empty institution in Chang
+Warning--empty year in Stricker
 Warning--empty year in Cioroaica
 Warning--empty year in Williams
 Warning--empty year in KazmanATAM
 Warning--empty pages in Nakagawa
-You've used 95 entries,
+You've used 104 entries,
             2937 wiz_defined-function locations,
-            1188 strings with 23142 characters,
-and the built_in function-call counts, 29019 in all, are:
-= -- 2620
-> -- 959
-< -- 32
-+ -- 383
-- -- 288
-* -- 1732
-:= -- 3731
-add.period$ -- 96
-call.type$ -- 95
-change.case$ -- 91
+            1231 strings with 24838 characters,
+and the built_in function-call counts, 31889 in all, are:
+= -- 2884
+> -- 1031
+< -- 37
++ -- 413
+- -- 309
+* -- 1893
+:= -- 4078
+add.period$ -- 105
+call.type$ -- 104
+change.case$ -- 99
 chr.to.int$ -- 0
-cite$ -- 106
-duplicate$ -- 1067
-empty$ -- 3450
-format.name$ -- 355
-if$ -- 7762
+cite$ -- 117
+duplicate$ -- 1183
+empty$ -- 3805
+format.name$ -- 380
+if$ -- 8545
 int.to.chr$ -- 0
-int.to.str$ -- 95
-missing$ -- 86
-newline$ -- 307
-num.names$ -- 90
-pop$ -- 789
+int.to.str$ -- 104
+missing$ -- 96
+newline$ -- 337
+num.names$ -- 98
+pop$ -- 870
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2052
+skip$ -- 2267
 stack$ -- 0
-substring$ -- 1392
-swap$ -- 308
-text.length$ -- 32
+substring$ -- 1539
+swap$ -- 349
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 221
-width$ -- 97
-write$ -- 771
-(There were 12 warnings)
+warning$ -- 13
+while$ -- 243
+width$ -- 107
+write$ -- 845
+(There were 14 warnings)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -195,7 +195,10 @@ A.~L. Pope, The CORBA reference guide: understanding the common object request
   broker architecture, Addison-Wesley Longman Publishing Co., Inc., 1998.
 
 \bibitem{kreps2014questioning}
-J.~Kreps, Questioning the lambda architecture, Online article, July 205.
+J.~Kreps,
+  \href{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}{Questioning
+  the lambda architecture}, Online article, July 205.
+\newline\urlprefix\url{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}
 
 \bibitem{microsoft2002application}
 M.~Press, L.~Joyner, G.~Malcolm, Application Architecture for. NET: Designing
@@ -297,6 +300,13 @@ B.~Geerdink, A reference architecture for big data solutions introducing a
   international conference for internet technology and secured transactions
   (ICITST-2013), IEEE, 2013, pp. 71--76.
 
+\bibitem{quintero2019ibm}
+D.~Quintero, F.~N. Lee, et~al., IBM reference architecture for high performance
+  data and AI in healthcare and life sciences, IBM Redbooks, 2019.
+
+\bibitem{levin2013big}
+B.~Levin, Big data ecosystem reference architecture, Microsoft Corporation.
+
 \bibitem{viana2014proposal}
 P.~Viana, L.~Sato, A proposal for a reference architecture for long-term
   archiving, preservation, and retrieval of big data, in: 2014 IEEE 13th
@@ -307,6 +317,13 @@ P.~Viana, L.~Sato, A proposal for a reference architecture for long-term
 Y.~Demchenko, C.~De~Laat, P.~Membrey, Defining architecture components of the
   big data ecosystem, in: 2014 International conference on collaboration
   technologies and systems (CTS), IEEE, 2014, pp. 104--112.
+
+\bibitem{cackett2013information}
+D.~Cackett,
+  \href{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}{Information
+  management and big data, a reference architecture}, Oracle: Redwood City, CA,
+  USA.
+\newline\urlprefix\url{https://www.oracle.com/technetwork/topics/entarch/articles/info-mgmt-big-data-ref-arch-1902853.pdf}
 
 \bibitem{ghandour2015big}
 A.~Ghandour, Big data driven e-commerce architecture, International Journal of
@@ -333,6 +350,41 @@ J.~Klein, R.~Buglak, D.~Blockow, T.~Wuttke, B.~Cooper, A reference architecture
   International Workshop on Big Data Software Engineering (BIGDSE), IEEE, 2016,
   pp. 51--57.
 
+\bibitem{cuzzocrea2016reference}
+A.~Cuzzocrea, A reference architecture for supporting secure big data analytics
+  over cloud-enabled relational databases, in: 2016 IEEE 40th Annual Computer
+  Software and Applications Conference (COMPSAC), Vol.~2, IEEE, 2016, pp.
+  356--358.
+
+\bibitem{SAPRA}
+\href{https://www.scribd.com/document/418835912/Whitepaper-NEC-SAPHANA-Hadoop}{Sap
+  - nec reference architecture for sap hana \& hadoop}.
+\newline\urlprefix\url{https://www.scribd.com/document/418835912/Whitepaper-NEC-SAPHANA-Hadoop}
+
+\bibitem{heilig2017managing}
+L.~Heilig, S.~Vo{\ss}, Managing cloud-based big data platforms: a reference
+  architecture and cost perspective, in: Big data management, Springer, 2017,
+  pp. 29--45.
+
+\bibitem{nadal2017software}
+S.~Nadal, V.~Herrero, O.~Romero, A.~Abell{\'o}, X.~Franch, S.~Vansummeren,
+  D.~Valerio, A software reference architecture for semantic-aware big data
+  systems, Information and software technology 90 (2017) 75--92.
+
+\bibitem{Chang}
+W.~L. Chang, D.~Boyd, Nist big data interoperability framework: Volume 6, big
+  data reference architecture, Report (2018).
+
+\bibitem{unal2019reference}
+P.~{\"U}nal, Reference architectures and standards for the internet of things
+  and big data in smart manufacturing, in: 2019 7th International Conference on
+  Future Internet of Things and Cloud (FiCloud), IEEE, 2019, pp. 243--250.
+
+\bibitem{kiran2015lambda}
+M.~Kiran, P.~Murphy, I.~Monga, J.~Dugan, S.~S. Baveja, Lambda architecture for
+  cost-effective batch and speed big data processing, in: 2015 IEEE
+  International Conference on Big Data (Big Data), IEEE, 2015, pp. 2785--2792.
+
 \bibitem{ISO42010}
 I.~International Organization~for Standardization~(ISO/IEC),
   \href{https://www.iso.org/standard/50508.html}{Iso/iec/ieee 42010:2011}
@@ -352,10 +404,6 @@ O.~Vogel, I.~Arnold, A.~Chughtai, E.~Ihler, T.~Kehrer, U.~Mehlig, U.~Zdun,
 V.~Stricker, K.~Lauenroth, P.~Corte, F.~Gittler, S.~De~Panfilis, K.~Pohl,
   Creating a reference architecture for service-based systems-a pattern-based
   approach, in: Future Internet Assembly, pp. 149--160.
-
-\bibitem{Chang}
-W.~L. Chang, D.~Boyd, Nist big data interoperability framework: Volume 6, big
-  data reference architecture, Report (2018).
 
 \bibitem{lankhorst2013language}
 M.~Lankhorst, A language for enterprise modelling, in: Enterprise Architecture
