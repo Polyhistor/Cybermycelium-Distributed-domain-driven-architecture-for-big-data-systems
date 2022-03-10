@@ -371,6 +371,12 @@ S.~Nadal, V.~Herrero, O.~Romero, A.~Abell{\'o}, X.~Franch, S.~Vansummeren,
   D.~Valerio, A software reference architecture for semantic-aware big data
   systems, Information and software technology 90 (2017) 75--92.
 
+\bibitem{ISO42010}
+I.~International Organization~for Standardization~(ISO/IEC),
+  \href{https://www.iso.org/standard/50508.html}{Iso/iec/ieee 42010:2011}
+  (2017).
+\newline\urlprefix\url{https://www.iso.org/standard/50508.html}
+
 \bibitem{Chang}
 W.~L. Chang, D.~Boyd, Nist big data interoperability framework: Volume 6, big
   data reference architecture, Report (2018).
@@ -384,12 +390,6 @@ P.~{\"U}nal, Reference architectures and standards for the internet of things
 M.~Kiran, P.~Murphy, I.~Monga, J.~Dugan, S.~S. Baveja, Lambda architecture for
   cost-effective batch and speed big data processing, in: 2015 IEEE
   International Conference on Big Data (Big Data), IEEE, 2015, pp. 2785--2792.
-
-\bibitem{ISO42010}
-I.~International Organization~for Standardization~(ISO/IEC),
-  \href{https://www.iso.org/standard/50508.html}{Iso/iec/ieee 42010:2011}
-  (2020).
-\newline\urlprefix\url{https://www.iso.org/standard/50508.html}
 
 \bibitem{angelov2012framework}
 S.~Angelov, P.~Grefen, D.~Greefhorst, A framework for analysis and design of
