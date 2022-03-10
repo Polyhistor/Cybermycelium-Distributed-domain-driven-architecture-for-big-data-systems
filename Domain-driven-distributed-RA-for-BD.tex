@@ -1,6 +1,7 @@
 \documentclass[review]{elsarticle}
 
 \usepackage{lineno,hyperref}
+\usepackage{longtable}
 \modulolinenumbers[5]
 
 \journal{Journal of \LaTeX\ Templates}
@@ -281,9 +282,9 @@ These 68 studies are comprising of journal papers, conference papers, book chapt
 
 By this stage, the research objective is set, studies are pooled, assessed and refined, thus the research embarked on the actual synthesis of data. To increase transparency, RAs and standards found as the result of this SRL is presented in table \ref{table:SLR}. For this purposes, the software Nvivo \cite{nvivo} has been used to code, label, and classify studies. Initially, all the keywords aforementioned has been created as nodes in the software, which are then associated to relevant sentences in studies. After coding all the studies, the findings have been synthesized to create theories, which in turn emerged themes and patterns. The findings gained from this SLR grounded the foundation for various aspect of the SLR development. 
 
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{|p{5cm} | p{1cm}  | p{1cm} | p{3.4cm}|} 
+
+
+    \begin{longtable}{|p{5cm} | p{1cm}  | p{1cm} | p{3.4cm}|} 
      \hline
      Study  & Author & Year & Type \\ [0.5ex] 
      \hline
@@ -309,10 +310,12 @@ By this stage, the research objective is set, studies are pooled, assessed and r
      \hline
        & 88  & 6344 &  \\ [1ex] 
      \hline
-    \end{tabular}
-    \caption{RAs and Standards found by the result of the SLR}
-    \label{table:SLR}
-\end{table}
+
+     \caption{RAs and Standards found by the result of the SLR}
+     \label{table:SLR}
+    \end{longtable}
+   
+
 
 \subsection{Construction of the RA}
 
