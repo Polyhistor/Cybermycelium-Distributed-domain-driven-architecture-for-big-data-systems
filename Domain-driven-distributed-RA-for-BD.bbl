@@ -522,4 +522,26 @@ E.~Y. Nakagawa, R.~M. Martins, K.~R. Felizardo, J.~C. Maldonado, Towards a
   process to design aspect-oriented reference architectures, in: XXXV Latin
   American Informatics Conference (CLEI) 2009, 2009.
 
+\bibitem{leonard2011design}
+E.~M. Leonard, Design and implementation of an enterprise data warehouse,
+  Marquette University, 2011.
+
+\bibitem{brackenbury2018draining}
+W.~Brackenbury, R.~Liu, M.~Mondal, A.~J. Elmore, B.~Ur, K.~Chard, M.~J.
+  Franklin, Draining the data swamp: A similarity-based approach, in:
+  Proceedings of the workshop on human-in-the-loop data analytics, 2018, pp.
+  1--7.
+
+\bibitem{lin2017lambda}
+J.~Lin, The lambda and the kappa, IEEE Internet Computing 21~(05) (2017)
+  60--66.
+
+\bibitem{ApachBeam}
+\href{https://beam.apache.org/}{Apache beam}.
+\newline\urlprefix\url{https://beam.apache.org/}
+
+\bibitem{DataBricks}
+\href{https://databricks.com/}{Databricks}.
+\newline\urlprefix\url{https://databricks.com/}
+
 \end{thebibliography}

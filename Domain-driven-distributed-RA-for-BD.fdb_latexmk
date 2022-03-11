@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Domain-driven-distributed-RA-for-BD"] 1646904276 "Domain-driven-distributed-RA-for-BD.aux" "Domain-driven-distributed-RA-for-BD.bbl" "Domain-driven-distributed-RA-for-BD" 1646904278
+["bibtex Domain-driven-distributed-RA-for-BD"] 1646989460 "Domain-driven-distributed-RA-for-BD.aux" "Domain-driven-distributed-RA-for-BD.bbl" "Domain-driven-distributed-RA-for-BD" 1646989732
   "./elsarticle-num.bst" 1261002940 29353 cbd593ca59c003368735a9d8dbd22298 ""
-  "Domain-driven-distributed-RA-for-BD.aux" 1646904278 12246 e8207c512905f4ee517758e688a8ee80 "pdflatex"
-  "mybibfile.bib" 1646900679 52100 ed3e530fb1c83bd806b57a906c32b953 ""
+  "Domain-driven-distributed-RA-for-BD.aux" 1646989731 12611 8cda422d81a9643e14149efd256f5b2f "pdflatex"
+  "mybibfile.bib" 1646989451 53520 9384d057207fed7430a4308f7f5031fe ""
   (generated)
   "Domain-driven-distributed-RA-for-BD.bbl"
   "Domain-driven-distributed-RA-for-BD.blg"
-["pdflatex"] 1646904277 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.pdf" "Domain-driven-distributed-RA-for-BD" 1646904278
+["pdflatex"] 1646989730 "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex" "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.pdf" "Domain-driven-distributed-RA-for-BD" 1646989732
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1590994596 11548 e44175093b45ca6e570e355bbd17abed ""
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1643603142 10002696 7a3616ce906e4689083dab4d83aaed18 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1645249997 129095 e4a02c068ec58a7834b5c37cb6614e69 ""
@@ -87,21 +87,21 @@
   "D:/MikTex/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "D:/MikTex/tex/latex/tools/longtable.sty" 1580644884 12133 b1e3e65b69714dbfcc5e6c0b19d66b50 ""
   "D:/MikTex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Domain-driven-distributed-RA-for-BD.aux" 1646904278 12246 e8207c512905f4ee517758e688a8ee80 "pdflatex"
-  "Domain-driven-distributed-RA-for-BD.bbl" 1646904277 23642 7e64119ead96a0cc791605195efd8b71 "bibtex Domain-driven-distributed-RA-for-BD"
-  "Domain-driven-distributed-RA-for-BD.out" 1646904278 920 81cde391d89396bda33de5199c0bb32a "pdflatex"
-  "Domain-driven-distributed-RA-for-BD.spl" 1646904277 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Domain-driven-distributed-RA-for-BD.tex" 1646904273 46460 530bd1bfe436dcd596e39974d64f7733 ""
+  "Domain-driven-distributed-RA-for-BD.aux" 1646989731 12611 8cda422d81a9643e14149efd256f5b2f "pdflatex"
+  "Domain-driven-distributed-RA-for-BD.bbl" 1646989460 24397 29f846f9ba3b5e559c22895c563f676a "bibtex Domain-driven-distributed-RA-for-BD"
+  "Domain-driven-distributed-RA-for-BD.out" 1646989731 920 81cde391d89396bda33de5199c0bb32a "pdflatex"
+  "Domain-driven-distributed-RA-for-BD.spl" 1646989731 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Domain-driven-distributed-RA-for-BD.tex" 1646989729 48988 b4004c8a6e264e03f48af025c5f0c6f4 ""
   "PRISMA.JPG" 1646208396 140569 a4b1cceaccd85be46b248ca27bd9e156 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.aux" 1646904278 12246 e8207c512905f4ee517758e688a8ee80 ""
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex" 1646904273 46460 530bd1bfe436dcd596e39974d64f7733 ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.aux" 1646989731 12611 8cda422d81a9643e14149efd256f5b2f ""
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex" 1646989729 48988 b4004c8a6e264e03f48af025c5f0c6f4 ""
   "databases-statitistic.jpg" 1646210607 94630 d65943f413437f650e724505d0f92151 ""
   "variability-model.JPG" 1646642631 60706 d7c2d5227d7999a4f6bb34cfc93e8ebb ""
   (generated)
+  "Domain-driven-distributed-RA-for-BD.log"
   "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.log"
-  "Domain-driven-distributed-RA-for-BD.spl"
   "Domain-driven-distributed-RA-for-BD.aux"
   "Domain-driven-distributed-RA-for-BD.pdf"
-  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.pdf"
+  "Domain-driven-distributed-RA-for-BD.spl"
   "Domain-driven-distributed-RA-for-BD.out"
-  "Domain-driven-distributed-RA-for-BD.log"
+  "c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.pdf"

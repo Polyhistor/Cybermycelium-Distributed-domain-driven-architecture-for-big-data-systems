@@ -19,45 +19,49 @@ Warning--empty year in Cioroaica
 Warning--empty year in Williams
 Warning--empty year in KazmanATAM
 Warning--empty pages in Nakagawa
-You've used 104 entries,
+Warning--empty author in ApachBeam
+Warning--empty journal in ApachBeam
+Warning--empty author in DataBricks
+Warning--empty journal in DataBricks
+You've used 109 entries,
             2937 wiz_defined-function locations,
-            1231 strings with 24838 characters,
-and the built_in function-call counts, 31889 in all, are:
-= -- 2884
-> -- 1031
-< -- 37
-+ -- 413
-- -- 309
-* -- 1893
-:= -- 4078
-add.period$ -- 105
-call.type$ -- 104
-change.case$ -- 99
+            1255 strings with 25397 characters,
+and the built_in function-call counts, 33075 in all, are:
+= -- 2980
+> -- 1063
+< -- 38
++ -- 427
+- -- 318
+* -- 1967
+:= -- 4222
+add.period$ -- 110
+call.type$ -- 109
+change.case$ -- 103
 chr.to.int$ -- 0
-cite$ -- 117
-duplicate$ -- 1183
-empty$ -- 3805
-format.name$ -- 380
-if$ -- 8545
+cite$ -- 126
+duplicate$ -- 1227
+empty$ -- 3962
+format.name$ -- 390
+if$ -- 8868
 int.to.chr$ -- 0
-int.to.str$ -- 104
-missing$ -- 96
-newline$ -- 337
-num.names$ -- 98
-pop$ -- 870
+int.to.str$ -- 109
+missing$ -- 102
+newline$ -- 354
+num.names$ -- 101
+pop$ -- 913
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2267
+skip$ -- 2355
 stack$ -- 0
-substring$ -- 1539
-swap$ -- 349
-text.length$ -- 37
+substring$ -- 1574
+swap$ -- 357
+text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 13
-while$ -- 243
-width$ -- 107
-write$ -- 845
-(There were 14 warnings)
+warning$ -- 17
+while$ -- 251
+width$ -- 112
+write$ -- 881
+(There were 18 warnings)
