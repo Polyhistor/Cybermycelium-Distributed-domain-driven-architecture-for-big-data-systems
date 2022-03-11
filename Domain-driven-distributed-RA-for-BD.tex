@@ -429,6 +429,8 @@ Rohling et al \cite{rohling2019reference} have evaluated their RA by mapping it 
 
 If our aspiration to enhance every business aspect with data needs to com to fruition, we need a different approach to data architecture. Traditional data warehouse approaches to business intelligence, while have addressed the volume and computing aspect of data, they have failed to address other characteristics of it; heterogeneity and proliferation of data sources (variety), the speed at which data arrives and needs to be processed (velocity), the rate at which data mutates (variability), and the truth or quality of the data (veracity).
 
+\subsection{State of the art}
+
 The available body of knowledge and practice highlights 3 generations of big data architectures; 
 
 \begin{enumerate}
@@ -436,6 +438,9 @@ The available body of knowledge and practice highlights 3 generations of big dat
     \item \textbf{Data Lake}: to address the challenges occurred in the first generation of data architectures, a new big data ecosystem emerged. This new ecosystem revolved around a data lake, in way that there isn't as much transformations on the data, but rather everything is dumped into the data lake and retrieved when necessary. Although data lake architecture have reached a higher level of success in comparison to the first generation of the data architectures, they are still far from optimal. As data consumer and data providers grow, data engineers will be immensely challenged to avoid creating a data swamp \cite{brackenbury2018draining}, and because there is usually no concept of data owner, the whole stack is usually operated by a group of hyper-specialized data engineers, creating silos, and barriers for gradual adoption. This also means various teams will often go into data engineers backlog and will not be in control of how and when they can consume the data they desire.
     \item \textbf{Cloud Based Solutions:} Given the cost and complexity of running a data lake on-premise alongside the whole data engineering pipeline, and the substantial talent gap currently faced in the market \cite{AtaeiHype}, the third generation of big data architectures tend to revolve around as-a-service or on-demand cloud-based solutions. This generation of architecture tends to be leaning towards stream-processing with architectures such as Kappa or Lambda \cite{lin2017lambda}, or frameworks that unify batch and stream processing such as Apache Beam \cite{ApachBeam} or Databricks \cite{DataBricks}. This is usually accompanied by cloud storage such as Amazon S3, and streaming technologies such as Amazon Kinesis. Whereas this generation tends to solve various issues regarding the complexity and cost of data handling and digestion, it still suffers from the same fundamental architectural challenges.
 \end{enumerate}
+
+To discuss the integral facets that embroil these architectures, one must look at the characteristics of these architectures and the ways in which they achieve their ends, with quality attributes sorrounding it.
+
 
 \bibliography{mybibfile}
 
