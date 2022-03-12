@@ -544,4 +544,15 @@ J.~Lin, The lambda and the kappa, IEEE Internet Computing 21~(05) (2017)
 \href{https://databricks.com/}{Databricks}.
 \newline\urlprefix\url{https://databricks.com/}
 
+\bibitem{monolithToMesh}
+Z.~Dehghani,
+  \href{https://martinfowler.com/articles/data-monolith-to-mesh.html}{How to
+  move beyond a monolithic data lake to a distributed data mesh} (2019).
+\newline\urlprefix\url{https://martinfowler.com/articles/data-monolith-to-mesh.html}
+
+\bibitem{alshuqayran2016systematic}
+N.~Alshuqayran, N.~Ali, R.~Evans, A systematic mapping study in microservice
+  architecture, in: 2016 IEEE 9th International Conference on Service-Oriented
+  Computing and Applications (SOCA), IEEE, 2016, pp. 44--51.
+
 \end{thebibliography}
