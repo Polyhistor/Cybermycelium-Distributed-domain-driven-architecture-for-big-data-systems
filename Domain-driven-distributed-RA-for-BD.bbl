@@ -555,4 +555,14 @@ N.~Alshuqayran, N.~Ali, R.~Evans, A systematic mapping study in microservice
   architecture, in: 2016 IEEE 9th International Conference on Service-Oriented
   Computing and Applications (SOCA), IEEE, 2016, pp. 44--51.
 
+\bibitem{hypothesisDev}
+B.~O'Reilly,
+  \href{https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development}{How
+  to implement hypothesis-driven development} (2014).
+\newline\urlprefix\url{https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development}
+
+\bibitem{ford2017building}
+N.~Ford, R.~Parsons, P.~Kua, Building evolutionary architectures: support
+  constant change, " O'Reilly Media, Inc.", 2017.
+
 \end{thebibliography}

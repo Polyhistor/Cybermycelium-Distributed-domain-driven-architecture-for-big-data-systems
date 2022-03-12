@@ -455,8 +455,14 @@ While architectures in software engineering have gone through series of evolutio
 
 Suppose company A would want to adopt a big data initiative to embark on this complex endeavour, what would be the first step ? does the company have to worry about high-throughput stream processing ? does it have to worry about regional privacy regulations? does it have to worry about cost-efficient batch processing? perhaps yes to all of these questions, but what's even more integral to the success of the whole endeavour is the underlying architecture that governs the entire system, its components, their relations to each other, data flow and principles and standards that govern the quality attributes and evolution of the system.
 
-This architecture and design process if done underlying current prevalent approaches, can bring about colossal lost, and leave many managers disappointed. In fact, we don't claim that all these architectures will fail, perhaps some have proven to be successful in a specific context. There are two threats to maintainability and scalability of these systems. 
+This architecture and design process if done underlying current prevalent approaches, can bring about colossal lost, and leave many managers disappointed. In fact, we don't claim that all these architectures will fail, perhaps some have proven to be successful in a specific context. There are two threats to maintainability and scalability of these systems; 
 
+\begin{enumerate}
+    \item \textbf{Data source proliferation:} as the big data system grows and more data sources are added, the ability to ingest, process, and harmonize all these data in one place diminishes. This in turn, reduces maintainability, makes company reliant on lead data engineers who built the infrastructure, and makes scaling these systems very difficult. The proliferation of data sources if not managed carefully, can result in data swamps as well, which makes understanding data domains, and providing data as a service a complicated task. 
+    \item \textbf{Data consumer proliferation:} organizations that utilize rapid experimentation approaches such Hypothesis-Driven Development and Continuos Delivery \cite{hypothesisDev} constantly introduce new use cases for data to be consumed in different domains. This means that variability of the data rises, and the sum of aggregations, projections, and slices increases, which in turn adds more work to the backlog of the data engineering team, slowing down the process of serving the data to consumers. Inability to account for the data consumer demands can be a point of friction in organizations \cite{monolithToMesh}.  
+\end{enumerate}
+
+To address these challenges, the lead architect or the architecture governance group will then have to choose the right architectural quanta to decompose the monolith. According to Ford et al \cite{ford2017building}, an architectural quantum is a component with high functional cohesion that is independently deployable.
 
 \bibliography{mybibfile}
 
