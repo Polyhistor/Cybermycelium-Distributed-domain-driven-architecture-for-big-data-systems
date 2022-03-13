@@ -568,4 +568,19 @@ N.~Ford, R.~Parsons, P.~Kua, Building evolutionary architectures: support
 \bibitem{newman2021building}
 S.~Newman, Building microservices, " O'Reilly Media, Inc.", 2021.
 
+\bibitem{EventDrivenMicroServices}
+A.~Bellemare,
+  \href{https://www.amazon.com/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894/ref=sr_1_1?crid=1WQYXJT85E0CL&keywords=event+driven+microservices&qid=1647139910&sprefix=event+driven+microservi%2Caps%2C307&sr=8-1}{Building
+  Event-Driven Microservices: Leveraging Organizational Data at Scale},
+  O'Reilly Media, 2020.
+\newline\urlprefix\url{https://www.amazon.com/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894/ref=sr_1_1?crid=1WQYXJT85E0CL&keywords=event+driven+microservices&qid=1647139910&sprefix=event+driven+microservi%2Caps%2C307&sr=8-1}
+
+\bibitem{evans2004domain}
+E.~Evans, E.~J. Evans, Domain-driven design: tackling complexity in the heart
+  of software, Addison-Wesley Professional, 2004.
+
+\bibitem{aceto2007reactive}
+L.~Aceto, A.~Ing{\'o}lfsd{\'o}ttir, K.~G. Larsen, J.~Srba, Reactive systems:
+  modelling, specification and verification, cambridge university press, 2007.
+
 \end{thebibliography}

@@ -474,7 +474,11 @@ Whereas there could be other factors to be discussed deeply in this paper regard
 
 \section{A paradigm shift: distributed domain driven architecture}
 
+Based on the premises discussed priori to this section, one can infer that the idea of monolithic and centralized data pipelines that are highly couped and operated by silos of hyper-specialized big data engineers has limitations and can bring organizations into a bottleneck . 
 
+We therefore, explore a domain driven distributed and decentralized architecture for big data systems and posit that this architecture can address some of the challenges discussed. This idea is inspired by the advancements in software engineering architecture, and in specific event-driven microservice architecture \cite{EventDrivenMicroServices}, domain driven design \cite{evans2004domain}, and reactive systems \cite{aceto2007reactive}.
+
+Data usually comes into two different flavours; 1) operational data which serves the need of an application, facilitates logic, and can include transactional data and 2) analytical data which usually has the temporality to it, and is aggregated to provide with insights. 
 
 \bibliography{mybibfile}
 
