@@ -583,4 +583,10 @@ E.~Evans, E.~J. Evans, Domain-driven design: tackling complexity in the heart
 L.~Aceto, A.~Ing{\'o}lfsd{\'o}ttir, K.~G. Larsen, J.~Srba, Reactive systems:
   modelling, specification and verification, cambridge university press, 2007.
 
+\bibitem{dataMeshArticle}
+Z.~Dehghani,
+  \href{https://martinfowler.com/articles/data-mesh-principles.html}{Data mesh
+  principles and logical architecture} (2020).
+\newline\urlprefix\url{https://martinfowler.com/articles/data-mesh-principles.html}
+
 \end{thebibliography}
