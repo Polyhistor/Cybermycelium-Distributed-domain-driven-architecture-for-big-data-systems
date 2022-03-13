@@ -482,7 +482,21 @@ Data usually comes into two different flavours; 1) operational data which serves
 
 These two different flavours, despite being related, have different characteristics and trying to lump them together may result in a morass. To this end, Cybermycelium realizes the varying nature between these two planes and respects the difference. Cybermycelium aims to transfigure current architectural approaches by proposing an inversion of control, and a topology based on product domains and not the technology \cite{dataMeshArticle}. Our proposition is that handling two different archetypes of data, should not necessarily result in siloed teams, heavy backlogs, and a coupled implementation. 
 
-To further elucidate on this matter, we take the example of the microservice architecture. As the industry sailed away from the n-tier architectures into service oriented architectures (SOA), organizations faced many challenges to maintain the enterprise service bus (ESB).
+To further elucidate on this matter, we take the example of the microservice architecture. As the industry sailed away from the monolithic n-tier architectures into Service Oriented Architectures (SOA), organizations faced a lot of challenges. One prevalent issue was around the maintenances of Enterprise Service Bus (ESB) or SOA bus, which is the locus of aggregation. While the aggregation layer could be written very thin, the reality is that the transformation of XML and logical operations started to bloat the SOA bus. This added a new level of coupling between internal and external elements of the system as a whole \cite{di2017architecting}; \cite{zimmermann2017microservices}; \cite{waseem2020systematic}. 
+
+Microservices architecture, being the evolution of SOA, move away from smart pipelines into dumb pipelines and smart services removing the need for the locus of aggregation and control. Moreover, there was no business logic written in the pipelines, and each service was segregated usually with the help of domain driven design. 
+
+Whereas microservices architecture still have its challenges, the gradations of software architectures in software engineering industry can be analogous to the data engineering domain. One can perceive the pipeline architecture and its coupling nature similar to SOA and the business logic written to connect the services in the SOA bus. 
+
+Based on these premises we posit 3 underpinning principles for Cybermycelium; 
+
+\begin{enumerate}
+    \item Distributed Domain driven services with bounded context
+    \item Governance through a federation service 
+    \item Single responsibility, highly coherent and uncoupled data services
+\end{enumerate}
+
+
 \bibliography{mybibfile}
 
 \end{document}

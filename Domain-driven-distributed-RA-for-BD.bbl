@@ -589,4 +589,17 @@ Z.~Dehghani,
   principles and logical architecture} (2020).
 \newline\urlprefix\url{https://martinfowler.com/articles/data-mesh-principles.html}
 
+\bibitem{di2017architecting}
+P.~Di~Francesco, Architecting microservices, in: 2017 IEEE International
+  Conference on Software Architecture Workshops (ICSAW), IEEE, 2017, pp.
+  224--229.
+
+\bibitem{zimmermann2017microservices}
+O.~Zimmermann, Microservices tenets, Computer Science-Research and Development
+  32~(3) (2017) 301--310.
+
+\bibitem{waseem2020systematic}
+M.~Waseem, P.~Liang, M.~Shahin, A systematic mapping study on microservices
+  architecture in devops, Journal of Systems and Software 170 (2020) 110798.
+
 \end{thebibliography}
