@@ -23,36 +23,36 @@ Warning--empty author in ApachBeam
 Warning--empty journal in ApachBeam
 Warning--empty author in DataBricks
 Warning--empty journal in DataBricks
-You've used 113 entries,
+You've used 114 entries,
             2937 wiz_defined-function locations,
-            1275 strings with 26133 characters,
-and the built_in function-call counts, 34129 in all, are:
-= -- 3072
-> -- 1091
+            1278 strings with 26184 characters,
+and the built_in function-call counts, 34324 in all, are:
+= -- 3085
+> -- 1095
 < -- 39
-+ -- 439
-- -- 326
-* -- 2018
-:= -- 4351
-add.period$ -- 114
-call.type$ -- 113
++ -- 441
+- -- 327
+* -- 2023
+:= -- 4373
+add.period$ -- 115
+call.type$ -- 114
 change.case$ -- 106
 chr.to.int$ -- 0
-cite$ -- 130
-duplicate$ -- 1269
-empty$ -- 4108
-format.name$ -- 400
-if$ -- 9165
+cite$ -- 131
+duplicate$ -- 1276
+empty$ -- 4142
+format.name$ -- 401
+if$ -- 9224
 int.to.chr$ -- 0
-int.to.str$ -- 113
-missing$ -- 105
-newline$ -- 368
-num.names$ -- 105
-pop$ -- 956
+int.to.str$ -- 114
+missing$ -- 107
+newline$ -- 371
+num.names$ -- 106
+pop$ -- 967
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2431
+skip$ -- 2448
 stack$ -- 0
 substring$ -- 1598
 swap$ -- 368
@@ -61,7 +61,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 17
-while$ -- 258
-width$ -- 116
-write$ -- 913
+while$ -- 259
+width$ -- 117
+write$ -- 920
 (There were 18 warnings)
