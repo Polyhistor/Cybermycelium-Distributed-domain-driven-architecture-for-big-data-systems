@@ -12,4 +12,5 @@
 \BOOKMARK [1][-]{section.4}{Cybermycelium: A Domain Driven Distributed Reference Architecture for Big Data Systems}{}% 12
 \BOOKMARK [2][-]{subsection.4.1}{State of the art}{section.4}% 13
 \BOOKMARK [1][-]{section.5}{A paradigm shift: distributed domain driven architecture}{}% 14
-\BOOKMARK [2][-]{subsection.5.1}{Data as the fourth dimension of product}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Distributed Domain driven services with bounded context}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Single responsibility, highly coherent and uncoupled data services}{section.5}% 16
