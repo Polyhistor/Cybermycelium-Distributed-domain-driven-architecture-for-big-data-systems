@@ -496,6 +496,17 @@ Based on these premises we posit 3 underpinning principles for Cybermycelium;
     \item Single responsibility, highly coherent and uncoupled data services
 \end{enumerate}
 
+\subsection{Data as the fourth dimension of product}
+
+Integral to Cybermycelium, is the distribution and decentralization of services into domains that have clear bounded context. Perhaps one the most challenging one might face when it comes to architecting a distributed system is; based on what architectural quanta should we break down the system. This issue has been repeatedly discussed for example among adopters of microservices architecture . Cybermycelium, inspired by the concept of domain-drive design, tends to sit data close to the product domain that relates to it. This implies that data inheres in the product domain and as a facet of it \cite{laigner2021data}. 
+
+This is mainly driven by the fact that most organizations today are decomposed based on their products. These products are the capability of the business that are segregated into various domains. Domain's bounded context is operated by various teams with various visions and concerns, incorporating data into a bounded context can result in a synergy that can better handle evolution and continuos change. This can be micro, such as application developers communicating with data engineers about collecting user data in nested data structures or in flat ones, or macro, such as application developers thinking about redesigning their graphql schema in an intermediary layer that may affect the data engineers ingestion services. 
+
+Data can be conceived as the fourth dimension of a product next to UI/UX, business and application. Each domain provides its data as a service. This data is consisting of both operational and analytical data. This also implies that any friction and coupling between data is removed. For instance, the 'invoice' domain will provide the transactional data about number of invoices and total of discounts with analytical data such as which demographics have created what number of invoice in what period of time.
+
+
+
+
 
 \bibliography{mybibfile}
 

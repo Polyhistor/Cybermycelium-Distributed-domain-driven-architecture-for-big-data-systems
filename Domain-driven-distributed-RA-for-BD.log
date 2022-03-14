@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  13 MAR 2022 20:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  14 MAR 2022 22:20
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex"
@@ -342,13 +342,13 @@ Overfull \hbox (2.16508pt too wide) in paragraph at lines 227--228
  []
 
 [11] [12]
-<PRISMA.JPG, id=319, 1031.35312pt x 610.53094pt>
+<PRISMA.JPG, id=323, 1031.35312pt x 610.53094pt>
 File: PRISMA.JPG Graphic file (type jpg)
 <use PRISMA.JPG>
 Package pdftex.def Info: PRISMA.JPG  used on input line 267.
 (pdftex.def)             Requested size: 312.9803pt x 185.2754pt.
  [13 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/PRISMA.JPG>]
-<databases-statitistic.jpg, id=329, 1003.75pt x 668.4975pt>
+<databases-statitistic.jpg, id=333, 1003.75pt x 668.4975pt>
 File: databases-statitistic.jpg Graphic file (type jpg)
 <use databases-statitistic.jpg>
 Package pdftex.def Info: databases-statitistic.jpg  used on input line 277.
@@ -403,7 +403,7 @@ Underfull \hbox (badness 1383) in paragraph at lines 341--341
  []
 
 [15] [16] [17] [18] [19]
-<variability-model.JPG, id=451, 1074.26344pt x 510.40688pt>
+<variability-model.JPG, id=455, 1074.26344pt x 510.40688pt>
 File: variability-model.JPG Graphic file (type jpg)
 <use variability-model.JPG>
 Package pdftex.def Info: variability-model.JPG  used on input line 396.
@@ -413,7 +413,7 @@ Overfull \hbox (8.94502pt too wide) in paragraph at lines 491--492
 []\OT1/cmr/m/n/10 Based on these premises we posit 3 un-der-pin-ning prin-ci-ples for Cy-bermycelium; 
  []
 
-("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.bbl"
+[30] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.bbl"
 Underfull \hbox (badness 5288) in paragraph at lines 17--25
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / doi . ieeecomputersociety . org / 10 . 1109 / APSEC53868 .
  []
@@ -423,12 +423,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--49
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / databricks . com / p / whitepaper /
  []
 
-[30]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 51--55
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . supplychain247 . com / paper / big _ data _ and _ ai _
  []
 
-[31] [32] [33]
+[32] [33] [34]
 Underfull \hbox (badness 4120) in paragraph at lines 187--192
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / openauthentication . org / wp-[]content / uploads / 2015 /
  []
@@ -438,7 +438,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--202
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . oreilly . com / radar /
  []
 
-[34]
+[35]
 Underfull \hbox (badness 10000) in paragraph at lines 247--249
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . thoughtworks . com / about-[]us / events /
  []
@@ -448,22 +448,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--259
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . confluent . io / events /
  []
 
-[35]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 289--292
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . qsrinternational . com /
  []
 
-[36]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 322--327
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . oracle . com / technetwork / topics / entarch /
  []
 
-[37]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 361--363
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . scribd . com / document / 418835912 /
  []
 
-[38] [39] [40] [41]
+[39] [40] [41] [42]
 Underfull \hbox (badness 10000) in paragraph at lines 559--563
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . thoughtworks . com / insights / articles /
  []
@@ -483,7 +483,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 572--577
 \OT1/cmtt/m/n/10 driven + microservices & qid = 1647139910 & sprefix = event + driven +
  []
 
-[42]
+[43]
 Underfull \hbox (badness 3128) in paragraph at lines 587--591
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / martinfowler . com / articles / data-[]mesh-[]principles .
  []
@@ -492,27 +492,27 @@ Underfull \hbox (badness 3128) in paragraph at lines 587--591
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 502.
-[43]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 502.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 513.
+[44]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 513.
  ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 502.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 502.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 513.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 513.
 Package rerunfilecheck Info: File `Domain-driven-distributed-RA-for-BD.out' has not changed.
-(rerunfilecheck)             Checksum: 8E733687DAF378C9F9B3F86878F28855;1078.
+(rerunfilecheck)             Checksum: 8BC04A76727B601399C7D002A4FF9923;1167.
  ) 
 Here is how much of TeX's memory you used:
- 7555 strings out of 480795
- 121292 string characters out of 2913777
+ 7558 strings out of 480795
+ 121329 string characters out of 2913777
  410757 words of memory out of 3000000
- 23190 multiletter control sequences out of 15000+200000
+ 23191 multiletter control sequences out of 15000+200000
  537400 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,36p,1477b,893s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.pdf" (43 pages, 672687 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.pdf" (44 pages, 675865 bytes).
 PDF statistics:
- 840 PDF objects out of 1000 (max. 8388607)
- 260 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 849 PDF objects out of 1000 (max. 8388607)
+ 262 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
