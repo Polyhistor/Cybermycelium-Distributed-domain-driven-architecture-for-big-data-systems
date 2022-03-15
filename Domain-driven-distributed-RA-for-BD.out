@@ -13,4 +13,6 @@
 \BOOKMARK [2][-]{subsection.4.1}{State of the art}{section.4}% 13
 \BOOKMARK [1][-]{section.5}{A paradigm shift: distributed domain driven architecture}{}% 14
 \BOOKMARK [2][-]{subsection.5.1}{Distributed Domain driven services with bounded context}{section.5}% 15
-\BOOKMARK [2][-]{subsection.5.2}{Single responsibility, highly coherent and uncoupled data services}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Data as a service:}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.3}{Data infrastructure automation}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.4}{Governance through a federation service}{section.5}% 18

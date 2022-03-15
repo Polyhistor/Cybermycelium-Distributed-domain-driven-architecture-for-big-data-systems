@@ -264,7 +264,7 @@ After pooling the studies, we removed 11 studies before screening because either
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=11cm]{PRISMA.JPG}
+    \includegraphics[width=10cm]{PRISMA.JPG}
     \caption{PRISMA flowchart}
     \label{fig:PRISMA}
 \end{figure}
@@ -488,25 +488,45 @@ Microservices architecture, being the evolution of SOA, move away from smart pip
 
 Whereas microservices architecture still have its challenges, the gradations of software architectures in software engineering industry can be analogous to the data engineering domain. One can perceive the pipeline architecture and its coupling nature similar to SOA and the business logic written to connect the services in the SOA bus. 
 
-Based on these premises we posit 3 underpinning principles for Cybermycelium; 
+Based on these premises we posit 4 underpinning principles for Cybermycelium; 
 
 \begin{enumerate}
     \item Distributed Domain driven services with bounded context
+    \item Data as a service
+    \item Data infrastructure automation
     \item Governance through a federation service 
-    \item Single responsibility, highly coherent and uncoupled data services
+
 \end{enumerate}
 
 \subsection{Distributed Domain driven services with bounded context}
 
-Integral to Cybermycelium, is the distribution and decentralization of services into domains that have clear bounded context. Perhaps one the most challenging one might face when it comes to architecting a distributed system is; based on what architectural quanta should we break down the system. This issue has been repeatedly discussed for example among adopters of microservices architecture . Cybermycelium, inspired by the concept of domain-drive design, tends to sit data close to the product domain that relates to it. This implies that data inheres in the product domain and as a facet of it \cite{laigner2021data}. 
+Integral to Cybermycelium, is the distribution and decentralization of services into domains that have clear bounded context. Perhaps one the most challenging things one might face when it comes to architecting a distributed system is; based on what architectural quanta should we break down the system. This issue has been repeatedly discussed for example among adopters of microservices architecture . Cybermycelium, inspired by the concept of domain-drive design, tends to sit data close to the product domain that relates to it. This implies that data inheres in the product domain and as a facet of it \cite{laigner2021data}.
 
-This is mainly driven by the fact that most organizations today are decomposed based on their products. These products are the capability of the business that are segregated into various domains. Domain's bounded context is operated by various teams with different visions and concerns, incorporating data into a bounded context can result in a synergy that can improve the management of evolution and continuos change. This can be micro, such as application developers communicating with data engineers about collecting user data in nested data structures or in flat ones, or macro, such as application developers thinking about redesigning their graphql schema in an intermediary layer that may affect the data engineers ingestion services. 
+This is mainly driven by the fact that most organizations today are decomposed based on their products. These products are the capability of the business that are segregated into various domains. Domain's bounded context is operated by various teams with different visions and concerns, incorporating data into a bounded context can result in a synergy that can improve the management of evolution and continuos change. This can be micro, such as application developers communicating with data engineers about collecting user data in a nested data structures or in flat ones, or macro, such as application developers thinking about redesigning their graphql schema in an intermediary layer that may affect the data engineers ingestion services. 
 
-Data can be conceived as the fourth dimension of a product next to UI/UX, business and application. Each domain provides its data as a service. This data is consisting of both operational and analytical data. This also implies that any friction and coupling between data is removed. For instance, the 'invoice' domain will provide the transactional data about number of invoices and total of discounts with analytical data such as which practices have created what number of invoices in what period of time.
+\subsection{Data as a service:}
+
+Data can be conceived as the fourth dimension of a product next to UI/UX, business and application (\ref{data-facets}). Each domain provides its data as a service. This data is consisting of both operational and analytical data. This also implies that any friction and coupling between data is removed. For instance, the 'invoice' domain will provide the transactional data about number of invoices and total of discounts with analytical data such as which practices have created what number of invoices in what period of time.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=10cm]{Media/product-facets.jpg}
+    \label{data-facets}
+    \caption{Product Facets}
+\end{figure}
+
+However this data-as-a-service model should be carefully implemented to account for explorability, discoverability, security, and quality. The data provided as a service should have the identical qualities to customer-facing products. This also implies, that a product owner should now treat data facet as an aspect of the product and employ objective measures that assure the desired quality. These measure can be net promoter scores from data consumers, data provenance, decreased lead time. Product owners, in addition to the application and design aspect of the product, must now incorporate this new facet, and try to understand the needs of the data consumers, how they consume the data, and what are the common tools and technologies they utilized to consume the data. This knowledge can help shaping better interfaces for the product.
+
+Product domains may also need to ingest data from upstream domains, and this requires the definition of clear interfaces. Furthermore, each domain should also account for metadata. Metadata in derived from the nature of the product and its data lifecycle. Data can be ingested and served in various forms such as tables, graphs, JSON, events, and many more; but in order for the data to be useful for analytical purposes, there is a need to associate data with its corresponding metadata that encompasses semantics, and history. 
+
+\subsection{Data infrastructure automation}
+
+As the number of product domain increases, the effort required to build, deploy, execute, and monitor services increases. This includes the data pipelines required for that product domain to carry out its functions. The platform skills required for these kinds of work is usually found in Devops engineers and site reliability engineers. 
+
+\subsection{Governance through a federation service}
 
 
-\subsection{Governance through a federation service }
-\subsection{Single responsibility, highly coherent and uncoupled data services}
+
 
 
 
