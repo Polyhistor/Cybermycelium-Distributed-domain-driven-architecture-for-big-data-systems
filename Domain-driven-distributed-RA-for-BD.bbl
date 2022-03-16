@@ -602,4 +602,27 @@ O.~Zimmermann, Microservices tenets, Computer Science-Research and Development
 M.~Waseem, P.~Liang, M.~Shahin, A systematic mapping study on microservices
   architecture in devops, Journal of Systems and Software 170 (2020) 110798.
 
+\bibitem{Terraform}
+\href{https://www.terraform.io/}{Terraform is an open-source infrastructure as
+  code software tool that provides a consistent cli}.
+\newline\urlprefix\url{https://www.terraform.io/}
+
+\bibitem{Segment}
+\href{https://segment.com/}{The leading customer data platform}.
+\newline\urlprefix\url{https://segment.com/}
+
+\bibitem{HDFS}
+\href{https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html}{The hadoop
+  distributed file system}.
+\newline\urlprefix\url{https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html}
+
+\bibitem{Helm}
+\href{https://helm.sh/}{The package manager for kubernetes}.
+\newline\urlprefix\url{https://helm.sh/}
+
+\bibitem{Make}
+\href{https://www.gnu.org/software/make/manual/make.html#toc-An-Introduction-to-Makefiles}{Gnu
+  make}.
+\newline\urlprefix\url{https://www.gnu.org/software/make/manual/make.html#toc-An-Introduction-to-Makefiles}
+
 \end{thebibliography}
