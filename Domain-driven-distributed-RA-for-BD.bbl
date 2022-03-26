@@ -628,4 +628,18 @@ M.~Waseem, P.~Liang, M.~Shahin, A systematic mapping study on microservices
 \bibitem{josey2016togaf}
 A.~Josey, TOGAF{\textregistered} Version 9.1-A Pocket Guide, Van Haren, 2016.
 
+\bibitem{ISOMetadata}
+ISO, Geographic information — metadata — part 1: Fundamentals,
+  International Organization for Standardization.
+
+\bibitem{GartnerDataCatalog}
+G.~D.~S. Ehtisham~Zaidi, Augmented data catalogs: Now an enterprise must-have
+  for data and analytics leaders, Tech. rep., Gartner (2019).
+
+\bibitem{MicroServicesPatterns}
+C.~Richardson,
+  \href{https://www.amazon.com/Microservices-Patterns-examples-Chris-Richardson/dp/1617294543/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1648261674&sr=8-1}{Microservices
+  Patterns: With examples in Java}, Manning; 1st edition, 2018.
+\newline\urlprefix\url{https://www.amazon.com/Microservices-Patterns-examples-Chris-Richardson/dp/1617294543/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1648261674&sr=8-1}
+
 \end{thebibliography}
