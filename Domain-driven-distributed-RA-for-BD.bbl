@@ -629,8 +629,7 @@ M.~Waseem, P.~Liang, M.~Shahin, A systematic mapping study on microservices
 A.~Josey, TOGAF{\textregistered} Version 9.1-A Pocket Guide, Van Haren, 2016.
 
 \bibitem{ISOMetadata}
-ISO, Geographic information — metadata — part 1: Fundamentals,
-  International Organization for Standardization.
+ISO, Iso 19115-1:2014, International Organization for Standardization.
 
 \bibitem{GartnerDataCatalog}
 G.~D.~S. Ehtisham~Zaidi, Augmented data catalogs: Now an enterprise must-have
@@ -641,5 +640,8 @@ C.~Richardson,
   \href{https://www.amazon.com/Microservices-Patterns-examples-Chris-Richardson/dp/1617294543/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1648261674&sr=8-1}{Microservices
   Patterns: With examples in Java}, Manning; 1st edition, 2018.
 \newline\urlprefix\url{https://www.amazon.com/Microservices-Patterns-examples-Chris-Richardson/dp/1617294543/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1648261674&sr=8-1}
+
+\bibitem{ISO25000}
+ISO, Iso/iec 25000:2005 (2014).
 
 \end{thebibliography}
