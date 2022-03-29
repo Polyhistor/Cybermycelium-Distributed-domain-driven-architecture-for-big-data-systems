@@ -613,8 +613,38 @@ After having understood the business cases and selecting a few good cases for bi
 
 By applying standard and the requirements of Cybermycelium to the pool of available tools in the industry, we succesfully created the archetype. We chose the tools are the mostly adopted and do support the architectural requirements of Cybermycelium. We did not want to developed tools from scratch, as that would delay our evaluation artefact and this would affect the stakehodlers negatively. In addition, many mature tools exist that statisfy our architectural requirements, so therefore 'reinventing the wheel' was unnecessary.
 
-It is also worth mentioning that the archetype is not a full instantiation of the Cybermycelium, but rather a partial instantiation based on given business cases. The co
+It is also worth mentioning that the archetype is not a full instantiation of the Cybermycelium, but rather a partial instantiation based on given business cases. The concrete architecture created out of Cybermycelium for the archetype is depicted in figure \ref{fig:ConcreteCyberMycelium}
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=10cm]{Media/concrete-mycelium.jpg}
+    \caption{Cybermycelium Instantiation}
+    \label{fig:ConcreteCyberMycelium}
+\end{figure}
+
+For the purposes of this archetype we've written a custom script that extracts data out of mySQL and then send it to Cybermycelium. Whereas there could be a service written in a product domain service mesh to directly connect to mySql to get values, we decided to have this proxy server, firstly because of company's security and privacy concerns, and secondly, because we wanted to create a flow that respects the architectural integrity of Cybermycelium. 
+
+As for the technology chooices, we chose Node JS for all the APIs, and custom scriptings, Nginx as our ingress, AWS Lambdas for stream and batch processing controllrs, Kafka for the event backbone, Kafka event Brokers as the event broker, AWS Application Load Balancer as the egress load balancer (business analysts directly send an API request to the load balancer URL), Istio as the control tower, Envoy as the side car, Node JS Fastify web framework as the domain ingress service, AWS S3 as the big data store (We used AWS data lake, which internally uses S3) and event archive, Data Bricks for stream and batch processing, and another Node JS Fastify instance for providing the domain data as a service. 
+
+After this step, we presented the archetype to the stakeholders, discussed architectural approaches, discusses our choices of technology, highlighted quality attributes and prioritized business scenarios.
+
+\subsubsection{Identifying Architectural Approaches:} To establish the architectural styles, we first analyzed the archetypes with respect to key quality attributes chosen for this evaluation which are performance, availability and modifiability. 
+
+\begin{itemize}
+    \item For performance, Nginx, Kafka, Istio, DataBricks and the AWS Application Load Balancer have been described.
+    \item For availability, Kafka, Event archive, Nginx, controllers, Data Lake and Istio have been discussed. 
+    \item For modifiability, the concept of domain driven design, the service mesh, zere coupling, the plug and play nature of the archetype, the ability to add desireable services through event brokers, and the distributed nature of the architecture has been discussed.
+\end{itemize}
+
+We then proved each of the quality attributes for potential risks, tradeoffs, and sensitivty/variability points. 
+
+\subsubsection{Scenario Prioritisation:}
+
+Scenarios are the quantum of ATAM, and help captring stimuli to which the architecture has to react. These stimuli help to highlight system's ability to too meet desired functional and non-functioanl requirements \cite{ATAM}. Based on this premise, in this step, we asked stakeholders to come up with three different kind of scenarios namely growth scenarios (anticipated changes), use-case scenarios (typical usage of the system) and exploratory scenarios (extreme cases). The result of this created 20 scenarios, which we then asked stakeholders to vote on. The result of the voting yielded 5 scenarios which are described as two user journeys; 
+
+\begin{itemize}
+    \item 
+\end{itemize}
 
 \bibliography{mybibfile}
 
