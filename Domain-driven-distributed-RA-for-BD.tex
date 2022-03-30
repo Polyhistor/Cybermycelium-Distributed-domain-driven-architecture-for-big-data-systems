@@ -663,7 +663,22 @@ After having scenarios prioritised and architectural approaches identified, it's
 
 Therefore, we emulated the scenarios against the archetype by creating relevant topics in the Kafka, having the data flow, having the ingress in the service mesh digest it and flow it into the storage and processing and so on so forth. We've been using real world data, so there was no need for data fabrication and synthesis.  We configured Nginx to pass the request to the responsible Lambdas, and Lambdas then produced the necessary events and sent it to Kafka. 
 
-In the process running simulation scenarios against our concrete system, we probed our architectural approaches, which led to emergence of several questions: 
+In the process of running simulation scenarios against our concrete system, we probed our architectural approaches, which led to emergence of several questions; 
+
+\begin{itemize}
+    \item How does the system reocover if the event backbone goes out of order?
+    \item What if the service mesh ingress is not available? 
+    \item Should privacy be it's own service? or should it sit in federation ?
+    \item Should have a dedicated service mesh for metadata management? 
+    \item How easy it is to extend and modify current services?
+    \item Should there be a certain order to events ? 
+    \item Is there a benefit in creating event mesh between event brokers? 
+    \item Where is the best place to scrub sensitive data from the incoming streams?
+\end{itemize}
+
+It is essential to realize that the RA is at a higher level of abstraction, aiming to capture the best architectural solutions for a class of systems, while the prototype of it help arising many details, screening questions, tradeoff points, sensitivity points, and organizational matters. Tradeoff points is defined as the point in which service can affect various quality attributes. These points are of high importance as they can drastically affect the overall behaviour of the system. 
+
+
 
 \bibliography{mybibfile}
 
