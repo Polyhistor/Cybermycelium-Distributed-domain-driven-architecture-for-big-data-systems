@@ -678,7 +678,15 @@ In the process of running simulation scenarios against our concrete system, we p
 
 It is essential to realize that the RA is at a higher level of abstraction, aiming to capture the best architectural solutions for a class of systems, while the prototype of it help arising many details, screening questions, tradeoff points, sensitivity points, and organizational matters. Tradeoff points is defined as the point in which service can affect various quality attributes. These points are of high importance as they can drastically affect the overall behaviour of the system. 
 
+Based on these premises, stakeholders feedback, utility tree, and the architectural qualities of Cybermycelium, we deduce that system quality Q\textsubscript{S}, is a function f of the quality attributes availability Q\textsubscript{A}, performance Q\textsubscript{P}, 
 
+~~ Formula
+
+\subsubsection{Performance:} In order to analyze our approach in-line with the utility tree, after having created the simulated scenarios, we used a cloud stress testing testing agent (StressStimulus). After having run this stess test a couple of times, it has become evident to us that cold start times latency of AWS Lambda services can affect the performance requirements stated in the utility tree. A Lambda can take anywhere from 100ms to over a second on cold start time. This latency varies and hard to nail down, but even considering the latency, we have captured an average of 1000ms response time from our system. While replacing Lambdas with EC2s or Fargates could solve this issue, it would increase the cost, affect the maintainbility of the architecture (a server has to be provisioned and maintained), and would require rework of many parts of our system which is outside the scope of this study. 
+
+by utilizing a cloud stress testing agent (StresStimulus).The agent allowed us to simply execute an on-demandstress on the system. It became clear to us that Lambdastime to boot up (cold start) can affect our system’sresponse time. We have captured an average of 250msup to 500ms cold start time for each Lambda to spinup and handle the request. Whereas replacing Lambdaswith an EC2 or a Fargate on AWS could solve theissue, we did not find that necessary, as even with thecold start time, the system still could account for theresponse time required. Furthermore, we have realizedthat one solution to Lambda cold start problems could bepredictable start-up times with provisioned concurrency.However this is outside the scope of this study. Wehave also measured throughput between services. Weencapsulated our service meshes in private networks, thusthe communication were fast and our response time wereunder 1200ms. 
+
+(PDF) NeoMycelia: A software reference architecturefor big data systems. Available from: https://www.researchgate.net/publication/358678843_NeoMycelia_A_software_reference_architecturefor_big_data_systems [accessed Mar 30 2022].
 
 \bibliography{mybibfile}
 
