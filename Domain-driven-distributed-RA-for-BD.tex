@@ -706,7 +706,39 @@ That is the system is sensitive to latency (l), side effects (s) and concurrency
 
 \subsubsection{Availablity:}
 
-As guided by the utlity tree, the key stimulus to model for the prototype is the failure of the ingress (load balancer) and the data processing cluster. The prototype 
+As guided by the utlity tree, the key stimulus to model for the prototype is the failure of the ingress (load balancer)  the data processing cluster and most importantly the event backbone. Due to the distributed nature of Cybermycelium, and the derived prototype, failure in one service, if not handled properly, can have a ripple effect on the system. This is one area, where we found the idea of 'event brokers' really helpful. By implementing circuit breakers in event brokers, we prevented the other nodes of the system to be affected by failure of one. We also archived the events that the node was about to receive before it failed. 
+
+Whereas the event archive has played an ancillary role in providing archive to various circuit breakers, it's main functionality was to provide event history to the event backbone in the case of failure. This is again achieved by circuit breaking at the broker level and event retrieval from the event archive. On the other hand, in relation to container orchestration and health check, Kubernetes provided with a declarative API to handle the state of the system. With setting Replica sets, and necessary deployments, the master node kept ensuring that certain number of pods are always available. This implies that it's critical for master node to be available at all times.
+
+Based on these findings, we characterized system's availability as following (g is fraction of time that system is working);
+
+\begin{equation}
+    Q\textsubscript{A} = g(\lambda\textsubscript{E} , \mu\textsubscript{C}, \mu\textsubscript{S})
+\end{equation}
+
+That is, system availablity is primarily affected by the failure rate of the event backbone ($\lambda \textsubscript{E}$), the time it takes for circuit breaker to trip and become available again ($\mu\textsubscript{C}$), and the time it takes for the service to recover from failure ($\mu\textsubscript{S}$).
+
+One major factor that really helped alleviating many issues of the distributed systems, was the cloud-native aspect of Cybermycelium. Whereas this aspect of the architect has not beed discussed previously, the prototype was easily deployed in AWS with well-known devices. As we did not handle on-premise data centers, many of the hardware was handled by the cloud company. 
+
+\subsubsection{Modifiability:}
+
+To analyze modifiability, we followed the guidelines of SAAM \cite{kazman1994saam}. The distributed and service driven nature of the prototype allowed us to easily achieve the utility tree and even further. All of our cloud based infrastructure has been written as Terraform code with HCL, which meant adding a new node in the system, was as easy as copying the worker groups block in the EKS configuration, and setting the hardware properties of it. We could then easily deploy different services and deployments and have them run our public docker images. Brokers were also streamlined, and we could spin up a new broker within minutes. One area that we found a bit challenging to modify was perhaps the Databricks cluster, and the EKS ALB ingress (Nginx).
+
+Certification management was also easily handled through Istio, local CertManager and Let's encrypt. One area that could be taking a bit longer was the inclusion of private docker image secrets as a Kubernetes secret, and having it refreshed every 12 hours. To the best of our knowledge, cron jobs were the only way to achieve this. 
+
+On the other hand, bringin up a scalable Kafka cluster was not that difficult, but there were so many configurations that one can choose to turn on or amend. This can potentially affect modifiability in the long run, when the company might have varying and sometimes conflicting requirements. 
+
+Modifiability is also affected by the skillset of the engineers and how familiar they are with Kubernetes, Databricks and Istio.
+
+Taking all these into consideration, we characterize system's modifiability as follows (s is the skill set required);
+
+\begin{equation}
+    Q\textsubscript{M} = S(K, D, K)
+\end{equation}
+
+That is, the system modifiability is affected the Kubernetes maintenances (K), Databricks maintenances, versioning and configuration (D), and Kafka versioning, maintenance and configuration.
+
+\subsection{Tradeoff Points:}
 
 \bibliography{mybibfile}
 
