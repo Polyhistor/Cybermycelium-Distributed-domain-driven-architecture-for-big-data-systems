@@ -747,11 +747,23 @@ That is, the system modifiability is affected the Kubernetes maintenances (K), D
 As a result of these analyses, we identifed two tradeoff points; 
 
 \begin{enumerate}
-    \item Event backbon failure
+    \item Event backbon and event brokers
     \item Service mesh 
 \end{enumerate}
 
-One areas that arose many worries is the event backbone. Event backbone being the communication facilitator has raised a lot of questions and many worried that this might turn into a bloated architectural component like enterprise service bus (ESB) in the service oriented architectures (SOAs). However this 
+One area that arose many worries is the event backbone. Event backbone being the communication facilitator has raised a lot of questions and many worried that this might turn into a bloated architectural component like enterprise service bus (ESB) in the service oriented architectures (SOAs). We addressed many of these questions and issues both in a dicussion and the prototype. Implementing event archive meant that if the event backbone went down, we could restore the previous state of affairs and bring services to the correct state. The implementation of circuit breakers through the event brokers further solidifed the avaiability quality attribute of the architecture and can deem to affect reliability too. Along the lines, event brokers helped us address some of the modifiability challenges. Having these event brokers setup meant that different environments do not implement their own event processing mechanism, and the interface is unified across. This clear interface contributed positively to the overall modifiability of the system and allowed engineers to simply copy the broker for their services. In addition, brokers also improved interoperability, and hard to trace bugs duge to event processor missmatch.
+
+Given all, we do not prescribe architects to implement an event backbone or the broker in any given scenario. Cybermycelium does not tend to dictate what has to be done, or kill the creativity of the archites, but rather aims to shed ligts on a novel perspective to designing big data systems. Therefore, the event backbone and event brokers intoruce tradeoff between performance, availability and reliability. Whereas eliminating the event backbone may increase avaiability longitudinaly, and increase modifiability cross-sectionally, it may affect the performance quality attribute in a negative way. This is due to the fact that the event backbone is distributed in nature, can scale well to account for demans, can cache and remember communication paths, and merge event streams, provide with windowing techniques, and be configured to facilitate certain access patterns that are common to the system. 
+
+Anothe area where stakeholders were challenged was the idea of service mesh. Whereas this makes a lot of sense to developers who had to figure out a twisted platform work, the benefit perhaps was not that evident to everyone from the beginning. This is another area of tradeoff. While having the service mesh affects the modifiability of the system in a negative way from platform point of view, it does increase it from the data engineer, software engineer point of view. The service mesh may also affect performance slightly, but the effect is negligible. Service mesh also affects avaiability quality attribute positively by streamlining the platform interfaces, providing an orchestrator (control tower), and doing health checks through proxies. 
+
+\section{Limitation and future research}
+
+
+
+\section{conclusion}
+
+Data engineering is a complicated endevaour, and while there are many good practices of distribution in software engineering, the big data system do not seem to benefit from all these ideas. This has made big data system development a daunting task, and many companeis have failed to bring to light the potential of a data-driven decision making. Therefore, there is more and more research required in the areas of data architecture, and the ways in which the data flows between various components. We think 
 
 \bibliography{mybibfile}
 
