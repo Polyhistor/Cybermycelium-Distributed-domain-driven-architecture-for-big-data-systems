@@ -16,15 +16,16 @@
 \BOOKMARK [2][-]{subsection.5.2}{Data as a service:}{section.5}% 16
 \BOOKMARK [2][-]{subsection.5.3}{Data infrastructure automation}{section.5}% 17
 \BOOKMARK [2][-]{subsection.5.4}{Governance through a federation service}{section.5}% 18
-\BOOKMARK [2][-]{subsection.5.5}{The Artefact:}{section.5}% 19
-\BOOKMARK [1][-]{section.6}{Evaluation:}{}% 20
-\BOOKMARK [2][-]{subsection.6.1}{Phase 1:}{section.6}% 21
-\BOOKMARK [2][-]{subsection.6.2}{Phase 2:}{section.6}% 22
-\BOOKMARK [3][-]{subsubsection.6.2.1}{Identifying Architectural Approaches:}{subsection.6.2}% 23
-\BOOKMARK [3][-]{subsubsection.6.2.2}{Scenario Prioritisation:}{subsection.6.2}% 24
-\BOOKMARK [2][-]{subsection.6.3}{Utility Tree Elicitation:}{section.6}% 25
-\BOOKMARK [3][-]{subsubsection.6.3.1}{Analyze Architectural Approaches:}{subsection.6.3}% 26
-\BOOKMARK [3][-]{subsubsection.6.3.2}{Performance:}{subsection.6.3}% 27
-\BOOKMARK [3][-]{subsubsection.6.3.3}{Availablity:}{subsection.6.3}% 28
-\BOOKMARK [3][-]{subsubsection.6.3.4}{Modifiability:}{subsection.6.3}% 29
-\BOOKMARK [2][-]{subsection.6.4}{Tradeoff Points:}{section.6}% 30
+\BOOKMARK [2][-]{subsection.5.5}{Event driven services}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.6}{The Artefact:}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{Evaluation:}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Phase 1:}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Phase 2:}{section.6}% 23
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Identifying Architectural Approaches:}{subsection.6.2}% 24
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Scenario Prioritisation:}{subsection.6.2}% 25
+\BOOKMARK [2][-]{subsection.6.3}{Utility Tree Elicitation:}{section.6}% 26
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Analyze Architectural Approaches:}{subsection.6.3}% 27
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Performance:}{subsection.6.3}% 28
+\BOOKMARK [3][-]{subsubsection.6.3.3}{Availablity:}{subsection.6.3}% 29
+\BOOKMARK [3][-]{subsubsection.6.3.4}{Modifiability:}{subsection.6.3}% 30
+\BOOKMARK [2][-]{subsection.6.4}{Tradeoff Points:}{section.6}% 31

@@ -497,6 +497,7 @@ Based on these premises we posit 4 underpinning principles for Cybermycelium;
     \item Data as a service
     \item Data infrastructure automation
     \item Governance through a federation service 
+    \item Event driven services
 
 \end{enumerate}
 
@@ -538,6 +539,9 @@ In order to scale and maintain these independency deployed yet interconnected se
 
 The definition of these standards is up to the architecture, or architectural governance group, and is usually achieved through service level objectives (SLOs) or well-defined contracts and standards.
 
+\subsection{Event driven services}
+
+to be written
 
 \subsection{The Artefact:}
 
@@ -739,6 +743,15 @@ Taking all these into consideration, we characterize system's modifiability as f
 That is, the system modifiability is affected the Kubernetes maintenances (K), Databricks maintenances, versioning and configuration (D), and Kafka versioning, maintenance and configuration.
 
 \subsection{Tradeoff Points:}
+
+As a result of these analyses, we identifed two tradeoff points; 
+
+\begin{enumerate}
+    \item Event backbon failure
+    \item Service mesh 
+\end{enumerate}
+
+One areas that arose many worries is the event backbone. Event backbone being the communication facilitator has raised a lot of questions and many worried that this might turn into a bloated architectural component like enterprise service bus (ESB) in the service oriented architectures (SOAs). However this 
 
 \bibliography{mybibfile}
 
