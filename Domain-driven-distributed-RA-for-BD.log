@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  1 APR 2022 09:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  1 APR 2022 11:14
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Domain-driven-distributed-RA-for-BD.tex"
@@ -288,11 +288,7 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 [1
 
 
-{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6] [7] [8]
-
-Package natbib Warning: Citation `angelov' on page 9 undefined on input line 165.
-
-[9]
+{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6] [7] [8] [9]
 Overfull \hbox (3.63934pt too wide) in paragraph at lines 200--201
 []\OT1/cmr/m/n/10 RAs de-vel-oped from scratch tend to cre-ate more pre-scrip-tive the-o-ries, whereas
  []
@@ -303,7 +299,7 @@ Overfull \hbox (2.16508pt too wide) in paragraph at lines 218--219
  []
 
 [12]
-<PRISMA.JPG, id=374, 1031.35312pt x 610.53094pt>
+<PRISMA.JPG, id=376, 1031.35312pt x 610.53094pt>
 File: PRISMA.JPG Graphic file (type jpg)
 <use PRISMA.JPG>
 Package pdftex.def Info: PRISMA.JPG  used on input line 258.
@@ -313,16 +309,12 @@ Package pdftex.def Info: PRISMA.JPG  used on input line 258.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13]
-<databases-statitistic.jpg, id=393, 1003.75pt x 668.4975pt>
+<databases-statitistic.jpg, id=394, 1003.75pt x 668.4975pt>
 File: databases-statitistic.jpg Graphic file (type jpg)
 <use databases-statitistic.jpg>
 Package pdftex.def Info: databases-statitistic.jpg  used on input line 268.
 (pdftex.def)             Requested size: 312.9803pt x 208.44592pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
+ [14 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/PRISMA.JPG> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/databases-statitistic.jpg>]
 Overfull \hbox (2.964pt too wide) in paragraph at lines 280--280
 []|\OT1/cmr/m/n/10 Author| 
  []
@@ -371,24 +363,28 @@ Underfull \hbox (badness 1383) in paragraph at lines 332--332
 \OT1/cmr/m/n/10 Stan-dards for the In-ter-net of
  []
 
-[14 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/PRISMA.JPG>] [15] [16] [17] [18 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/databases-statitistic.jpg>] [19]
-<variability-model.JPG, id=512, 1282.7925pt x 607.26875pt>
+[15] [16] [17] [18] [19]
+<variability-model.JPG, id=513, 1282.7925pt x 607.26875pt>
 File: variability-model.JPG Graphic file (type jpg)
 <use variability-model.JPG>
 Package pdftex.def Info: variability-model.JPG  used on input line 387.
 (pdftex.def)             Requested size: 312.9803pt x 148.15668pt.
- [20 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/variability-model.JPG>] [21] [22] [23] [24] [25]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20] [21 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/variability-model.JPG>] [22] [23] [24] [25] [26]
 Overfull \hbox (0.74132pt too wide) in paragraph at lines 454--455
 \OT1/cmr/m/n/10 makes scal-ing these sys-tems very dif-fi-cult. The pro-lif-er-a-tion of data sources
  []
 
-[26] [27] [28] [29]
+[27] [28] [29]
 Overfull \hbox (8.94502pt too wide) in paragraph at lines 484--485
 []\OT1/cmr/m/n/10 Based on these premises we posit 4 un-der-pin-ning prin-ci-ples for Cy-bermycelium; 
  []
 
 [30]
-<Media/product-facets.jpg, id=650, 702.625pt x 661.47125pt>
+<Media/product-facets.jpg, id=651, 702.625pt x 661.47125pt>
 File: Media/product-facets.jpg Graphic file (type jpg)
 <use Media/product-facets.jpg>
 Package pdftex.def Info: Media/product-facets.jpg  used on input line 507.
@@ -397,49 +393,49 @@ Package pdftex.def Info: Media/product-facets.jpg  used on input line 507.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31] [32 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Media/product-facets.jpg>] [33] [34]
-<Media/Cybermycelium.jpg, id=683, 1528.71124pt x 744.7825pt>
+[31] [32 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Media/product-facets.jpg>] [33] [34] [35]
+<Media/Cybermycelium.jpg, id=688, 1528.71124pt x 744.7825pt>
 File: Media/Cybermycelium.jpg Graphic file (type jpg)
 <use Media/Cybermycelium.jpg>
 Package pdftex.def Info: Media/Cybermycelium.jpg  used on input line 553.
 (pdftex.def)             Requested size: 341.43306pt x 166.34146pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Overfull \hbox (3.75063pt too wide) in paragraph at lines 558--559
 []\OT1/cmr/m/n/10 For the pur-poses of ef-fec-tive mod-el-ing and ab-strac-tion, we've sub-diagrammed
  []
 
-[35]
-<Media/Product Domain.jpg, id=689, 819.06pt x 529.98pt>
+<Media/Product Domain.jpg, id=690, 819.06pt x 529.98pt>
 File: Media/Product Domain.jpg Graphic file (type jpg)
 <use Media/Product Domain.jpg>
 Package pdftex.def Info: Media/Product Domain.jpg  used on input line 562.
 (pdftex.def)             Requested size: 341.43306pt x 220.93227pt.
- [36 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Media/Cybermycelium.jpg> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Media/Product Domain.jpg>] [37] [38] [39] [40] [41] [42] [43] [44] [45]
-<Media/concrete-mycelium.jpg, id=761, 1564.84625pt x 785.93625pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Media/Cybermycelium.jpg>] [37 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Media/Product Domain.jpg>] [38] [39] [40] [41] [42] [43] [44] [45]
+<Media/concrete-mycelium.jpg, id=762, 1564.84625pt x 785.93625pt>
 File: Media/concrete-mycelium.jpg Graphic file (type jpg)
 <use Media/concrete-mycelium.jpg>
 Package pdftex.def Info: Media/concrete-mycelium.jpg  used on input line 623.
 (pdftex.def)             Requested size: 284.52756pt x 142.9015pt.
- [46 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Media/concrete-mycelium.jpg>]
+ [46 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Media/concrete-mycelium.jpg>] [47]
 
-Package natbib Warning: Citation `ATAM' on page 47 undefined on input line 646.
+Package natbib Warning: Citation `ATAM' on page 48 undefined on input line 646.
 
-[47]
-<Media/Utility-tree.jpg, id=772, 863.225pt x 572.1375pt>
+<Media/Utility-tree.jpg, id=773, 863.225pt x 572.1375pt>
 File: Media/Utility-tree.jpg Graphic file (type jpg)
 <use Media/Utility-tree.jpg>
 Package pdftex.def Info: Media/Utility-tree.jpg  used on input line 658.
 (pdftex.def)             Requested size: 284.52756pt x 188.57896pt.
- [48 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Media/Utility-tree.jpg>] [49] [50] [51] [52] [53] [54] [55] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.bbl"
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[48] [49 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software/Media/Utility-tree.jpg>] [50] [51] [52] [53] [54] [55] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.bbl" [56]
 Underfull \hbox (badness 5288) in paragraph at lines 17--25
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / doi . ieeecomputersociety . org / 10 . 1109 / APSEC53868 .
  []
 
-[56]
+
 Underfull \hbox (badness 10000) in paragraph at lines 45--49
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / databricks . com / p / whitepaper /
  []
@@ -454,12 +450,12 @@ Underfull \hbox (badness 4120) in paragraph at lines 187--192
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / openauthentication . org / wp-[]content / uploads / 2015 /
  []
 
-
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 198--202
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . oreilly . com / radar /
  []
 
-[60]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 247--249
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . thoughtworks . com / about-[]us / events /
  []
@@ -469,7 +465,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--259
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . confluent . io / events /
  []
 
-[61]
+
 Underfull \hbox (badness 10000) in paragraph at lines 289--292
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . qsrinternational . com /
  []
@@ -489,7 +485,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 559--563
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . thoughtworks . com / insights / articles /
  []
 
-
+[68]
 Overfull \hbox (152.63399pt too wide) in paragraph at lines 572--577
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . amazon . com / Building-[]Event-[]Driven-[]Microservices-[]Leveraging-[]Organizational /
  []
@@ -504,7 +500,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 572--577
 \OT1/cmtt/m/n/10 driven + microservices & qid = 1647139910 & sprefix = event + driven +
  []
 
-[68]
+
 Underfull \hbox (badness 3128) in paragraph at lines 587--591
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / martinfowler . com / articles / data-[]mesh-[]principles .
  []
@@ -540,15 +536,15 @@ Package rerunfilecheck Info: File `Domain-driven-distributed-RA-for-BD.out' has 
 Here is how much of TeX's memory you used:
  7710 strings out of 480795
  123733 string characters out of 2913777
- 410982 words of memory out of 3000000
+ 408982 words of memory out of 3000000
  23258 multiletter control sequences out of 15000+200000
  536617 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,36p,1788b,931s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,36p,1793b,913s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.pdf" (70 pages, 1140782 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software\Domain-driven-distributed-RA-for-BD.pdf" (70 pages, 1141540 bytes).
 PDF statistics:
- 1108 PDF objects out of 1200 (max. 8388607)
+ 1109 PDF objects out of 1200 (max. 8388607)
  343 named destinations out of 1000 (max. 500000)
  305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
