@@ -58,7 +58,7 @@ The ubiquity of digital devices, the infrastructure of today, and the ever incre
 \begin{keyword}
 \texttt{ Reference architecture\sep Architecture\sep Big data
 reference architecture\sep Big data architecture\sep Big data systems\sep
-Big data software engineering\sep Event driven\sep Microservices}
+Big data software engineering\sep}
 \end{keyword}
 
 \end{frontmatter}
@@ -763,6 +763,37 @@ Cybermycelium is a new perspective to BD system development and tends to absorb 
 Taking all into consideration, we posit that distributed BD systems are still at infancy stage, and there's much work required to facilitate this area of research. These research could be in the areas of BD distributed patterns, event driven BD systems, data mesh, BD reference architecturse, and methods for creating BD distributed architectures.
 
 Moreover, the security, privacy and metadata aspect of BD neeeds substantial work at macro and micro level. We need more mature technologies and better architectures that compose these technologies in a solution. This is one major area we have on our roadmap.
+
+
+\section{Comments to address}
+
+
+\begin{enumerate}
+    \item The Introduction discusses the importance of data but the motivation for this work is not clear. References 1 and 3 point to your prior work - a brief summary of those findings might provide better motivation for this work. Furthermore, reference 3 presents an earlier big data reference architecture that you designed, and the Introduction here should distinguish this contribution from the earlier work.
+    \item In §2, the first assumption---"having a sound software architecture is essential to the successful development and maintenance of software systems"---is unsupported and depends on the definition of "success". It isn't clear that this assumption is essential to the paper, and if you choose to retain it, perhaps a weaker assumption than "essential" would suffice.
+    \item I found the reasoning in §3.1 to be circular. It seemed that you chose to design a particular type of RA, and this section is a long discussion of how to label the resulting artefact.
+    \item 3.3.1 includes discussion of a SLR. You chose to follow the PRIMSA guidelines. Most SLRs in software engineering follow the guidelines of Kitchenham and Charters. It appears that the PRISMA guidelines are similar to K\&C, but a couple of sentences about why you chose this approach would be helpful.
+    \item This is a long paper, and could benefit from more extensive signposting to help the reader navigate the material. For example, §3 covers a number of topics, and an up-front roadmap would make this easier to understand.
+    \item Regardless of approach, the SLR seems to be somewhat unsystematic: For example, the inclusion criterion "studies that had strong evaluations, preferably those that created the artefact in an actual organizational setup" is highly subjective. Similarly subjective is the exclusion criterion "provides a poor quality or misleading technical information"
+    \item Consider moving Table 1 to an appendix - it disrupts the flow of an already long paper and is not essential to the discussion.
+    \item I got lost in §4. First, it wasn't clear that the RA you developed is named "Cybermycelium". Second, this section is more about prior work, and says nothing about the actual design of the RA.
+    \item presents a "domain driven" design. I expected to see an enumeration of domains (bounded contexts, each with a ubiquitous language). It wasn't clear if the facets in Figure 4 correspond to DDD domains.
+    \item I found it hard to understand Figure 5 - most of the elements are Archimate Nodes, however they seemed to be different things: Regulations, Services, Catalogs.
+    \item The explanation of the ATAM in §6 is not correct. Phase 1 and Phase 2 are iterations, using different stakeholders and techniques to elicit scenarios, but performing the same analysis. You might have picked up this misinterpretation from Ford and Richards, which indicates that maybe you are referencing work (i.e., Ref. 32) that you did not actually read.
+    \item The discussion in §6.4 about the Event Backbone was very confusing. This element sits in the middle of the architecture view shown in Figure 5, and the discussion about it not being required in an instantiation of Cybermycelium did not make sense.
+    \item I expected to see some comparison of Cybermycelium to other big data RAs. §7 would have been a good place for this.
+    \item The authors state that companies need a new big data strategy and a reference architecture in order to address some challenges and increase the success rate. Nevertheless, throughout the paper, it is no clear what are the current challenges that should be met, what are the business goals that should be addressed, etc. IMHO, this information is key to create the rationale behind the defined reference architecture.
+    \item The proposed distributed reference architecture is based on a systematic literature review done by the authors. This analysis is very important. Nevertheless, IMHO the authors should also identify what requirements currently can not be met, what requirements lead to the proposed design, etc. i.e, I think that the authors should include more information about the rationale behind the defined reference architecture.
+    \item   The authors claim that usually ad-hoc architectures and big data systems could have important problems, or can be to complex for the chief data officers. The reference architecture can help in this sense. In addition, the authors add some variability for adapting the system to each particular company. Nevertheless, some guidelines about each module and, especially, when each variable module should be applied would be very helpful for the companies.
+    \item -       The section 2 and 3 can be reduced. Currently, there are a lot of information that is not important for the reference architecture. I would advise the authors to reduce these sections in order to improve the readability.
+    \item        In order to improve the readability, I advise the authors to move the Table 1 to an annex.
+    \item   Most of the figures are difficult to read. I would advise the authors to make them bigger.
+    \item  The authors validate the proposed reference architecture by creating a prototype and using ATAM to evaluate them. It would be interesting to know how the prototype has been designed, how the RA helped in the definition of the prototype, etc.
+    \item   I addition, in the validation, the authors prose different metrics for the performance, availability, and modifiability, but the results for the implemented prototype are not provided.
+
+\end{enumerate}
+
+
 
 \section{Conclusion}
 
