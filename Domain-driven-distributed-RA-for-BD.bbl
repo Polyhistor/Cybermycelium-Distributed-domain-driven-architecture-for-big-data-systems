@@ -72,6 +72,39 @@ S.~Nadal, V.~Herrero, O.~Romero, A.~Abelló, X.~Franch, S.~Vansummeren,
   D.~Valerio, A software reference architecture for semantic-aware big data
   systems, Information and software technology 90 (2017) 75--92.
 
+\bibitem{leonard2011design}
+E.~M. Leonard, Design and implementation of an enterprise data warehouse,
+  Marquette University, 2011.
+
+\bibitem{brackenbury2018draining}
+W.~Brackenbury, R.~Liu, M.~Mondal, A.~J. Elmore, B.~Ur, K.~Chard, M.~J.
+  Franklin, Draining the data swamp: A similarity-based approach, in:
+  Proceedings of the workshop on human-in-the-loop data analytics, 2018, pp.
+  1--7.
+
+\bibitem{lin2017lambda}
+J.~Lin, The lambda and the kappa, IEEE Internet Computing 21~(05) (2017)
+  60--66.
+
+\bibitem{ApachBeam}
+\href{https://beam.apache.org/}{Apache beam}.
+\newline\urlprefix\url{https://beam.apache.org/}
+
+\bibitem{DataBricks}
+\href{https://databricks.com/}{Databricks}.
+\newline\urlprefix\url{https://databricks.com/}
+
+\bibitem{monolithToMesh}
+Z.~Dehghani,
+  \href{https://martinfowler.com/articles/data-monolith-to-mesh.html}{How to
+  move beyond a monolithic data lake to a distributed data mesh} (2019).
+\newline\urlprefix\url{https://martinfowler.com/articles/data-monolith-to-mesh.html}
+
+\bibitem{alshuqayran2016systematic}
+N.~Alshuqayran, N.~Ali, R.~Evans, A systematic mapping study in microservice
+  architecture, in: 2016 IEEE 9th International Conference on Service-Oriented
+  Computing and Applications (SOCA), IEEE, 2016, pp. 44--51.
+
 \bibitem{SoftwareArchitectureKazman}
 R.~K. Len~Bass, Dr. Paul~Clements, Software Architecture in Practice (SEI
   Series in Software Engineering) 4th Edition, Addison-Wesley Professional; 4th
@@ -90,6 +123,11 @@ J.~Kohler, T.~Specht, Towards a secure, distributed, and reliable cloud-based
 M.~Derras, L.~Deruelle, J.-M. Douin, N.~Levy, F.~Losavio, Y.~Pollet, V.~Reiner,
   Reference architecture design: A practical approach, in: ICSOFT, pp.
   633--640.
+
+\bibitem{nadal2017software}
+S.~Nadal, V.~Herrero, O.~Romero, A.~Abell{\'o}, X.~Franch, S.~Vansummeren,
+  D.~Valerio, A software reference architecture for semantic-aware big data
+  systems, Information and software technology 90 (2017) 75--92.
 
 \bibitem{bayer2004definition}
 J.~Bayer, T.~Forster, D.~Ganesan, J.-F. Girard, I.~John, J.~Knodel, R.~Kolb,
@@ -362,11 +400,6 @@ L.~Heilig, S.~Vo{\ss}, Managing cloud-based big data platforms: a reference
   architecture and cost perspective, in: Big data management, Springer, 2017,
   pp. 29--45.
 
-\bibitem{nadal2017software}
-S.~Nadal, V.~Herrero, O.~Romero, A.~Abell{\'o}, X.~Franch, S.~Vansummeren,
-  D.~Valerio, A software reference architecture for semantic-aware big data
-  systems, Information and software technology 90 (2017) 75--92.
-
 \bibitem{ISO42010}
 I.~International Organization~for Standardization~(ISO/IEC),
   \href{https://www.iso.org/standard/50508.html}{Iso/iec/ieee 42010:2011}
@@ -517,39 +550,6 @@ A.~J. Rohling, V.~V.~G. Neto, M.~G.~V. Ferreira, W.~A. Dos~Santos, E.~Y.
 E.~Y. Nakagawa, R.~M. Martins, K.~R. Felizardo, J.~C. Maldonado, Towards a
   process to design aspect-oriented reference architectures, in: XXXV Latin
   American Informatics Conference (CLEI) 2009, 2009.
-
-\bibitem{leonard2011design}
-E.~M. Leonard, Design and implementation of an enterprise data warehouse,
-  Marquette University, 2011.
-
-\bibitem{brackenbury2018draining}
-W.~Brackenbury, R.~Liu, M.~Mondal, A.~J. Elmore, B.~Ur, K.~Chard, M.~J.
-  Franklin, Draining the data swamp: A similarity-based approach, in:
-  Proceedings of the workshop on human-in-the-loop data analytics, 2018, pp.
-  1--7.
-
-\bibitem{lin2017lambda}
-J.~Lin, The lambda and the kappa, IEEE Internet Computing 21~(05) (2017)
-  60--66.
-
-\bibitem{ApachBeam}
-\href{https://beam.apache.org/}{Apache beam}.
-\newline\urlprefix\url{https://beam.apache.org/}
-
-\bibitem{DataBricks}
-\href{https://databricks.com/}{Databricks}.
-\newline\urlprefix\url{https://databricks.com/}
-
-\bibitem{monolithToMesh}
-Z.~Dehghani,
-  \href{https://martinfowler.com/articles/data-monolith-to-mesh.html}{How to
-  move beyond a monolithic data lake to a distributed data mesh} (2019).
-\newline\urlprefix\url{https://martinfowler.com/articles/data-monolith-to-mesh.html}
-
-\bibitem{alshuqayran2016systematic}
-N.~Alshuqayran, N.~Ali, R.~Evans, A systematic mapping study in microservice
-  architecture, in: 2016 IEEE 9th International Conference on Service-Oriented
-  Computing and Applications (SOCA), IEEE, 2016, pp. 44--51.
 
 \bibitem{hypothesisDev}
 B.~O'Reilly,
