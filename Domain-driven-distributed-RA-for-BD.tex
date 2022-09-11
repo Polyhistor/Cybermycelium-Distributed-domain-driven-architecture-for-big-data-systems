@@ -104,7 +104,7 @@ The contents of this paper is presented in the following order: 1) in \emph{back
 
 \section{Background}
 
-In this section, we provide a brief discussion on what is known about BD architectures, articulate the research gap and problems that need addressing, and present with the aim and objective of this research.. 
+In this section, we provide a brief discussion on what is known about BD architectures, articulate the research gap and problems that need addressing, and present with the objective of this research. 
 
 \subsection{Big Data Architectures: State of the art} \label{State of the art}
 
@@ -163,8 +163,7 @@ Based on the premises discussed and taking all into consideration, RAs can facil
 
 \section{Research Methodology}
 
-Our research methodology is made up of two major elements. First, we explore the body of knowledge BD RAs to understand the requirements of this class of systems, and secondly we discuss our chosen method for developing the artifact. 
-
+Our research methodology is made up of two major phases. First we explore the body of knowledge in academia and industry to identify architecturally significant requirements (ASR) for BD systems, and secondly we discuss the chosen methodology for developing the artifact
 
 
 \subsection{Requirement Specification}
@@ -172,7 +171,6 @@ Our research methodology is made up of two major elements. First, we explore the
 Architecture aims to produces systems that are addressing specific requirements, and one cannot succeed in designing a successful architecture if requirements are unknown \cite{SoftwareArchitectureKazman}. Therefore, in this section, we strive to firmly define the requirements necessary for the development of Cybermycelium. We present with four integral pieces of information: 
 
 \begin{enumerate}
-    \item Expanding on theories explained in \ref{State of the art}, and elucidating on the rationale for creating Cybermycelium
     \item Determining the type of the requirement 
     \item Identifying the right approach to categorization of the requirements 
     \item Identifying a rigorous approach for presentation of the requirements 
@@ -180,33 +178,34 @@ Architecture aims to produces systems that are addressing specific requirements,
 
 For maximum clarity, we've mapped the following sub-sections against the above mentioned elements. 
 
-\subsection{Rationale for creating Cybermycelium}
+% \subsection{Rationale for creating Cybermycelium}
 
-The underpinning of our rationale was the challenges that engulfed the current BD architectures discussed in \ref{State of the art}. In this section, we expand on those issues and explain how our artifact would vary and what challenges it will address. The main goal of Cybermycelium is to introduce a new paradigm that shifts away from monolithic centralized data architectures, into a distributed mesh of data products that communicate through coherent interfaces. This implies change in various aspects. In Cybermycelium, centralized ownership of data by hyper-specialized individuals is broken down to decentralized domains where data is actually produced or used. Cybermycelium shifts away from storing data in monolithic data warehouses and data lakes to distributed data sets that can be connected through standardized interfaces. Cybermycelium aims to shift from centralized top-down data governance, to computer-aided federated construct with policies computationally stored. In Cybermycelium, data is more treated as product rather than an asset to be collected; that is, the provider of the data should be accountable for the quality of data.
+% The underpinning of our rationale was the challenges that engulfed the current BD architectures discussed in \ref{State of the art}. In this section, we expand on those issues and explain how our artifact would vary and what challenges it will address. The main goal of Cybermycelium is to introduce a new paradigm that shifts away from monolithic centralized data architectures, into a distributed mesh of data products that communicate through coherent interfaces. This implies change in various aspects. In Cybermycelium, centralized ownership of data by hyper-specialized individuals is broken down to decentralized domains where data is actually produced or used. Cybermycelium shifts away from storing data in monolithic data warehouses and data lakes to distributed data sets that can be connected through standardized interfaces. Cybermycelium aims to shift from centralized top-down data governance, to computer-aided federated construct with policies computationally stored. In Cybermycelium, data is more treated as product rather than an asset to be collected; that is, the provider of the data should be accountable for the quality of data.
 
 \subsubsection{Type of requirements}
-System and software requirements come in different flavours and can range from a formal (mathematical) specifications to sketch on a napkin. There's been various attempts to defining and classifying software and system requirements. For the purposes of this study, we opted for a well-received approach discussed by Laplante \cite{laplante2017requirements}. In this approach, requirements are classified into three major types of 1) functional requirements, 2) non-functional requirements, and 3) domain requirements. 
 
-Our objective is to define the high-level requirements of BD systems, thus we do not fully explore 'non-functional' requirements. Majority of non-functional requirements are emerged from the particularities of an environment, such as a banking sector or healthcare, and do not correlate to our study. Our primary focus is one functional and domain requirements. 
+Precursor to theorizing about the potential of Cybermycelium, we needed to define what are the requirements. System and software requirements come in different flavours and can range from a sketch on a napkin to formal (mathematical) specifications. Therefore, we first needed to identify what kind of requirements is the most suitable for the purposes of this study. To answer this question, we first explored the body of evidence to understand the current classification of software requirements. 
 
-\subsubsection{Categorizing requirements} After having filtered out the right type of requirement, we then sought for a rigorous and relevant method to categorize the requirements. For this purpose, we followed the well-established categorization method based on BD characteristics, that is the 5Vs. These 5Vs are velocity, veracity, volume, Variety and Value \cite{Bughin2016}, \cite{rad2017big}. Nadal et al. \cite{nadal2017software} have underpinned their reference architecture on these characteristics and requirements that goes with them. Moreover, NIST BD Public Working Group embarked on a large scale study to extract requirements from variety of application domains such as Healthcare, Life Sciences, Commercial, Energy, Government, and Defense. The result of this study was the formation of general requirements under seven categories. In another effort by Volk et al. (\cite{volk2020identifying}), nine use cases for BD projects are identified by collecting theories and use cases from the literature and categorizing them using a hierarchical clustering algorithm. , and the requirements categories presented in NIST BD Public Working Group \cite{Chang.2019}.
+There's been various attempts to defining and classifying software and system requirements. For instance, Sommerville \cite{sommerville2011software} classified requirements into three levels of abstraction that are namely 1) user requirements, 2) system requirements and 3) design specifications. The author then mapped these requirements against user acceptance testing, integration testing and unit testing.While this could satisfy the requirements of this study, we opted for a more general framework provided by Laplante \cite{laplante2017requirements}. In Laplante's approach, requirements are categorized into three categories of 1) functional requirements, 2) non-functional requirements, and 3) domain requirements. 
 
+Our objective is to define the high-level requirements of big data systems, thus we do not fully explore 'non-functional' requirements. Majority of non-functional requirements are emerged from the particularities of an environment, such as a banking sector or healthcare, and do not correlate to our study. Therefore, our primary focus is one functional and domain requirements and secondly on non-functional requirements.
 
+\subsubsection{Categorizing requirements} 
 
-% Bashari et al. (\cite{bashari2016security}) focused on the security and privacy requirements of BD systems, Yu et al. presented the modern components of BD systems (\cite{yu2019components}), Eridaputra et al. (\cite{eridaputra2014modeling}) created a generic model for BD requirements using goal oriented approaches, and Al-jaroodi et al. (\cite{al2016characteristics}) investigated general requirements to support BD software development. 
+After having filtered out the right type of requirement, we then sought for a rigorous and relevant method to categorize the requirements. For this purpose, we followed the well-established categorization method based on BD characteristics, that is the 5Vs. These 5Vs are velocity, veracity, volume, Variety and Value \cite{Bughin2016}, \cite{rad2017big}. Nadal et al. \cite{nadal2017software} have underpinned their reference architecture on these characteristics and requirements that goes with them. Moreover, NIST BD Public Working Group embarked on a large scale study to extract requirements from variety of application domains such as Healthcare, Life Sciences, Commercial, Energy, Government, and Defense. The result of this study was the formation of general requirements under seven categories. In another effort by Volk et al. (\cite{volk2020identifying}), nine use cases for BD projects are identified by collecting theories and use cases from the literature and categorizing them using a hierarchical clustering algorithm. Bashari et al. (\cite{bashari2016security}) focused on the security and privacy requirements of BD systems, Yu et al. presented the modern components of BD systems (\cite{yu2019components}), Eridaputra et al. (\cite{eridaputra2014modeling}) created a generic model for BD requirements using goal oriented approaches, and Al-jaroodi et al. (\cite{al2016characteristics}) investigated general requirements to support BD software development. 
 
-We've also studied other reference architectures developed for BD systems to understand general requirements. In one study, Ataei et al. \cite{ataei2020big} assessed the body of evidence and presented with a comprehensive list of BD reference architectures. This study helped us realize the spectrum of BD reference architectures, how they are designed and the general set of requirements. By analyzing these studies and by evaluating the design and requirement engineering required for BD reference architectures, we adjusted our initial categories of requirements and added security and privacy to it. 
+We've also studied other reference architectures developed for BD systems to understand general requirements. In one study, Ataei et al. \cite{ataei2020big} assessed the body of evidence and presented with a comprehensive list of BD reference architectures. This study helped us realize the spectrum of BD reference architectures, how they are designed and the general set of requirements. By analyzing these studies and by evaluating the design and requirement engineering required for BD reference architectures, we adjusted our initial categories of requirements and added security and privacy to it.
 
 \subsubsection{Present requirements}
-After knowing the type and category of requirements, We looked for a rigorous approach to present these requirements. There are numerous approaches used for software and system requirement representation including informal, semiformal and formal methods. For the purposes of this study, we opted for an informal method because it is a well established method in the industry and academia \cite{kassab2014state}. Our approach follows the guidelines explained in ISO/IEC/IEEE standard 29148 \cite{ISO29148} for representing functional requirements. We have also taken inspiration from Software Engineering Body of Knowledge \cite{abran2004software}. However, our requirement representation is organized in term of BD characteristics. These requirements are described in Table \ref{table-requirements}.
+After knowing the type and category of requirements, We looked for a rigorous approach to present these requirements. There are numerous approaches used for software and system requirement representation including informal, semiformal and formal methods. For the purposes of this study, we opted for an informal method because it is a well established method in the industry and academia \cite{kassab2014state}. Our approach follows the guidelines explained in ISO/IEC/IEEE standard 29148 \cite{ISO29148} for representing functional requirements. We have also taken inspiration from Software Engineering Body of Knowledge \cite{abran2004software}. However, our requirement representation is organized in term of BD characteristics. These requirements are presented in Table \ref{table-requirements}.
 
 
 
-\begin{table*}[h]
+\begin{table}
     \centering
     \caption{BD system requirements}
-    \renewcommand*{\arraystretch}{1.8}
-    \begin{tabular}{|m{1.2cm}|m{16cm}|}
+    \renewcommand*{\arraystretch}{1.4}
+    \begin{tabular}{|m{1.2cm}|m{10.5cm}|}
 
         \hline
 
@@ -243,15 +242,32 @@ After knowing the type and category of requirements, We looked for a rigorous ap
 
         \hline
         
-        Veracity &
+        % Veracity &
         
-        \textbf{Ver-1)} System needs to support data quality curation including classification, pre-processing, format, reduction, and  transformation, \textbf{Ver-2)} System needs to support data provenance including data life cycle management and long-term preservation.
-        \\
-        \hline
+        % \textbf{Ver-1)} System needs to support data quality curation including classification, pre-processing, format, reduction, and  transformation, \textbf{Ver-2)} System needs to support data provenance including data life cycle management and long-term preservation.
+        % \\
+        % \hline
   
     \end{tabular}
     \label{table-requirements}
-    \end{table*}
+\end{table}
+
+
+\begin{table}
+    \centering
+    \renewcommand*{\arraystretch}{1.4}
+    \begin{tabular}{|m{1.2cm}|m{10.5cm}|}
+        
+        \hline
+
+        Veracity &
+                
+        \textbf{Ver-1)} System needs to support data quality curation including classification, pre-processing, format, reduction, and  transformation, \textbf{Ver-2)} System needs to support data provenance including data life cycle management and long-term preservation.
+        \\
+        \hline
+
+\end{tabular}
+\end{table}
 
 
 \subsection{The artifact development methodology}
@@ -886,17 +902,12 @@ Moreover, the security, privacy and metadata aspect of BD neeeds substantial wor
 
 \begin{enumerate}
 
-    \item The authors state that companies need a new big data strategy and a reference architecture in order to address some challenges and increase the success rate. Nevertheless, throughout the paper, it is no clear what are the current challenges that should be met, what are the business goals that should be addressed, etc. IMHO, this information is key to create the rationale behind the defined reference architecture.
-    \item The proposed distributed reference architecture is based on a systematic literature review done by the authors. This analysis is very important. Nevertheless, IMHO the authors should also identify what requirements currently can not be met, what requirements lead to the proposed design, etc. i.e, I think that the authors should include more information about the rationale behind the defined reference architecture.
-
-
     \item 3.3.1 includes discussion of a SLR. You chose to follow the PRIMSA guidelines. Most SLRs in software engineering follow the guidelines of Kitchenham and Charters. It appears that the PRISMA guidelines are similar to K\&C, but a couple of sentences about why you chose this approach would be helpful.
     \item Regardless of approach, the SLR seems to be somewhat unsystematic: For example, the inclusion criterion "studies that had strong evaluations, preferably those that created the artefact in an actual organizational setup" is highly subjective. Similarly subjective is the exclusion criterion "provides a poor quality or misleading technical information"
 
 
-    \item This is a long paper, and could benefit from more extensive signposting to help the reader navigate the material. For example, §3 covers a number of topics, and an up-front roadmap would make this easier to understand.
-
     \item Consider moving Table 1 to an appendix - it disrupts the flow of an already long paper and is not essential to the discussion.
+ 
     \item I got lost in §4. First, it wasn't clear that the RA you developed is named "Cybermycelium". Second, this section is more about prior work, and says nothing about the actual design of the RA.
     \item presents a "domain driven" design. I expected to see an enumeration of domains (bounded contexts, each with a ubiquitous language). It wasn't clear if the facets in Figure 4 correspond to DDD domains.
     \item I found it hard to understand Figure 5 - most of the elements are Archimate Nodes, however they seemed to be different things: Regulations, Services, Catalogs.
