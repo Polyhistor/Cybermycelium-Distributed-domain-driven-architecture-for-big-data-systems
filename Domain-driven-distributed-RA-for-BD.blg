@@ -5,6 +5,8 @@ Reallocating 'name_of_file' (item size: 1) to 15 items.
 The style file: elsarticle-num.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: mybibfile.bib
+Warning--I didn't find a database entry for "CASP"
+Warning--I didn't find a database entry for "JBI"
 Warning--empty journal in AtaeiACIS
 Warning--empty journal in AtaeiHype
 Warning--empty author in ApachBeam
@@ -15,6 +17,7 @@ Warning--empty year in Derras
 Warning--empty journal in ataei2020big
 Warning--empty pages in nakagawa2009towards
 Warning--empty journal in angelov2014extending
+Warning--empty journal in krippendorff2011computing
 Warning--empty author in SAPRA
 Warning--empty journal in SAPRA
 Warning--empty institution in Chang
@@ -23,36 +26,36 @@ Warning--empty year in Cioroaica
 Warning--empty year in Williams
 Warning--empty year in KazmanATAM
 Warning--empty pages in Nakagawa
-You've used 144 entries,
+You've used 145 entries,
             2937 wiz_defined-function locations,
-            1412 strings with 30489 characters,
-and the built_in function-call counts, 41496 in all, are:
-= -- 3703
-> -- 1278
+            1419 strings with 30589 characters,
+and the built_in function-call counts, 41645 in all, are:
+= -- 3713
+> -- 1282
 < -- 43
-+ -- 522
-- -- 378
-* -- 2404
-:= -- 5260
-add.period$ -- 146
-call.type$ -- 144
-change.case$ -- 129
++ -- 524
+- -- 379
+* -- 2408
+:= -- 5281
+add.period$ -- 147
+call.type$ -- 145
+change.case$ -- 130
 chr.to.int$ -- 0
-cite$ -- 162
-duplicate$ -- 1536
-empty$ -- 5117
-format.name$ -- 464
-if$ -- 11210
+cite$ -- 164
+duplicate$ -- 1541
+empty$ -- 5136
+format.name$ -- 465
+if$ -- 11250
 int.to.chr$ -- 0
-int.to.str$ -- 144
-missing$ -- 136
-newline$ -- 471
-num.names$ -- 131
-pop$ -- 1223
+int.to.str$ -- 145
+missing$ -- 137
+newline$ -- 474
+num.names$ -- 132
+pop$ -- 1230
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2980
+skip$ -- 2995
 stack$ -- 0
 substring$ -- 1839
 swap$ -- 415
@@ -60,8 +63,8 @@ text.length$ -- 43
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 18
-while$ -- 306
-width$ -- 147
-write$ -- 1146
-(There were 18 warnings)
+warning$ -- 19
+while$ -- 307
+width$ -- 148
+write$ -- 1152
+(There were 21 warnings)
