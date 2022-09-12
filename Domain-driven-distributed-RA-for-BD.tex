@@ -365,41 +365,44 @@ To unearth the architectural quanta, and to highlight gradations between various
 
 \begin{enumerate}
     \item{\bf{Practice-led conferences:}} given that majority of recent advancements for emerging technologies such as microservices architecture \cite{gan2019open};\cite{laigner2021data} \cite{dragoni2017microservices} and BD are coming from virtually hosted practice-led conferences, we've chosen some of the best conferences hold world-wide for the purposes of data collection. These conferences are 1) Qcon \cite{QCON} 2) State of Data Mesh by ThoughtWorks \cite{ThoughtWorks} 3) Worldwide Software Architecture Summit'21 \cite{Geekle} and 4) Kafka Summit Europe 2021 \cite{KafkaSummit}. Our objective was to capture the frontiers of software architecture and emerging approaches currently being practiced in IT giants such as Google, Facebook and Netflix. Among all the speech in these conferences, we looked for topics that entailed or were related to the keywords 'emergent software architecture trends', 'distributed software architecture', and 'BD software architecture'. We used the software Nvivo to code the transcripts from the conference videos. We used the aforementioned keywords as the codes and associated different texts, summative, essence-capturing sentences, evocative attributes to them. During this process, a new theme 'domain driven design' emerged. We added that into the list of codes as well.
-    \item{\bf{Publications:}} in order to capture evidence from the body of knowledge, we conducted a systematic literature review (SLR), following the guidelines of PRISMA presented by Moher et all \cite{moher2015preferred}. The main objective of this SLR was to highlight common architectural constructs found among all the BD RAs. This SLR is build on top of our recent work \cite{AtaeiACIS} that covered all the RAs by 2020.
+    
+    \item{\bf{Publications:}} in order to capture evidence from the body of knowledge, we conducted a systematic literature review (SLR), following the guidelines of PRISMA presented by Moher et all \cite{moher2015preferred}, and Kitchenham et al. \cite{kitchenham2015evidence}. Although PRISMA is a comprehensive guidelines for conducting a systematic literature review, it is derived from the healthcare community and is driven by assumptions that may not be thoroughly relevant to software engineering and information system researchers. To this end, we adopted some guidelines from Kitchenham et al. for evidence based software engineering.
+    
+    The main objective of this SLR was to highlight common architectural constructs found among all the BD RAs. This SLR is build on top of our recent work \cite{AtaeiACIS} that covered all the RAs by 2020.
 
-    The initial SLR included IEEE Explore, ScienceDirect, SpringerLink, ACM library, MIS Quarterly, Elsevier, AISel as well as citation databases such as Scopus, Web of Science, Google Scholar, and Research Gate. The SLR search keywords used were ’Big Data Reference Architectures’, ’Reference Architectures in the domain of Big Data’, and ’Reference Architectures and Big Data’. We followed the exact methodology, but this time for the years 2021 and 2022. Our aim was to find out if there has been any new BD RA published during the years mentioned.
+    The initial SLR included IEEE Explore, ScienceDirect, SpringerLink, ACM library, MIS Quarterly, Elsevier, AISel as well as citation databases such as Scopus, Web of Science, Google Scholar, and Research Gate. The SLR search keywords used were ’Big Data Reference Architectures’, ’Reference Architectures in the domain of Big Data’, and ’Reference Architectures and Big Data’. We followed the same methodology, but this time for the years 2021 and 2022. Our aim was to find out if there has been any new BD RA published during the years mentioned.
 
     By the result of this SLR, we've found 3 more BD RAs (\cite{AtaeiApsec}; \cite{castellanos2021smart}; \cite{sang2017simplifying}) and we've added two new standards (\cite{ISO20546}; \cite{ISO20547}) to further solidify our study. Converging these new SLR with the old, covering the years 2010-2022, we've pooled 89 literature in the primary phase, and another 10 by snowballing and citation searching. These 99 literature then went through our inclusion, exclusion and quality criteria. These criteria is as blow;
 
     \begin{itemize}
         \item Inclusion criteria:
         \begin{enumerate}
-            \item studies that entailed real-world scenarios or tend to solve a problem in practice
-            \item qualitative or quantitative researches that intended to solve the industry gaps in big data system development and architecture
-            \item studies that had strong evaluations, preferably those that created the artefact in an actual organizational setup
-            \item explores the concept of RAs
-            \item provides or builds up on thorough discussion on BD RAs, limitations, drivers, and the overall ecosystem
-            \item is recent, within the years specified
-            \item is a conference paper, journal paper, book, book chapter, white paper, dissertation or thesis
+            \item Primary and secondary studies between Jan 1st 2020 and Sep 1st 2022 on the topics of BD RA, BD architecture, and BD architectural components were included
+            \item Research that Indicates the current state of RAs in the field of BD and demonstrates possible outcomes
+            \item Studies that are scholarly publications, books, book chapters, thesis, dissertations, or conference proceedings 
+            \item Grey literature such as white paper that includes extensive information on BD RAs
         \end{enumerate}
         \item Exclusion criteria:
         \begin{enumerate}
-            \item the study is not well evaluated or practice driven
-            \item is a duplicate
-            \item the study is not in-line with research objectives
-            \item not written in English
-            \item provides a poor quality or misleading technical information
-        \end{enumerate}
-        \item EQuality assessment:
-        \begin{enumerate}
-            \item is the study rich in terms of relevance to practice?
-            \item does the study create related design/design science or kernel theories?
-            \item does the study entail sufficient data?
-            \item does the study discuss the recent trends in BD domain?
-            \item is the study based on primary data and is internationally focused?
+            \item Informal literature surveys without any clearly defined research questions or research process
+            \item Duplicate reports of the same study (a conference and journal version of the same paper)
+            \item Short papers (less than 5 pages)
+            \item Studies that are not written in English
         \end{enumerate}
     \end{itemize}
 \end{enumerate}
+
+
+
+% \item Quality assessment:
+% \begin{enumerate}
+%     \item is the study rich in terms of relevance to practice?
+%     \item does the study create related design/design science or kernel theories?
+%     \item does the study entail sufficient data?
+%     \item does the study discuss the recent trends in BD domain?
+%     \item is the study based on primary data and is internationally focused?
+% \end{enumerate}
+
 
 \subsubsection{Data Synthesis}
 
@@ -919,7 +922,7 @@ Moreover, the security, privacy and metadata aspect of BD neeeds substantial wor
     \item -       The section 2 and 3 can be reduced. Currently, there are a lot of information that is not important for the reference architecture. I would advise the authors to reduce these sections in order to improve the readability.
     \item        In order to improve the readability, I advise the authors to move the Table 1 to an annex.
     \item   Most of the figures are difficult to read. I would advise the authors to make them bigger.
-    \item  The authors validate the proposed reference architecture by creating a prototype and using ATAM to evaluate them. It would be interesting to know how the prototype has been designed, how the RA helped in the definition of the prototype, etc.
+    \item  The authors validate the proposed reference architecture by creating a prototype and usi ng ATAM to evaluate them. It would be interesting to know how the prototype has been designed, how the RA helped in the definition of the prototype, etc.
     \item   I addition, in the validation, the authors prose different metrics for the performance, availability, and modifiability, but the results for the implemented prototype are not provided.
 
 \end{enumerate}
