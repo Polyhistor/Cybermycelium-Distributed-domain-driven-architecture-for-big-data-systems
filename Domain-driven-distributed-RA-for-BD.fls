@@ -92,6 +92,8 @@ INPUT D:\MikTex\tex\latex\tools\array.sty
 INPUT D:\MikTex\tex\latex\tools\array.sty
 INPUT D:\MikTex\tex\latex\multirow\multirow.sty
 INPUT D:\MikTex\tex\latex\multirow\multirow.sty
+INPUT D:\MikTex\tex\latex\appendix\appendix.sty
+INPUT D:\MikTex\tex\latex\appendix\appendix.sty
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.aux
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.aux
 OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.aux
@@ -99,20 +101,16 @@ INPUT D:\MikTex\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\MikTex\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\MikTex\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT D:\MikTex\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\MikTex\tex\latex\grfext\grfext.sty
+INPUT D:\MikTex\tex\latex\grfext\grfext.sty
 INPUT D:\MikTex\tex\latex\hyperref\nameref.sty
 INPUT D:\MikTex\tex\latex\hyperref\nameref.sty
 INPUT D:\MikTex\tex\latex\refcount\refcount.sty
 INPUT D:\MikTex\tex\latex\refcount\refcount.sty
 INPUT D:\MikTex\tex\generic\gettitlestring\gettitlestring.sty
 INPUT D:\MikTex\tex\generic\gettitlestring\gettitlestring.sty
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out
-OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.pdf
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out
 OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out
+OUTPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.pdf
 INPUT D:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmti10.tfm
 INPUT D:\MikTex\fonts\tfm\public\cm\cmtt10.tfm
@@ -168,32 +166,3 @@ INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Sys
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Media\Utility-tree.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Media\Utility-tree.jpg
 INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Media\Utility-tree.jpg
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.bbl
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.bbl
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.aux
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out
-INPUT c:\Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out
-INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmss8.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmss8.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti7.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti8.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmti8.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmtt10.pfb
-INPUT D:\MikTex\fonts\type1\public\amsfonts\cm\cmtt10.pfb

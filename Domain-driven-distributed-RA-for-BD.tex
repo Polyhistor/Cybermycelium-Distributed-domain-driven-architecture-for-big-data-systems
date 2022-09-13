@@ -3,6 +3,7 @@
 \usepackage{lineno,hyperref}
 \usepackage{longtable}
 \usepackage{array,etoolbox,multirow}
+\usepackage[toc,page]{appendix}
 
 \modulolinenumbers[5]
 
@@ -418,6 +419,8 @@ After excluding papers based on inclusion and exclusion criteria, and as suggest
      \end{enumerate}
 \end{enumerate}
 
+Taken all together, these 7 criteria gave us a measure of the extent to which a particular study's findings could make a valuable contribution to the review
+
 % \item Quality assessment:
 % \begin{enumerate}
 %     \item is the study rich in terms of relevance to practice?
@@ -450,7 +453,7 @@ These 68 studies are comprising of journal papers, conference papers, book chapt
 \end{figure}
 
 
-By this stage, the research objective is set, studies are pooled, assessed and refined, thus the research embarked on the actual synthesis of data. To increase transparency, RAs and standards found as the result of this SRL is presented in table \ref{table:SLR}. For this purposes, the software Nvivo \cite{nvivo} has been used to code, label, and classify studies. Initially, all the keywords aforementioned has been created as nodes in the software, which are then associated to relevant sentences in studies. After coding all the studies, the findings have been synthesized to create theories, which in turn emerged themes and patterns. The findings gained from this SLR grounded the foundation for various aspect of the SLR development.
+By this stage, the research objective is set, studies are pooled, assessed and refined, thus the research embarked on the actual synthesis of data. For this purpose, we employed thematic synthesis presented by Cruzes et al. \cite{cruzes2011recommended}. An integral element of this phase is data extraction, in which the essence of the studies are obtained in an explicit and consistent manner. We opted for an integrated approach to coding (\cite{lofland1971analyzing}) using the software Nvivo Nvivo \cite{nvivo}. All the keywords aforementioned has been created as nodes in the software, which are then associated to relevant sentences in studies. After coding all the studies, the findings have been synthesized to create theories, which in turn emerged themes and patterns. The findings gained from this SLR grounded the foundation for various aspect of the SLR development. To increase transparency, RAs and standards found as the result of this SRL is presented in table \ref{table:SLR}. 
 
 
 
@@ -929,16 +932,16 @@ Moreover, the security, privacy and metadata aspect of BD neeeds substantial wor
 
 \begin{enumerate}
 
-    \item 3.3.1 includes discussion of a SLR. You chose to follow the PRIMSA guidelines. Most SLRs in software engineering follow the guidelines of Kitchenham and Charters. It appears that the PRISMA guidelines are similar to K\&C, but a couple of sentences about why you chose this approach would be helpful.
-    \item Regardless of approach, the SLR seems to be somewhat unsystematic: For example, the inclusion criterion "studies that had strong evaluations, preferably those that created the artefact in an actual organizational setup" is highly subjective. Similarly subjective is the exclusion criterion "provides a poor quality or misleading technical information"
-
-
     \item Consider moving Table 1 to an appendix - it disrupts the flow of an already long paper and is not essential to the discussion.
  
     \item I got lost in §4. First, it wasn't clear that the RA you developed is named "Cybermycelium". Second, this section is more about prior work, and says nothing about the actual design of the RA.
+
     \item presents a "domain driven" design. I expected to see an enumeration of domains (bounded contexts, each with a ubiquitous language). It wasn't clear if the facets in Figure 4 correspond to DDD domains.
+
     \item I found it hard to understand Figure 5 - most of the elements are Archimate Nodes, however they seemed to be different things: Regulations, Services, Catalogs.
+    
     \item The explanation of the ATAM in §6 is not correct. Phase 1 and Phase 2 are iterations, using different stakeholders and techniques to elicit scenarios, but performing the same analysis. You might have picked up this misinterpretation from Ford and Richards, which indicates that maybe you are referencing work (i.e., Ref. 32) that you did not actually read.
+    
     \item The discussion in §6.4 about the Event Backbone was very confusing. This element sits in the middle of the architecture view shown in Figure 5, and the discussion about it not being required in an instantiation of Cybermycelium did not make sense.
     \item I expected to see some comparison of Cybermycelium to other big data RAs. §7 would have been a good place for this.
  
@@ -959,4 +962,7 @@ Data engineering is a complicated endevaour, and while there are many good pract
 
 \bibliography{mybibfile}
 
-\end{document}
+\appendix
+\chapter{First}
+This is my first Appendix .
+\chapter{Second}

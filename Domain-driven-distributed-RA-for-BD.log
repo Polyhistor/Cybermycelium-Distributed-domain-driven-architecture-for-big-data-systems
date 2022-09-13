@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  12 SEP 2022 19:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  13 SEP 2022 22:20
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Domain-driven-distributed-RA-for-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Domain-driven-distributed-RA-for-BD.tex"
@@ -233,44 +233,55 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@cntb=\count276
 \multirow@dima=\skip61
 \bigstrutjot=\dimen154
+) (D:\MikTex\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count277
+\c@@ppsavesec=\count278
+\c@@ppsaveapp=\count279
 ) ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.aux")
 \openout1 = `Domain-driven-distributed-RA-for-BD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
  (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
+\scratchcounter=\count280
 \scratchdimen=\dimen155
 \scratchbox=\box59
-\nofMPsegments=\count278
-\nofMParguments=\count279
+\nofMPsegments=\count281
+\nofMParguments=\count282
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count280
+\MPscratchCnt=\count283
 \MPscratchDim=\dimen156
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
 \everyMPtoPDFconversion=\toks22
 ) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (D:\MikTex\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 )
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 44.
  (D:\MikTex\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (D:\MikTex\tex/latex/refcount\refcount.sty
@@ -278,23 +289,32 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (D:\MikTex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count283
+\c@section@level=\count286
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
- ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out") ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.out")
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 \@outlinefile=\write4
 \openout4 = `Domain-driven-distributed-RA-for-BD.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 66.
+(Font)              <7> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 66.
+(Font)              <5> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 66.
+(Font)              <8> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 66.
+(Font)              <6> on input line 67.
+
+
+Package natbib Warning: Citation `AtaeiACIS' on page 1 undefined on input line 73.
+
+
+Package natbib Warning: Citation `AtaeiBigDataEnvirons' on page 1 undefined on input line 73.
+
+
+Package natbib Warning: Citation `AtaeiApsec' on page 1 undefined on input line 73.
+
 
 Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 [] 
@@ -303,303 +323,894 @@ Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 [1
 
 
-{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6] [7] [8] [9] [10]
-Overfull \hbox (1.13463pt too wide) in paragraph at lines 217--217
+{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+Package natbib Warning: Citation `internet2019internet' on page 2 undefined on input line 75.
+
+
+Package natbib Warning: Citation `lycett2013datafication' on page 2 undefined on input line 77.
+
+
+Package natbib Warning: Citation `AtaeiBigDataEnvirons' on page 2 undefined on input line 77.
+
+
+Package natbib Warning: Citation `AtaeiHype' on page 2 undefined on input line 77.
+
+
+Package natbib Warning: Citation `Huberty' on page 2 undefined on input line 77.
+
+
+Package natbib Warning: Citation `DataBricksSurvey' on page 2 undefined on input line 79.
+
+
+Package natbib Warning: Citation `NewVantageSurvey' on page 2 undefined on input line 79.
+
+
+Package natbib Warning: Citation `analytics2016age' on page 2 undefined on input line 79.
+
+
+Package natbib Warning: Citation `Nash' on page 2 undefined on input line 79.
+
+[2]
+
+Package natbib Warning: Citation `AtaeiBigDataEnvirons' on page 3 undefined on input line 81.
+
+
+Package natbib Warning: Citation `Singh' on page 3 undefined on input line 81.
+
+
+Package natbib Warning: Citation `Gorton' on page 3 undefined on input line 86.
+
+
+Package natbib Warning: Citation `Nadal' on page 3 undefined on input line 86.
+
+
+Package natbib Warning: Citation `AtaeiApsec' on page 3 undefined on input line 88.
+
+[3]
+
+Package natbib Warning: Citation `leonard2011design' on page 4 undefined on input line 115.
+
+
+Package natbib Warning: Citation `brackenbury2018draining' on page 4 undefined on input line 116.
+
+[4]
+
+Package natbib Warning: Citation `AtaeiHype' on page 5 undefined on input line 117.
+
+
+Package natbib Warning: Citation `lin2017lambda' on page 5 undefined on input line 117.
+
+
+Package natbib Warning: Citation `ApachBeam' on page 5 undefined on input line 117.
+
+
+Package natbib Warning: Citation `DataBricks' on page 5 undefined on input line 117.
+
+[5]
+
+Package natbib Warning: Citation `AtaeiApsec' on page 6 undefined on input line 120.
+
+[6]
+
+Package natbib Warning: Citation `monolithToMesh' on page 7 undefined on input line 130.
+
+
+Package natbib Warning: Citation `alshuqayran2016systematic' on page 7 undefined on input line 132.
+
+
+Package natbib Warning: Citation `SoftwareArchitectureKazman' on page 7 undefined on input line 141.
+
+
+Package natbib Warning: Citation `AtaeiACIS' on page 7 undefined on input line 142.
+
+
+Package natbib Warning: Citation `SoftwareArchitectureKazman' on page 7 undefined on input line 145.
+
+[7]
+
+Package natbib Warning: Citation `Cloutier' on page 8 undefined on input line 147.
+
+
+Package natbib Warning: Citation `kohler2019towards' on page 8 undefined on input line 147.
+
+
+Package natbib Warning: Citation `AtaeiACIS' on page 8 undefined on input line 149.
+
+
+Package natbib Warning: Citation `Derras' on page 8 undefined on input line 151.
+
+
+Package natbib Warning: Citation `Cloutier' on page 8 undefined on input line 151.
+
+[8]
+
+Package natbib Warning: Citation `SoftwareArchitectureKazman' on page 9 undefined on input line 172.
+
+[9]
+
+Package natbib Warning: Citation `sommerville2011software' on page 10 undefined on input line 190.
+
+
+Package natbib Warning: Citation `laplante2017requirements' on page 10 undefined on input line 190.
+
+
+Package natbib Warning: Citation `Bughin2016' on page 10 undefined on input line 196.
+
+
+Package natbib Warning: Citation `rad2017big' on page 10 undefined on input line 196.
+
+
+Package natbib Warning: Citation `nadal2017software' on page 10 undefined on input line 196.
+
+
+Package natbib Warning: Citation `volk2020identifying' on page 10 undefined on input line 196.
+
+
+Package natbib Warning: Citation `bashari2016security' on page 10 undefined on input line 196.
+
+
+Package natbib Warning: Citation `yu2019components' on page 10 undefined on input line 196.
+
+
+Package natbib Warning: Citation `eridaputra2014modeling' on page 10 undefined on input line 196.
+
+
+Package natbib Warning: Citation `al2016characteristics' on page 10 undefined on input line 196.
+
+[10]
+
+Package natbib Warning: Citation `ataei2020big' on page 11 undefined on input line 198.
+
+
+Package natbib Warning: Citation `kassab2014state' on page 11 undefined on input line 201.
+
+
+Package natbib Warning: Citation `ISO29148' on page 11 undefined on input line 201.
+
+
+Package natbib Warning: Citation `abran2004software' on page 11 undefined on input line 201.
+
+
+LaTeX Warning: Reference `table-requirements' on page 11 undefined on input line 201.
+
+
+Overfull \hbox (1.13463pt too wide) in paragraph at lines 218--218
 []|\OT1/cmr/m/n/10 Velocity| 
  []
 
 
-Overfull \hbox (1.44019pt too wide) in paragraph at lines 238--238
+Overfull \hbox (1.44019pt too wide) in paragraph at lines 239--239
 []|\OT1/cmr/m/n/10 Security
  []
 
 
-Underfull \hbox (badness 5133) in paragraph at lines 238--238
+Underfull \hbox (badness 5133) in paragraph at lines 239--239
 \OT1/cmr/m/n/10 & Pri-
  []
 
 
-Overfull \hbox (13.09714pt too wide) in paragraph at lines 208--253
+Overfull \hbox (13.09714pt too wide) in paragraph at lines 209--254
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 11.51045pt on input line 253.
+LaTeX Warning: Float too large for page by 11.51045pt on input line 254.
 
 
-Overfull \hbox (1.99573pt too wide) in paragraph at lines 263--263
+Overfull \hbox (1.99573pt too wide) in paragraph at lines 264--264
 []|\OT1/cmr/m/n/10 Veracity| 
  []
 
 
-Overfull \hbox (13.09714pt too wide) in paragraph at lines 259--270
+Overfull \hbox (13.09714pt too wide) in paragraph at lines 260--271
  [][] 
  []
 
-[11] [12] [13] [14] [15] [16]
-Overfull \hbox (3.63934pt too wide) in paragraph at lines 352--353
+[11] [12]
+
+Package natbib Warning: Citation `Cloutier' on page 13 undefined on input line 277.
+
+
+Package natbib Warning: Citation `bayer2004definition' on page 13 undefined on input line 277.
+
+
+Package natbib Warning: Citation `stricker2010creating' on page 13 undefined on input line 277.
+
+
+Package natbib Warning: Citation `gamma1995design' on page 13 undefined on input line 277.
+
+
+Package natbib Warning: Citation `nakagawa2009towards' on page 13 undefined on input line 277.
+
+
+Package natbib Warning: Citation `galster2011empirically' on page 13 undefined on input line 279.
+
+
+Package natbib Warning: Citation `nakagawa2014consolidating' on page 13 undefined on input line 279.
+
+
+Package natbib Warning: Citation `nakagawa2012ramodel' on page 13 undefined on input line 279.
+
+
+Package natbib Warning: Citation `santos2013checklist' on page 13 undefined on input line 279.
+
+
+Package natbib Warning: Citation `derras2018reference' on page 13 undefined on input line 279.
+
+
+Package natbib Warning: Citation `wg2015iso' on page 13 undefined on input line 279.
+
+[13]
+
+Package natbib Warning: Citation `AtaeiACIS' on page 14 undefined on input line 281.
+
+
+Package natbib Warning: Citation `galster2011empirically' on page 14 undefined on input line 281.
+
+
+Package natbib Warning: Citation `angelov2008towards' on page 14 undefined on input line 283.
+
+
+Package natbib Warning: Citation `angelov2014extending' on page 14 undefined on input line 283.
+
+
+Package natbib Warning: Citation `kazman1998architecture' on page 14 undefined on input line 283.
+
+
+Package natbib Warning: Citation `Cloutier' on page 14 undefined on input line 285.
+
+
+Package natbib Warning: Citation `Derras' on page 14 undefined on input line 285.
+
+[14]
+
+Package natbib Warning: Citation `angelov2009classification' on page 15 undefined on input line 291.
+
+
+Package natbib Warning: Citation `angelov2008contracting' on page 15 undefined on input line 291.
+
+
+Package natbib Warning: Citation `angelov2009classification' on page 15 undefined on input line 293.
+
+[15]
+
+Package natbib Warning: Citation `AtaeiACIS' on page 16 undefined on input line 297.
+
+
+Package natbib Warning: Citation `angelov2009classification' on page 16 undefined on input line 297.
+
+
+Package natbib Warning: Citation `hollingsworth1995workflow' on page 16 undefined on input line 307.
+
+
+Package natbib Warning: Citation `zimmermann1980osi' on page 16 undefined on input line 308.
+
+
+Package natbib Warning: Citation `OATH' on page 16 undefined on input line 309.
+
+
+Package natbib Warning: Citation `pope1998corba' on page 16 undefined on input line 310.
+
+
+Package natbib Warning: Citation `AtaeiApsec' on page 16 undefined on input line 311.
+
+
+Package natbib Warning: Citation `kreps2014questioning' on page 16 undefined on input line 312.
+
+
+Package natbib Warning: Citation `Nadal' on page 16 undefined on input line 313.
+
+
+Package natbib Warning: Citation `angelov2009classification' on page 16 undefined on input line 318.
+
+
+Package natbib Warning: Citation `microsoft2002application' on page 16 undefined on input line 326.
+
+
+Package natbib Warning: Citation `OATH' on page 16 undefined on input line 328.
+
+
+Package natbib Warning: Citation `pope1998corba' on page 16 undefined on input line 329.
+
+
+Package natbib Warning: Citation `greefhorst2006achmea' on page 16 undefined on input line 334.
+
+
+Package natbib Warning: Citation `greefhorst1999een' on page 16 undefined on input line 335.
+
+
+Package natbib Warning: Citation `angelov2008contracting' on page 16 undefined on input line 340.
+
+[16]
+
+Package natbib Warning: Citation `wu2002reference' on page 17 undefined on input line 341.
+
+
+Package natbib Warning: Citation `norta2007exploring' on page 17 undefined on input line 342.
+
+
+Package natbib Warning: Citation `angelov2008towards' on page 17 undefined on input line 351.
+
+
+Package natbib Warning: Citation `galster2011empirically' on page 17 undefined on input line 351.
+
+
+Overfull \hbox (3.63934pt too wide) in paragraph at lines 353--354
 []\OT1/cmr/m/n/10 RAs de-vel-oped from scratch tend to cre-ate more pre-scrip-tive the-o-ries, whereas
  []
 
-[17] [18]
-Overfull \hbox (2.16508pt too wide) in paragraph at lines 373--374
+[17]
+
+Package natbib Warning: Citation `gan2019open' on page 18 undefined on input line 368.
+
+
+Package natbib Warning: Citation `laigner2021data' on page 18 undefined on input line 368.
+
+
+Package natbib Warning: Citation `dragoni2017microservices' on page 18 undefined on input line 368.
+
+
+Package natbib Warning: Citation `QCON' on page 18 undefined on input line 368.
+
+
+Package natbib Warning: Citation `ThoughtWorks' on page 18 undefined on input line 368.
+
+
+Package natbib Warning: Citation `Geekle' on page 18 undefined on input line 368.
+
+
+Package natbib Warning: Citation `KafkaSummit' on page 18 undefined on input line 368.
+
+
+Package natbib Warning: Citation `moher2015preferred' on page 18 undefined on input line 370.
+
+
+Package natbib Warning: Citation `kitchenham2015evidence' on page 18 undefined on input line 370.
+
+[18]
+
+Package natbib Warning: Citation `AtaeiACIS' on page 19 undefined on input line 372.
+
+
+Overfull \hbox (2.16508pt too wide) in paragraph at lines 374--375
 []\OT1/cmr/m/n/10 The ini-tial SLR in-cluded IEEE Ex-plore, Sci-enceDi-rect, Springer-Link, ACM
  []
 
+
+Package natbib Warning: Citation `AtaeiApsec' on page 19 undefined on input line 376.
+
+
+Package natbib Warning: Citation `castellanos2021smart' on page 19 undefined on input line 376.
+
+
+Package natbib Warning: Citation `sang2017simplifying' on page 19 undefined on input line 376.
+
+
+Package natbib Warning: Citation `ISO20546' on page 19 undefined on input line 376.
+
+
+Package natbib Warning: Citation `ISO20547' on page 19 undefined on input line 376.
+
 [19]
 
-Package natbib Warning: Citation `CASP' on page 20 undefined on input line 397.
+Package natbib Warning: Citation `krippendorff2011computing' on page 20 undefined on input line 396.
 
 
-Package natbib Warning: Citation `JBI' on page 20 undefined on input line 397.
+Package natbib Warning: Citation `kitchenham2015evidence' on page 20 undefined on input line 398.
+
+
+Package natbib Warning: Citation `CASP' on page 20 undefined on input line 398.
+
+
+Package natbib Warning: Citation `JBI' on page 20 undefined on input line 398.
 
 [20]
-<PRISMA.JPG, id=508, 1031.35312pt x 610.53094pt>
+
+LaTeX Warning: Reference `fig:PRISMA' on page 21 undefined on input line 436.
+
+<PRISMA.JPG, id=170, 1031.35312pt x 610.53094pt>
 File: PRISMA.JPG Graphic file (type jpg)
 <use PRISMA.JPG>
-Package pdftex.def Info: PRISMA.JPG  used on input line 437.
+Package pdftex.def Info: PRISMA.JPG  used on input line 440.
 (pdftex.def)             Requested size: 284.52756pt x 168.43219pt.
- [21 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/PRISMA.JPG>]
-<databases-statitistic.jpg, id=521, 1003.75pt x 668.4975pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:SLRStats' on page 21 undefined on input line 446.
+
+<databases-statitistic.jpg, id=171, 1003.75pt x 668.4975pt>
 File: databases-statitistic.jpg Graphic file (type jpg)
 <use databases-statitistic.jpg>
-Package pdftex.def Info: databases-statitistic.jpg  used on input line 447.
+Package pdftex.def Info: databases-statitistic.jpg  used on input line 450.
 (pdftex.def)             Requested size: 312.9803pt x 208.44592pt.
- [22 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/databases-statitistic.jpg>]
-Overfull \hbox (2.964pt too wide) in paragraph at lines 459--459
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `cruzes2011recommended' on page 21 undefined on input line 456.
+
+
+Package natbib Warning: Citation `lofland1971analyzing' on page 21 undefined on input line 456.
+
+
+Package natbib Warning: Citation `nvivo' on page 21 undefined on input line 456.
+
+
+LaTeX Warning: Reference `table:SLR' on page 21 undefined on input line 456.
+
+[21] [22 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/PRISMA.JPG> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/databases-statitistic.jpg>]
+Overfull \hbox (2.964pt too wide) in paragraph at lines 462--462
 []|\OT1/cmr/m/n/10 Author| 
  []
 
 
-Underfull \hbox (badness 4108) in paragraph at lines 463--463
+Package natbib Warning: Citation `Maier' on page 23 undefined on input line 464.
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 466--466
 \OT1/cmr/m/n/10 Data so-lu-tions in-tro-duc-ing a
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 465--465
+Package natbib Warning: Citation `geerdink2013reference' on page 23 undefined on input line 466.
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 468--468
 \OT1/cmr/m/n/10 high per-for-mance an-a-lyt-ics in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--474
+Package natbib Warning: Citation `quintero2019ibm' on page 23 undefined on input line 468.
+
+
+Package natbib Warning: Citation `levin2013big' on page 23 undefined on input line 471.
+
+
+Package natbib Warning: Citation `viana2014proposal' on page 23 undefined on input line 473.
+
+
+Package natbib Warning: Citation `kreps2014questioning' on page 23 undefined on input line 475.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
 []|\OT1/cmr/m/n/10 Defining ar-chi-tec-ture com-po-
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 476--476
+Package natbib Warning: Citation `demchenko2014defining' on page 23 undefined on input line 477.
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 479--479
 []|\OT1/cmr/m/n/10 Oracle - In-for-ma-tion Man-age-
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 489--489
+Package natbib Warning: Citation `cackett2013information' on page 23 undefined on input line 480.
+
+
+Package natbib Warning: Citation `ghandour2015big' on page 23 undefined on input line 482.
+
+
+Package natbib Warning: Citation `martinez2015solid' on page 23 undefined on input line 484.
+
+
+Package natbib Warning: Citation `paakkonen2015reference' on page 23 undefined on input line 486.
+
+
+Package natbib Warning: Citation `sang2016reference' on page 23 undefined on input line 488.
+
+
+Package natbib Warning: Citation `klein2016reference' on page 23 undefined on input line 490.
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 492--492
 []|\OT1/cmr/m/n/10 A Ref-er-ence Ar-chi-tec-ture for
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 500--501
+Package natbib Warning: Citation `cuzzocrea2016reference' on page 23 undefined on input line 492.
+
+
+Package natbib Warning: Citation `SAPRA' on page 23 undefined on input line 495.
+
+
+Package natbib Warning: Citation `heilig2017managing' on page 23 undefined on input line 497.
+
+
+Package natbib Warning: Citation `heilig2017managing' on page 23 undefined on input line 499.
+
+
+Package natbib Warning: Citation `nadal2017software' on page 23 undefined on input line 501.
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 503--504
 []|\OT1/cmr/m/n/10 Simplifying big data an-a-lyt-ics
  []
 
 
-Overfull \hbox (0.90842pt too wide) in alignment at lines 457--502
+Package natbib Warning: Citation `sang2017simplifying' on page 23 undefined on input line 505.
+
+
+Overfull \hbox (0.90842pt too wide) in alignment at lines 460--505
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 502
+Underfull \vbox (badness 10000) detected at line 505
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--511
+Package natbib Warning: Citation `ISO42010' on page 23 undefined on input line 507.
+
+
+Package natbib Warning: Citation `Chang' on page 23 undefined on input line 510.
+
+
+Package natbib Warning: Citation `kohler2019towards' on page 23 undefined on input line 512.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--514
 []|\OT1/cmr/m/n/10 Reference Ar-chi-tec-tures and
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 511--511
+Underfull \hbox (badness 1383) in paragraph at lines 514--514
 \OT1/cmr/m/n/10 Stan-dards for the In-ter-net of
  []
 
 
-Overfull \hbox (0.90842pt too wide) in alignment at lines 502--529
+Package natbib Warning: Citation `unal2019reference' on page 23 undefined on input line 514.
+
+
+Package natbib Warning: Citation `kiran2015lambda' on page 23 undefined on input line 516.
+
+
+Package natbib Warning: Citation `ISO20546' on page 23 undefined on input line 518.
+
+
+Package natbib Warning: Citation `ISO20547' on page 23 undefined on input line 520.
+
+
+Package natbib Warning: Citation `AtaeiApsec' on page 23 undefined on input line 524.
+
+
+Package natbib Warning: Citation `castellanos2021smart' on page 23 undefined on input line 528.
+
+
+Overfull \hbox (0.90842pt too wide) in alignment at lines 505--532
  [] [] [] [] 
  []
 
-[23] [24] [25] [26] [27]
-<variability-model.JPG, id=642, 1282.7925pt x 607.26875pt>
+[23] [24] [25]
+
+Package natbib Warning: Citation `ISO42010' on page 26 undefined on input line 535.
+
+
+Package natbib Warning: Citation `angelov2012framework' on page 26 undefined on input line 537.
+
+
+Package natbib Warning: Citation `Cloutier' on page 26 undefined on input line 538.
+
+
+Package natbib Warning: Citation `vogel2009software' on page 26 undefined on input line 538.
+
+
+Package natbib Warning: Citation `Stricker' on page 26 undefined on input line 540.
+
+
+Package natbib Warning: Citation `Chang' on page 26 undefined on input line 540.
+
+
+Package natbib Warning: Citation `lankhorst2013language' on page 26 undefined on input line 542.
+
+
+Package natbib Warning: Citation `lankhorst2010anatomy' on page 26 undefined on input line 542.
+
+
+Package natbib Warning: Citation `engelsman2011extending' on page 26 undefined on input line 542.
+
+[26]
+
+Package natbib Warning: Citation `rurua2019representing' on page 27 undefined on input line 549.
+
+
+Package natbib Warning: Citation `la2009questionnaire' on page 27 undefined on input line 551.
+
+
+Package natbib Warning: Citation `rosemann2007configurable' on page 27 undefined on input line 551.
+
+
+Package natbib Warning: Citation `hallerbach2010capturing' on page 27 undefined on input line 551.
+
+
+Package natbib Warning: Citation `pohl2005software' on page 27 undefined on input line 551.
+
+
+Package natbib Warning: Citation `chen2011systematic' on page 27 undefined on input line 551.
+
+
+Package natbib Warning: Citation `schmid2004customizable' on page 27 undefined on input line 551.
+
+
+Package natbib Warning: Citation `svahnberg2005taxonomy' on page 27 undefined on input line 551.
+
+
+Package natbib Warning: Citation `sinnema2006covamof' on page 27 undefined on input line 551.
+
+
+Package natbib Warning: Citation `czarnecki2012cool' on page 27 undefined on input line 553.
+
+
+Package natbib Warning: Citation `galster2011empirically' on page 27 undefined on input line 555.
+
+[27]
+
+Package natbib Warning: Citation `rurua2019representing' on page 28 undefined on input line 563.
+
+
+LaTeX Warning: Reference `variability' on page 28 undefined on input line 565.
+
+
+Package natbib Warning: Citation `pohl2005software' on page 28 undefined on input line 565.
+
+
+Package natbib Warning: Citation `rurua2019representing' on page 28 undefined on input line 565.
+
+<variability-model.JPG, id=216, 1282.7925pt x 607.26875pt>
 File: variability-model.JPG Graphic file (type jpg)
 <use variability-model.JPG>
-Package pdftex.def Info: variability-model.JPG  used on input line 566.
+Package pdftex.def Info: variability-model.JPG  used on input line 569.
 (pdftex.def)             Requested size: 312.9803pt x 148.15668pt.
- [28 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/variability-model.JPG>] [29] [30]
-Overfull \hbox (0.74132pt too wide) in paragraph at lines 613--614
+
+Package natbib Warning: Citation `galster2011empirically' on page 28 undefined on input line 576.
+
+
+Package natbib Warning: Citation `sharpe2019industrial' on page 28 undefined on input line 576.
+
+[28 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/variability-model.JPG>]
+
+Package natbib Warning: Citation `angelov2008contracting' on page 29 undefined on input line 578.
+
+
+Package natbib Warning: Citation `Avgeriou' on page 29 undefined on input line 578.
+
+
+Package natbib Warning: Citation `Cioroaica' on page 29 undefined on input line 578.
+
+
+Package natbib Warning: Citation `Maier' on page 29 undefined on input line 578.
+
+
+Package natbib Warning: Citation `kazman1994saam' on page 29 undefined on input line 586.
+
+
+Package natbib Warning: Citation `Bengtsson' on page 29 undefined on input line 586.
+
+
+Package natbib Warning: Citation `Williams' on page 29 undefined on input line 586.
+
+
+Package natbib Warning: Citation `KazmanATAM' on page 29 undefined on input line 586.
+
+
+Package natbib Warning: Citation `angelov2008towards' on page 29 undefined on input line 589.
+
+
+Package natbib Warning: Citation `Avgeriou' on page 29 undefined on input line 590.
+
+
+Package natbib Warning: Citation `bengtsson1998scenario' on page 29 undefined on input line 590.
+
+[29]
+
+Package natbib Warning: Citation `angelov2008towards' on page 30 undefined on input line 595.
+
+
+Package natbib Warning: Citation `graaf2005evaluating' on page 30 undefined on input line 597.
+
+
+Package natbib Warning: Citation `galster2011empirically' on page 30 undefined on input line 597.
+
+[30]
+
+Package natbib Warning: Citation `rohling2019reference' on page 31 undefined on input line 599.
+
+
+Package natbib Warning: Citation `Nakagawa' on page 31 undefined on input line 599.
+
+
+Package natbib Warning: Citation `nakagawa2012ramodel' on page 31 undefined on input line 599.
+
+[31]
+Overfull \hbox (0.74132pt too wide) in paragraph at lines 616--617
 \OT1/cmr/m/n/10 makes scal-ing these sys-tems very dif-fi-cult. The pro-lif-er-a-tion of data sources
  []
 
-[31] [32] [33] [34]
-Overfull \hbox (8.94502pt too wide) in paragraph at lines 643--644
+
+Package natbib Warning: Citation `hypothesisDev' on page 32 undefined on input line 617.
+
+
+Package natbib Warning: Citation `monolithToMesh' on page 32 undefined on input line 617.
+
+
+Package natbib Warning: Citation `ford2017building' on page 32 undefined on input line 620.
+
+
+Package natbib Warning: Citation `newman2021building' on page 32 undefined on input line 620.
+
+[32] [33]
+
+Package natbib Warning: Citation `EventDrivenMicroServices' on page 34 undefined on input line 634.
+
+
+Package natbib Warning: Citation `evans2004domain' on page 34 undefined on input line 634.
+
+
+Package natbib Warning: Citation `aceto2007reactive' on page 34 undefined on input line 634.
+
+
+Package natbib Warning: Citation `dataMeshArticle' on page 34 undefined on input line 638.
+
+
+Package natbib Warning: Citation `di2017architecting' on page 34 undefined on input line 640.
+
+
+Package natbib Warning: Citation `zimmermann2017microservices' on page 34 undefined on input line 640.
+
+
+Package natbib Warning: Citation `waseem2020systematic' on page 34 undefined on input line 640.
+
+[34]
+Overfull \hbox (8.94502pt too wide) in paragraph at lines 646--647
 []\OT1/cmr/m/n/10 Based on these premises we posit 4 un-der-pin-ning prin-ci-ples for Cy-bermycelium; 
  []
 
+
+Package natbib Warning: Citation `laigner2021data' on page 35 undefined on input line 659.
+
 [35]
-<Media/product-facets.jpg, id=742, 702.625pt x 661.47125pt>
+
+LaTeX Warning: Reference `data-facets' on page 36 undefined on input line 665.
+
+<Media/product-facets.jpg, id=269, 702.625pt x 661.47125pt>
 File: Media/product-facets.jpg Graphic file (type jpg)
 <use Media/product-facets.jpg>
-Package pdftex.def Info: Media/product-facets.jpg  used on input line 666.
+Package pdftex.def Info: Media/product-facets.jpg  used on input line 669.
 (pdftex.def)             Requested size: 284.52756pt x 267.8641pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36] [37 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/product-facets.jpg>] [38] [39] [40]
-<Media/Cybermycelium.jpg, id=781, 1528.71124pt x 1169.36874pt>
+[36] [37 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/product-facets.jpg>]
+
+Package natbib Warning: Citation `Terraform' on page 38 undefined on input line 682.
+
+
+Package natbib Warning: Citation `Segment' on page 38 undefined on input line 682.
+
+
+Package natbib Warning: Citation `HDFS' on page 38 undefined on input line 682.
+
+
+Package natbib Warning: Citation `Helm' on page 38 undefined on input line 684.
+
+
+Package natbib Warning: Citation `Make' on page 38 undefined on input line 684.
+
+
+Package natbib Warning: Citation `alshuqayran2016systematic' on page 38 undefined on input line 689.
+
+[38]
+
+Package natbib Warning: Citation `josey2016togaf' on page 39 undefined on input line 691.
+
+[39]
+
+LaTeX Warning: Reference `fig:Cybermycelium Product Domain Design' on page 40 undefined on input line 709.
+
+[40]
+
+LaTeX Warning: Reference `fig:Cybermycelium' on page 41 undefined on input line 711.
+
+<Media/Cybermycelium.jpg, id=297, 1528.71124pt x 1169.36874pt>
 File: Media/Cybermycelium.jpg Graphic file (type jpg)
 <use Media/Cybermycelium.jpg>
-Package pdftex.def Info: Media/Cybermycelium.jpg  used on input line 712.
+Package pdftex.def Info: Media/Cybermycelium.jpg  used on input line 715.
 (pdftex.def)             Requested size: 341.43306pt x 261.16956pt.
 
-Overfull \hbox (3.75063pt too wide) in paragraph at lines 717--718
+LaTeX Warning: Reference `fig:Cybermycelium Product Domain Design' on page 41 undefined on input line 720.
+
+
+Overfull \hbox (3.75063pt too wide) in paragraph at lines 720--721
 []\OT1/cmr/m/n/10 For the pur-poses of ef-fec-tive mod-el-ing and ab-strac-tion, we've sub-diagrammed
  []
 
-<Media/Product Domain.jpg, id=783, 819.06pt x 529.98pt>
+<Media/Product Domain.jpg, id=298, 819.06pt x 529.98pt>
 File: Media/Product Domain.jpg Graphic file (type jpg)
 <use Media/Product Domain.jpg>
-Package pdftex.def Info: Media/Product Domain.jpg  used on input line 721.
+Package pdftex.def Info: Media/Product Domain.jpg  used on input line 724.
 (pdftex.def)             Requested size: 341.43306pt x 220.93227pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[41 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/Cybermycelium.jpg>] [42 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/Product Domain.jpg>] [43] [44] [45] [46] [47] [48] [49] [50] [51]
-<Media/concrete-mycelium.jpg, id=858, 1564.84625pt x 785.93625pt>
+[41 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/Cybermycelium.jpg>] [42 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/Product Domain.jpg>] [43] [44] [45]
+
+Package natbib Warning: Citation `ISOMetadata' on page 46 undefined on input line 742.
+
+[46]
+
+Package natbib Warning: Citation `GartnerDataCatalog' on page 47 undefined on input line 746.
+
+
+Package natbib Warning: Citation `MicroServicesPatterns' on page 47 undefined on input line 747.
+
+[47] [48] [49] [50]
+
+Package natbib Warning: Citation `ISO25000' on page 51 undefined on input line 777.
+
+[51]
+
+LaTeX Warning: Reference `fig:ConcreteCyberMycelium' on page 52 undefined on input line 781.
+
+<Media/concrete-mycelium.jpg, id=368, 1564.84625pt x 785.93625pt>
 File: Media/concrete-mycelium.jpg Graphic file (type jpg)
 <use Media/concrete-mycelium.jpg>
-Package pdftex.def Info: Media/concrete-mycelium.jpg  used on input line 782.
+Package pdftex.def Info: Media/concrete-mycelium.jpg  used on input line 785.
 (pdftex.def)             Requested size: 341.43306pt x 171.4794pt.
- [52 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/concrete-mycelium.jpg>] [53]
-<Media/Utility-tree.jpg, id=870, 863.225pt x 572.1375pt>
+[52 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/concrete-mycelium.jpg>]
+
+Package natbib Warning: Citation `KazmanATAM' on page 53 undefined on input line 808.
+
+[53]
+
+LaTeX Warning: Reference `fig:utility-tree' on page 54 undefined on input line 816.
+
+<Media/Utility-tree.jpg, id=379, 863.225pt x 572.1375pt>
 File: Media/Utility-tree.jpg Graphic file (type jpg)
 <use Media/Utility-tree.jpg>
-Package pdftex.def Info: Media/Utility-tree.jpg  used on input line 817.
+Package pdftex.def Info: Media/Utility-tree.jpg  used on input line 820.
 (pdftex.def)             Requested size: 284.52756pt x 188.57896pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54] [55 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/Utility-tree.jpg>] [56] [57] [58] [59] [60] [61] [62] [63] ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.bbl"
-Underfull \hbox (badness 5288) in paragraph at lines 17--25
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / doi . ieeecomputersociety . org / 10 . 1109 / APSEC53868 .
- []
+[54] [55 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/Utility-tree.jpg>] [56] [57] [58]
 
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / databricks . com / p / whitepaper /
- []
+Package natbib Warning: Citation `kazman1994saam' on page 59 undefined on input line 890.
 
+[59] [60] [61] [62] [63]
+No file Domain-driven-distributed-RA-for-BD.bbl.
+c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Domain-driven-distributed-RA-for-BD.tex:966: Undefined control sequence.
+l.966 \chapter
+              {First}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--55
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . supplychain247 . com / paper / big _ data _ and _ ai _
- []
-
-[65] [66] [67] [68] [69]
-Underfull \hbox (badness 4120) in paragraph at lines 279--284
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / openauthentication . org / wp-[]content / uploads / 2015 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--294
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . oreilly . com / radar /
- []
-
-[70]
-Underfull \hbox (badness 10000) in paragraph at lines 339--341
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . thoughtworks . com / about-[]us / events /
- []
-
-[71]
-Underfull \hbox (badness 10000) in paragraph at lines 349--351
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . confluent . io / events /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--391
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . qsrinternational . com /
- []
-
-[72]
-Underfull \hbox (badness 10000) in paragraph at lines 421--426
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . oracle . com / technetwork / topics / entarch /
- []
-
-[73]
-Underfull \hbox (badness 10000) in paragraph at lines 460--462
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . scribd . com / document / 418835912 /
- []
-
-[74] [75] [76] [77]
-Underfull \hbox (badness 10000) in paragraph at lines 620--624
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . thoughtworks . com / insights / articles /
- []
-
-
-Overfull \hbox (152.63399pt too wide) in paragraph at lines 633--638
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . amazon . com / Building-[]Event-[]Driven-[]Microservices-[]Leveraging-[]Organizational /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 633--638
-\OT1/cmtt/m/n/10 dp / 1492057894 / ref = sr _ 1 _ 1 ? crid = 1WQYXJT85E0CL & keywords = event +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 633--638
-\OT1/cmtt/m/n/10 driven + microservices & qid = 1647139910 & sprefix = event + driven +
- []
-
-
-Underfull \hbox (badness 3128) in paragraph at lines 648--652
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / martinfowler . com / articles / data-[]mesh-[]principles .
- []
-
-[78]
-Underfull \hbox (badness 10000) in paragraph at lines 686--688
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . gnu . org / software / make / manual / make . html #
- []
-
-
-Overfull \hbox (83.88458pt too wide) in paragraph at lines 700--704
-\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . amazon . com / Microservices-[]Patterns-[]examples-[]Chris-[]Richardson /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 700--704
-\OT1/cmtt/m/n/10 dp / 1617294543 / ref = tmm _ pap _ swatch _ 0 ? _encoding = UTF8 & qid =
- []
+c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Domain-driven-distributed-RA-for-BD.tex:968: Undefined control sequence.
+l.968 \chapter
+              {Second}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 )
+! Emergency stop.
+<*> ...um/Domain-driven-distributed-RA-for-BD.tex"
+                                                  
+*** (job aborted, no legal \end found)
 
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 962.
-[79]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 962.
- ("c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 962.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 962.
-Package rerunfilecheck Info: File `Domain-driven-distributed-RA-for-BD.out' has not changed.
-(rerunfilecheck)             Checksum: 4504A744C3926F49BB3B8C558DDCE92E;3071.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 7918 strings out of 480795
- 127240 string characters out of 2913777
- 407844 words of memory out of 3000000
- 23408 multiletter control sequences out of 15000+200000
+ 7383 strings out of 480795
+ 113762 string characters out of 2913777
+ 406884 words of memory out of 3000000
+ 23038 multiletter control sequences out of 15000+200000
  536617 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,36p,1844b,969s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.pdf" (79 pages, 1198628 bytes).
-PDF statistics:
- 1249 PDF objects out of 1440 (max. 8388607)
- 395 named destinations out of 1000 (max. 500000)
- 369 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 38i,9n,36p,1844b,568s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
