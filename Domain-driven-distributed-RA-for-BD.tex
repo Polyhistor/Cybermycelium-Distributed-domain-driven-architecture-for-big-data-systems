@@ -526,12 +526,13 @@ Rohling et al \cite{rohling2019reference} have evaluated their RA by mapping it 
 
 Inspired by all the studies listed, for the purposes of this study, we will first create a prototype of the RA in an actual organizational setup and then we will use ATAM to evaluate the concrete architecture.
 
-\section{Cybermycelium: A Domain Driven Distributed Reference Architecture for Big Data Systems}
+\section{Why Cybermycelium?}
+
+In this section, we present with theories that aim to explain the limtiations of current BD architectures. While we have briefly discussed the current status of BD architectures and failure modes in \ref{State of the art}, this section digs deeper into these challenges. 
+
+\subsection{A need for a paradigm shift}
 
 If our aspiration to enhance every business aspect with data needs to come to fruition, we need a different approach to data architecture. Traditional data warehouse approaches to business intelligence, while have addressed the volume and computing aspect of data, have failed to address other characteristics of it; heterogeneity and proliferation of data sources (variety), the speed at which data arrives and needs to be processed (velocity), the rate at which data mutates (variability), and the truth or quality of the data (veracity).
-
-\subsection{Section to do!}
-
 
 
 Suppose company A would want to adopt a BD initiative to embark on this complex endeavour, what would be the first step ? does the company have to worry about high-throughput stream processing ? does it have to worry about regional privacy regulations? does it have to worry about cost-efficient batch processing? perhaps yes to all of these questions, but what's even more integral to the success of the whole endeavour is the underlying architecture that governs the entire system, its components, their relations to each other, data flow and principles and standards that govern the quality attributes and evolution of the system.
@@ -551,7 +552,13 @@ Using the same practice management software example, given that a new class of a
 
 Another major issue with the current architectural approaches is that data engineering is usually confined into a team of hyper-specialized individuals who are siloed from the operational units of the organization. These teams, being fully responsible for creating the infrastructure for data processing, are often absent of business knowledge and the domain, which limits their productivity. These individual usually have a limited understanding of the data sources, data provenance, data consumers, the changing nature of the business domains, the overall product vision, and the application side of things, yet they are responsible to provide data for a large array of analytical and operational needs in a timely manner. For instance, given a context in which a product owner and application developer can cooperate, the synergy between the data engineer, application developer, and product owner can bring about more mature decisions that can align the requirements across various technical and logical domains and allow for various stakeholders to contend and communicate their concerns.
 
-Whereas there could be other factors to be discussed deeply in this paper regarding current BD architectures, our aim is not to explore any further and emphasize more on the solution artefact we've designed to address some of these challenges.
+Whereas there could be other factors to be discussed deeply in this paper regarding current BD architectures, our aim is not to explore any further and emphasize more on the solution artefact we've designed to address some of these challenges. This artifact is discussed in the next section.
+
+
+
+\section{Cybermycelium: A Domain Driven Distributed Reference Architecture for Big Data Systems}
+
+This section is constituent of two integral elements: theory and artifact. First we begin be exploring the major architectural constructs that underpins our artifact and then we present the artifact and describe its components.
 
 \section{A paradigm shift: distributed domain driven architecture}
 
