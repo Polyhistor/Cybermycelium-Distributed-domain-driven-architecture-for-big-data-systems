@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Domain-driven-distributed-RA-for-BD.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+The style file: elsarticle-num.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Database file #1: mybibfile.bib
+Warning--I didn't find a database entry for "CASP"
+Warning--I didn't find a database entry for "JBI"
+Warning--empty journal in AtaeiACIS
+Warning--empty journal in AtaeiHype
+Warning--empty author in ApachBeam
+Warning--empty journal in ApachBeam
+Warning--empty author in DataBricks
+Warning--empty journal in DataBricks
+Warning--empty year in Derras
+Warning--empty journal in ataei2020big
+Warning--empty pages in nakagawa2009towards
+Warning--empty journal in angelov2014extending
+Warning--empty journal in krippendorff2011computing
+Warning--empty journal in lofland1971analyzing
+Warning--empty year in Stricker
+Warning--empty institution in Chang
+Warning--empty year in Cioroaica
+Warning--empty year in Williams
+Warning--empty year in KazmanATAM
+Warning--empty pages in Nakagawa
+Warning--empty author in SAPRA
+Warning--empty journal in SAPRA
+You've used 149 entries,
+            2937 wiz_defined-function locations,
+            1437 strings with 31140 characters,
+and the built_in function-call counts, 42605 in all, are:
+= -- 3795
+> -- 1304
+< -- 44
++ -- 534
+- -- 385
+* -- 2445
+:= -- 5397
+add.period$ -- 151
+call.type$ -- 149
+change.case$ -- 133
+chr.to.int$ -- 0
+cite$ -- 169
+duplicate$ -- 1579
+empty$ -- 5264
+format.name$ -- 473
+if$ -- 11519
+int.to.chr$ -- 0
+int.to.str$ -- 149
+missing$ -- 142
+newline$ -- 486
+num.names$ -- 136
+pop$ -- 1266
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 3078
+stack$ -- 0
+substring$ -- 1871
+swap$ -- 424
+text.length$ -- 44
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 20
+while$ -- 314
+width$ -- 152
+write$ -- 1181
+(There were 22 warnings)
