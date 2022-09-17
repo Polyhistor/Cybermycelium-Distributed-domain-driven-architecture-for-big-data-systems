@@ -526,11 +526,11 @@ Rohling et al \cite{rohling2019reference} have evaluated their RA by mapping it 
 
 Inspired by all the studies listed, for the purposes of this study, we will first create a prototype of the RA in an actual organizational setup and then we will use ATAM to evaluate the concrete architecture.
 
-\section{Why Cybermycelium?}
+\section{Why Cybermycelium?} 
 
 In this section, we present with theories that aim to explain the limtiations of current BD architectures. While we have briefly discussed the current status of BD architectures and failure modes in \ref{State of the art}, this section digs deeper into these challenges. 
 
-\subsection{A need for a paradigm shift}
+\subsection{A need for a paradigm shift} \label{need for paradigm shift}
 
 If our aspiration to enhance every business aspect with data needs to come to fruition, we need a different approach to data architecture. Traditional data warehouse approaches to business intelligence, while have addressed the volume and computing aspect of data, have failed to address other characteristics of it; heterogeneity and proliferation of data sources (variety), the speed at which data arrives and needs to be processed (velocity), the rate at which data mutates (variability), and the truth or quality of the data (veracity).
 
@@ -554,15 +554,13 @@ Another major issue with the current architectural approaches is that data engin
 
 Whereas there could be other factors to be discussed deeply in this paper regarding current BD architectures, our aim is not to explore any further and emphasize more on the solution artefact we've designed to address some of these challenges. This artifact is discussed in the next section.
 
-
-
 \section{Cybermycelium: A Domain Driven Distributed Reference Architecture for Big Data Systems}
 
 This section is constituent of two integral elements: theory and artifact. First we begin be exploring the major architectural constructs that underpins our artifact and then we present the artifact and describe its components.
 
 \section{A paradigm shift: distributed domain driven architecture}
 
-Based on the premises discussed priori to this section, one can infer that the idea of monolithic and centralized data pipelines that are highly couped and operated by silos of hyper-specialized BD engineers has limitations and can bring organizations into a bottleneck .
+Based on the premises discussed in \ref{need for paradigm shift}, one can infer that the idea of monolithic and centralized data pipelines that are highly couped and operated by silos of hyper-specialized BD engineers has limitations and can bring organizations into a bottleneck .
 
 We therefore, explore a domain driven distributed and decentralized architecture for BD systems and posit that this architecture can address some of the challenges discussed. This idea is inspired by the advancements in software engineering architecture, and in specific event-driven microservice architecture \cite{EventDrivenMicroServices}, domain driven design \cite{evans2004domain}, and reactive systems \cite{aceto2007reactive}.
 
@@ -589,9 +587,15 @@ Based on these premises we posit 4 underpinning principles for Cybermycelium;
 
 \subsection{Distributed Domain driven services with bounded context}
 
-Integral to Cybermycelium, is the distribution and decentralization of services into domains that have clear bounded context. Perhaps one the most challenging things one might face when it comes to architecting a distributed system is; based on what architectural quanta should we break down the system. This issue has been repeatedly discussed for example among adopters of microservices architecture . Cybermycelium, inspired by the concept of domain-drive design, tends to sit data close to the product domain that relates to it. This implies that data inheres in the product domain and as a facet of it \cite{laigner2021data}.
+Integral to Cybermycelium, is the distribution and decentralization of services into domains that have clear bounded context. Perhaps one the most challenging things one might face when it comes to architecting a distributed system is: based on what architectural quanta should we break down the system. This issue has been repeatedly discussed for example among adopters of microservices architecture . Cybermycelium, inspired by the concept of domain-drive design, tends to sit data close to the product domain that relates to it. This implies that data inheres in the product domain and as a facet of it \cite{laigner2021data}.
 
 This is mainly driven by the fact that most organizations today are decomposed based on their products. These products are the capability of the business that are segregated into various domains. Domain's bounded context is operated by various teams with different visions and concerns, incorporating data into a bounded context can result in a synergy that can improve the management of evolution and continuos change. This can be micro, such as application developers communicating with data engineers about collecting user data in a nested data structures or in flat ones, or macro, such as application developers thinking about redesigning their graphql schema in an intermediary layer that may affect the data engineers ingestion services.
+
+It is worth mentioning that, we are absorbing the concept of domain-driven design into this study to facilitate communication and increase the adoption, rigour and relevance of our RA. Communication is a key component of any software development endeavour \cite{sudhakar2012model}, and without it essential knowledge sharing can be compromised. Often data engineers and business stakholders have no direct interaction with one another. Instead, the domain knowledge is translated through intermediaries such as business analyst or project managers to series of tasks to be done \cite{khononov2021learning}. This implies at least two translations from two different ontologies. 
+
+In each translation, information is lost, which is the essential domain knowledge, and this implies risk to the overall data quality. In such data engineering process, the requirement often gets distorted, and data engineer has no awareness of the actual business domain and the problem being addressed. Often times, problems being solved through data engineering, are not simple mathematical problems or a riddle, but rather have broader scopes. An organization may decide to opimize workflows and process through continous data-driven decision making, and a data architecture that is overly centralized and not flexible can risk a project failure. 
+
+To this challenge, domain-driven design proposes a better approach to convey knowledge from domain experts to data engineers. In domain-driven desing, instead of intermediary translations business domains are project into actual software engineering, emphasizing on creation of one shared terminology, that is the ubiquitous language. We do not aim to explore all facets of domain-driven design in this study, but it's worth mentioning that each business has it's own domain, and constituent core, generic and supporting sub-domains, and this is defined at the moment of RA instantiation. 
 
 \subsection{Data as a service:}
 
@@ -865,8 +869,6 @@ Moreover, the security, privacy and metadata aspect of BD neeeds substantial wor
 
 \begin{enumerate}
  
-    \item I got lost in §4. First, it wasn't clear that the RA you developed is named "Cybermycelium". Second, this section is more about prior work, and says nothing about the actual design of the RA.
-
     \item presents a "domain driven" design. I expected to see an enumeration of domains (bounded contexts, each with a ubiquitous language). It wasn't clear if the facets in Figure 4 correspond to DDD domains.
 
     \item I found it hard to understand Figure 5 - most of the elements are Archimate Nodes, however they seemed to be different things: Regulations, Services, Catalogs.
@@ -906,7 +908,7 @@ Data engineering is a complicated endevaour, and while there are many good pract
     \hline
     Towards a big Data reference architecture  & \cite{Maier}& 2013 & Master's Dissertation \\
     \hline
-    A reference architecture for Big Data solutions introducing a model to perform predictive analytics using Big Data technology  & \cite{geerdink2013reference}  & 2013 & Conference Paper \\
+    A reference architecture for Big Data solutions introducing a model to perform predictive analytics usi ng Big Data technology  & \cite{geerdink2013reference}  & 2013 & Conference Paper \\
     \hline
     IBM - Reference architecture for high performance analytics in healthcare and life science  & \cite{quintero2019ibm} & 2013 & Book \\ [1ex]
     \hline
