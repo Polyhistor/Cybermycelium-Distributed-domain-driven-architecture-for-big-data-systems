@@ -493,7 +493,7 @@ The variability model is depicted in Fig \ref{variability} by the means of Archi
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=11cm]{variability-model.JPG}
+    \includegraphics[width=12cm]{variability-model.JPG}
     \caption{Variability management concepts model}
     \label{variability}
 \end{figure}
@@ -559,7 +559,11 @@ Whereas there could be other factors to be discussed deeply in this paper regard
 
 This section is constituent of two integral elements: theory and artifact. First we begin be exploring the major architectural constructs that underpins our artifact and then we present the artifact and describe its components.
 
-\section{A paradigm shift: distributed domain driven architecture}
+\subsection{The Theory}
+
+There are various design and kernel theories employed to justify our artifact and the decisions made. These theories are described in following sub-sections.
+
+\subsubsection{A paradigm shift: distributed domain driven architecture}
 
 Based on the premises discussed in \ref{need for paradigm shift}, one can infer that the idea of monolithic and centralized data pipelines that are highly couped and operated by silos of hyper-specialized BD engineers has limitations and can bring organizations into a bottleneck .
 
@@ -586,7 +590,7 @@ Based on these premises we posit 4 underpinning principles for Cybermycelium;
 
 \end{enumerate}
 
-\subsection{Distributed Domain driven services with bounded context}
+\subsubsection{Distributed Domain driven services with bounded context}
 
 Integral to Cybermycelium, is the distribution and decentralization of services into domains that have clear bounded context. Perhaps one the most challenging things one might face when it comes to architecting a distributed system is: based on what architectural quanta should we break down the system. This issue has been repeatedly discussed for example among adopters of microservices architecture . Cybermycelium, inspired by the concept of domain-drive design, tends to sit data close to the product domain that relates to it. This implies that data inheres in the product domain and as a facet of it \cite{laigner2021data}.
 
@@ -598,7 +602,7 @@ In each translation, information is lost, which is the essential domain knowledg
 
 To this challenge, domain-driven design proposes a better approach to convey knowledge from domain experts to data engineers. In domain-driven desing, instead of intermediary translations business domains are project into actual software engineering, emphasizing on creation of one shared terminology, that is the ubiquitous language. We do not aim to explore all facets of domain-driven design in this study, but it's worth mentioning that each business has it's own domain, and constituent core, generic and supporting sub-domains, and this is defined at the moment of RA instantiation. 
 
-\subsection{Data as a service:}
+\subsubsection{Data as a service:}
 
 Data can be conceived as the fourth dimension of a product next to UI/UX, business and application (\ref{data-facets}). Each domain provides its data as a service. This data is consisting of both operational and analytical data. This also implies that any friction and coupling between data is removed. For instance, the 'invoice' domain will provide the transactional data about number of invoices and total of discounts with analytical data such as which practices have created what number of invoices in what period of time.
 
@@ -613,7 +617,7 @@ However this data-as-a-service model should be carefully implemented to account 
 
 Product domains may also need to ingest data from upstream domains, and this requires the definition of clear interfaces. Furthermore, each domain should also account for metadata. Metadata in derived from the nature of the product and its data lifecycle. Data can be ingested and served in various forms such as tables, graphs, JSON, events, and many more; but in order for the data to be useful for analytical purposes, there is a need to associate data with its corresponding metadata that encompasses semantics, and history.
 
-\subsection{Data infrastructure automation}
+\subsubsection{Data infrastructure automation}
 
 As the number of product domain increases, the effort required to build, deploy, execute, and monitor services increases. This includes the data pipelines required for that product domain to carry out its functions. The platform skills required for these kinds of work is usually found in Devops engineers and site reliability engineers. Application developers and data engineers are usually not adept at carrying out such workloads in an efficient manner. For this reason, there is a need for highly abstract reusable infrastructural components that can be easily utilized. This implies that teams should be equipped with required infrastructure as a service, that can be easily employed to account for BD needs.
 
@@ -622,7 +626,7 @@ One way to provision such infrastructure as a service, is to utilize infrastruct
 Nevertheless, this should not be a daunting task, as one can simply extend the worker nodes map in the EKS code written for Terraform to add a new node in the network, which installs Databricks through a Helm Chart \cite{Helm}. In addition, the data infrastructure should be accompanied with proper tooling. Tools like GNU Make \cite{Make}, makes it quite easy for developers and data engineers to deploy infrastructure as they demand.
 A mature infrastructure as a service should provide the team with core infrastructures such as BD storage, stream processing services, batch processing services, event backbones or message queues, and data integration technologies.
 
-\subsection{Governance through a federation service}
+\subsubsection{Governance through a federation service}
 
 The other principle of Cybermycelium is the global governance or the global standardization of the services. This principle is perhaps a lesson learnt from the studied application of Miroservices architecture in the industry \cite{alshuqayran2016systematic}. Distributed architectures are made up of independent collection of nodes, with distinct lifecycle that are deployed separately and are owned by various teams. As the number of these services grow, and the interconnections increase, the challenge of maintaining and scaling the system increases. This means services need to interoperate, provide services, ingest data from other services, perform graph or set operations in a timely manner and do stream processing.
 
@@ -630,7 +634,7 @@ In order to scale and maintain these independently deployed yet interconnected s
 
 The definition of these standards is up to the architecture, or architectural governance group, and is usually achieved through service level objectives (SLOs) or well-defined contracts and standards.
 
-\subsection{Event driven services}
+\subsubsection{Event driven services}
 
 Cybermycelium has been designed in a decentralized and distributed manner. Despite the advantages of decentralized systems in terms of maintenances and scalability, communication between the services remains a challenge. As the number of services grow, the communication channels increases, and this soon turns into a nexus of interconnected services that each try to meet its own end. Each service will need to learn about the other services, their interfaces, and how the messages will be processed. This increases the coupling between services and makes maintenance a challenging task. We argue that this should not be the aim of a distributed RA such as Cybermycelium.
 
@@ -720,12 +724,12 @@ By applying standard and the requirements of Cybermycelium to the pool of availa
 
 It is also worth mentioning that the archetype is not a full instantiation of the Cybermycelium, but rather a partial instantiation based on given business cases. The concrete architecture created out of Cybermycelium for the archetype is depicted in figure \ref{fig:ConcreteCyberMycelium}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=12cm]{Media/concrete-mycelium.jpg}
+\begin{sidewaysfigure}
+    % \centering
+    \includegraphics[width=23cm]{Media/concrete-mycelium.jpg}
     \caption{Cybermycelium Instantiation}
     \label{fig:ConcreteCyberMycelium}
-\end{figure}
+\end{sidewaysfigure}
 
 For the purposes of this archetype we've written a custom script that extracts data out of mySQL and then send it to Cybermycelium. Whereas there could be a service written in a product domain service mesh to directly connect to mySql to get values, we decided to have this proxy server, firstly because of company's security and privacy concerns, and secondly, because we wanted to create a flow that respects the architectural integrity of Cybermycelium.
 
@@ -883,7 +887,6 @@ Moreover, the security, privacy and metadata aspect of BD neeeds substantial wor
     
     \item -       The section 2 and 3 can be reduced. Currently, there are a lot of information that is not important for the reference architecture. I would advise the authors to reduce these sections in order to improve the readability.
     
-    \item   Most of the figures are difficult to read. I would advise the authors to make them bigger.
     
     \item  The authors validate the proposed reference architecture by creating a prototype and usi ng ATAM to evaluate them. It would be interesting to know how the prototype has been designed, how the RA helped in the definition of the prototype, etc.
     
