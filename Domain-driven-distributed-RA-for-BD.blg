@@ -27,36 +27,36 @@ Warning--empty year in KazmanATAM
 Warning--empty pages in Nakagawa
 Warning--empty author in SAPRA
 Warning--empty journal in SAPRA
-You've used 149 entries,
+You've used 150 entries,
             2937 wiz_defined-function locations,
-            1437 strings with 31140 characters,
-and the built_in function-call counts, 42605 in all, are:
-= -- 3795
-> -- 1304
+            1440 strings with 31249 characters,
+and the built_in function-call counts, 42800 in all, are:
+= -- 3808
+> -- 1308
 < -- 44
-+ -- 534
-- -- 385
-* -- 2445
-:= -- 5397
-add.period$ -- 151
-call.type$ -- 149
++ -- 536
+- -- 386
+* -- 2450
+:= -- 5419
+add.period$ -- 152
+call.type$ -- 150
 change.case$ -- 133
 chr.to.int$ -- 0
-cite$ -- 169
-duplicate$ -- 1579
-empty$ -- 5264
-format.name$ -- 473
-if$ -- 11519
+cite$ -- 170
+duplicate$ -- 1586
+empty$ -- 5298
+format.name$ -- 474
+if$ -- 11578
 int.to.chr$ -- 0
-int.to.str$ -- 149
-missing$ -- 142
-newline$ -- 486
-num.names$ -- 136
-pop$ -- 1266
+int.to.str$ -- 150
+missing$ -- 144
+newline$ -- 489
+num.names$ -- 137
+pop$ -- 1277
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3078
+skip$ -- 3095
 stack$ -- 0
 substring$ -- 1871
 swap$ -- 424
@@ -65,7 +65,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 20
-while$ -- 314
-width$ -- 152
-write$ -- 1181
+while$ -- 315
+width$ -- 153
+write$ -- 1188
 (There were 22 warnings)
