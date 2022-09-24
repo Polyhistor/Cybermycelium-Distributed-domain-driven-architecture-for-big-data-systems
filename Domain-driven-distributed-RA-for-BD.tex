@@ -744,8 +744,6 @@ This evaulation is undertaken in a subsidiary of a large-scale international com
 The initial step was the identification ot relevant stakeholders. For this purpose we have approached the key stakeholders in the company's technical governance team. Our aim was to incorporate at least two lead architects of the company in this process. We emphasized on architects that have been with business for a long period of time. This was to ensure that we do not miss any important element in the process of evaluation. As a result, we invited two lead development architects, head of product, and a business analyst for phase 1.
 
 
-% a product owner responsible for the product in which the artifact is tested, a quality assurance engineer and several developers.  
-
 \subsubsection{Step 1 and 2: Introduction}
 
 During the initial meeting, in step 1, ATAM was presented with clear description of its purposes. In step 2, stakeholders discussed the background of the business and some of the challenges faced, and the current state of affairs, the primary business goals, and architecturally significant requirements. This step illuminated on integral elements such as: 1) most important functions of the system, 2) any political, regional, or managerial constraints, 3) the business context and how it relates to our prototype, 4) architectural drivers.
@@ -778,7 +776,7 @@ We then probed each of the quality attributes for potential risks, tradeoffs, an
 %     \item There has been numerous cases of cancer in pets in certain environments. This environment should be analyzed to see if environmental factors play a cancer inducing role.
 % \end{itemize}
 
-\subsubsection{Utility Tree Elicitation:}
+\subsubsection{Step 5: Utility Tree Elicitation:}
 In order to generate the utility tree, first we had to learn what are the most important quality attributes. While we learnt about these quality attributes in step 2, in this step we probed deeper. We first presented our assumptions, and double-checcked it with the stakeholders. Whereas some stakeholders raised concerns over privacy, the members unanimously agreed that performance, availability, and maintainability are the most important quality attributes. This was in-line with our assumptions. In this process, we rated the technical difficulty, and the key stakeholders rated the business importance.
 
 Based on these premises, the utility tree has been generated (figure \ref{fig:utility-tree}).
@@ -790,7 +788,7 @@ Based on these premises, the utility tree has been generated (figure \ref{fig:ut
     \label{fig:utility-tree}
 \end{figure}
 
-\subsubsection{Analyze Architectural Approaches:}
+\subsubsection{Step 6: Analyze Architectural Approaches:}
 
 After having scenarios prioritised and architectural approaches identified, it's time to analyze if the architectural approaches are the fitting for the given scenarios. In this step, we asked the lead architects to probe the architecture and we explained how the prototype is addressing each scenario. 
 
@@ -801,22 +799,7 @@ The result of this step, was identification of sensitivity points, trade-offs, r
 
 
 
-% by the means of simulating those scenarios against the system. This is to provide heuristic qualitative analysis, and highlight tradeoffs, risks, and sensitivity points.
-
-% Therefore, we emulated the scenarios against the archetype by creating relevant topics in the Kafka, having the data flow, having the ingress in the service mesh digest it and flow it into the storage and processing and so on so forth. We've been using real world data, so there was no need for data fabrication and synthesis. We configured Nginx to pass the request to the responsible Lambdas, and Lambdas then produced the necessary events and sent it to Kafka. 
-
-% In the process of running simulation scenarios against our concrete system, we probed our architectural approaches, which led to emergence of several questions;
-
-% \begin{itemize}
-%     \item How does the system reocover if the event backbone goes out of order?
-%     \item What if the service mesh ingress is not available?
-%     \item Should privacy be it's own service? or should it sit in federation ?
-%     \item Should have a dedicated service mesh for metadata management?
-%     \item How easy it is to extend and modify current services?
-%     \item Should there be a certain order to events ?
-%     \item Is there a benefit in creating event mesh between event brokers?
-%     \item Where is the best place to scrub sensitive data from the incoming streams?
-% \end{itemize}
+%
 
 % It is essential to realize that the RA is at a higher level of abstraction, aiming to capture the best architectural solutions for a class of systems, while the prototype of it helps arising many details, screening questions, tradeoff points, sensitivity points, and organizational matters. Tradeoff points is defined as the point in which a service can affect various quality attributes. These points are of high importance as they can drastically affect the overall behaviour of the system.
 
@@ -883,7 +866,42 @@ The result of this step, was identification of sensitivity points, trade-offs, r
 
 \subsection{Phase 2:}
 
-In phase, 
+This phase was a more serious phase of our evaluation, as we invited more stakeholders, collected more scenarios and even created simulations. For this phase, in addition to lead architectes, we invited a product owner responsible for the product in which the artifact is tested, a quality assurance engineer and several developers. We repeated step 1, and provided with recap of step 2 to 6, and shared the current list of risks, non-risks, sensitivity points, and tradeoffs. 
+
+This phase is an iteration of phase one, so we collected scenarios, analyzed architectural approaches, and finally presented the result of the evaluation. 
+
+\subsubsection{Step 7: Brainstorm and Prioritize Scenarios}
+
+While utility tree was created in step 5, the purpose of this brainstorming was to get a pulse of the larger stakeholder community and capture more scenarios.
+
+Scenarios are the quantum of ATAM, and help captring stimuli to which the architecture has to react. These stimuli help to highlight system's ability to too meet desired functional and non-functioanl requirements \cite{KazmanATAM}. Based on this premise, in this step, we asked stakeholders to come up with three different kind of scenarios namely growth scenarios (anticipated changes), use-case scenarios (typical usage of the system) and exploratory scenarios (extreme cases). The result of this created 20 scenarios, which we then asked stakeholders to vote on. The result of the voting yielded 5 scenarios which are described as two user journeys;
+
+\begin{itemize}
+    \item A cat owner brings a cat to the veterinary hospital. The cat has symptoms of a lyme disease, and should be diagnosed in a timely manner to avoid master problems.
+    \item There has been numerous cases of cancer in pets in certain environments. This environment should be analyzed to see if environmental factors play a cancer inducing role.
+\end{itemize}
+
+\subsubsection{Step 8: Analyze Architectural Approaches}
+
+Before starting this step, we took a few days break to simulate the scenarios against our prototype. While ATAM does not prescribe this, we augmented our evaluation with this simulation to ensure that we do not overlook any necessary architectural detail. This improved our confidence in our RA and the architectural probing questions to come. 
+
+We emulated the scenarios against the prototype by creating relevant topics in the Kafka, having the data flow, having the ingress in the service mesh digest it and flow it into the storage and processing and so on so forth. We've been using real world data, so there was no need for data fabrication and synthesis. We configured Nginx to pass the request to the responsible Lambdas, and Lambdas then produced the necessary events and sent it to Kafka. 
+
+We presented our simulation alongside some metrics we captured and displayed in our cloud served Garafana instance. From here on, this step followed the exact same procudure as step 6, with a difference that this time there's been more extensive probing and analysis of the architecture and the simulated scenarios. The simulation and results of it helped clarifying on some of our architectural constructs and led to emergence of several questions: 
+
+\begin{itemize}
+    \item How does the system reocover if the event backbone goes out of order?
+    \item What if the service mesh ingress is not available?
+    \item Should privacy be it's own service? or should it sit in federation ?
+    \item Should have a dedicated service mesh for metadata management?
+    \item How easy it is to extend and modify current services?
+    \item Should there be a certain order to events ?
+    \item Is there a benefit in creating event mesh between event brokers?
+    \item Where is the best place to scrub sensitive data from the incoming streams?
+\end{itemize}
+
+\subsubsection{Step 8: Analyze Architectural Approaches}
+
 
 % \subsection{Tradeoff Points:}
 
