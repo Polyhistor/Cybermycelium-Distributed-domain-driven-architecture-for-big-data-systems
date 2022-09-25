@@ -5,8 +5,6 @@ Reallocating 'name_of_file' (item size: 1) to 15 items.
 The style file: elsarticle-num.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: mybibfile.bib
-Warning--I didn't find a database entry for "CASP"
-Warning--I didn't find a database entry for "JBI"
 Warning--empty journal in AtaeiACIS
 Warning--empty journal in AtaeiHype
 Warning--empty author in ApachBeam
@@ -27,45 +25,45 @@ Warning--empty year in KazmanATAM
 Warning--empty pages in Nakagawa
 Warning--empty author in SAPRA
 Warning--empty journal in SAPRA
-You've used 141 entries,
+You've used 151 entries,
             2937 wiz_defined-function locations,
-            1394 strings with 29895 characters,
-and the built_in function-call counts, 40952 in all, are:
-= -- 3650
-> -- 1260
+            1439 strings with 31285 characters,
+and the built_in function-call counts, 42991 in all, are:
+= -- 3823
+> -- 1312
 < -- 44
-+ -- 514
-- -- 373
-* -- 2373
-:= -- 5175
-add.period$ -- 143
-call.type$ -- 141
-change.case$ -- 127
++ -- 538
+- -- 387
+* -- 2456
+:= -- 5443
+add.period$ -- 154
+call.type$ -- 151
+change.case$ -- 133
 chr.to.int$ -- 0
-cite$ -- 161
-duplicate$ -- 1525
-empty$ -- 5045
-format.name$ -- 458
-if$ -- 11060
+cite$ -- 171
+duplicate$ -- 1594
+empty$ -- 5327
+format.name$ -- 475
+if$ -- 11632
 int.to.chr$ -- 0
-int.to.str$ -- 141
-missing$ -- 133
-newline$ -- 461
-num.names$ -- 128
-pop$ -- 1207
+int.to.str$ -- 151
+missing$ -- 144
+newline$ -- 494
+num.names$ -- 138
+pop$ -- 1285
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2943
+skip$ -- 3112
 stack$ -- 0
-substring$ -- 1837
-swap$ -- 420
+substring$ -- 1871
+swap$ -- 425
 text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 20
-while$ -- 303
-width$ -- 144
-write$ -- 1121
-(There were 22 warnings)
+while$ -- 316
+width$ -- 154
+write$ -- 1196
+(There were 20 warnings)
