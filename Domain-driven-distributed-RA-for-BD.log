@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  25 SEP 2022 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  25 SEP 2022 22:44
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Domain-driven-distributed-RA-for-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Domain-driven-distributed-RA-for-BD.tex"
@@ -347,11 +347,15 @@ Package pdftex.def Info: databases-statitistic.jpg  used on input line 347.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [19] [20 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/PRISMA.JPG> <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/databases-statitistic.jpg>] [21] [22]
-<variability-model.JPG, id=562, 1282.7925pt x 607.26875pt>
+<variability-model.JPG, id=563, 1282.7925pt x 607.26875pt>
 File: variability-model.JPG Graphic file (type jpg)
 <use variability-model.JPG>
 Package pdftex.def Info: variability-model.JPG  used on input line 391.
-(pdftex.def)             Requested size: 341.43306pt x 161.62968pt.
+(pdftex.def)             Requested size: 369.88582pt x 175.10268pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 391--392
+ [][] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -400,7 +404,7 @@ Overfull \hbox (8.94502pt too wide) in paragraph at lines 548--549
  []
 
 [32] [33]
-<Media/product-facets.jpg, id=690, 702.625pt x 661.47125pt>
+<Media/product-facets.jpg, id=691, 702.625pt x 661.47125pt>
 File: Media/product-facets.jpg Graphic file (type jpg)
 <use Media/product-facets.jpg>
 Package pdftex.def Info: Media/product-facets.jpg  used on input line 577.
@@ -410,7 +414,7 @@ Package pdftex.def Info: Media/product-facets.jpg  used on input line 577.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [34] [35 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/product-facets.jpg>] [36] [37] [38]
-<Media/Cybermycelium.jpg, id=728, 1528.71124pt x 740.7675pt>
+<Media/Cybermycelium.jpg, id=729, 1528.71124pt x 740.7675pt>
 File: Media/Cybermycelium.jpg Graphic file (type jpg)
 <use Media/Cybermycelium.jpg>
 Package pdftex.def Info: Media/Cybermycelium.jpg  used on input line 623.
@@ -425,7 +429,7 @@ Overfull \hbox (3.75063pt too wide) in paragraph at lines 630--631
 []\OT1/cmr/m/n/10 For the pur-poses of ef-fec-tive mod-el-ing and ab-strac-tion, we've sub-diagrammed
  []
 
-<Media/Product Domain.jpg, id=730, 819.06pt x 529.98pt>
+<Media/Product Domain.jpg, id=731, 819.06pt x 529.98pt>
 File: Media/Product Domain.jpg Graphic file (type jpg)
 <use Media/Product Domain.jpg>
 Package pdftex.def Info: Media/Product Domain.jpg  used on input line 634.
@@ -434,7 +438,7 @@ Package pdftex.def Info: Media/Product Domain.jpg  used on input line 634.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [39] [40 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/Cybermycelium.jpg>] [41 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/Product Domain.jpg>] [42] [43] [44] [45] [46] [47] [48] [49]
-<Media/concrete-mycelium.jpg, id=807, 1564.84625pt x 785.93625pt>
+<Media/concrete-mycelium.jpg, id=808, 1564.84625pt x 785.93625pt>
 File: Media/concrete-mycelium.jpg Graphic file (type jpg)
 <use Media/concrete-mycelium.jpg>
 Package pdftex.def Info: Media/concrete-mycelium.jpg  used on input line 697.
@@ -445,7 +449,7 @@ Overfull \hbox (104.41338pt too wide) in paragraph at lines 697--698
  []
 
 [50] [51 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/concrete-mycelium.jpg>] [52]
-<Media/Utility-tree.jpg, id=823, 863.225pt x 572.1375pt>
+<Media/Utility-tree.jpg, id=824, 863.225pt x 572.1375pt>
 File: Media/Utility-tree.jpg Graphic file (type jpg)
 <use Media/Utility-tree.jpg>
 Package pdftex.def Info: Media/Utility-tree.jpg  used on input line 739.
@@ -622,9 +626,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  38i,10n,36p,1889b,1007s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.pdf" (84 pages, 1320938 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.pdf" (84 pages, 1321218 bytes).
 PDF statistics:
- 1313 PDF objects out of 1440 (max. 8388607)
+ 1314 PDF objects out of 1440 (max. 8388607)
  400 named destinations out of 1000 (max. 500000)
  441 words of extra memory for PDF output out of 10000 (max. 10000000)
 
