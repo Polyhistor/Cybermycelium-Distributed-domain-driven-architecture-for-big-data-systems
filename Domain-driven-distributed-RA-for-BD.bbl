@@ -266,52 +266,6 @@ S.~Angelov, P.~Grefen, D.~Greefhorst, A classification of software reference
 S.~Angelov, P.~Grefen, An e-contracting reference architecture, Journal of
   Systems and Software 81~(11) (2008) 1816--1844.
 
-\bibitem{hollingsworth1995workflow}
-D.~Hollingsworth, U.~Hampshire, Workflow management coalition: The workflow
-  reference model, Document Number TC00-1003 19~(16) (1995) 224.
-
-\bibitem{zimmermann1980osi}
-H.~Zimmermann, Osi reference model-the iso model of architecture for open
-  systems interconnection, IEEE Transactions on communications 28~(4) (1980)
-  425--432.
-
-\bibitem{OATH}
-OATH,
-  \href{https://openauthentication.org/wp-content/uploads/2015/09/ReferenceArchitectureVersion2.pdf}{Oath
-  reference architecture, release 2.0 initiative for open authentication},
-  OATH.
-\newline\urlprefix\url{https://openauthentication.org/wp-content/uploads/2015/09/ReferenceArchitectureVersion2.pdf}
-
-\bibitem{pope1998corba}
-A.~L. Pope, The CORBA reference guide: understanding the common object request
-  broker architecture, Addison-Wesley Longman Publishing Co., Inc., 1998.
-
-\bibitem{kreps2014questioning}
-J.~Kreps,
-  \href{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}{Questioning
-  the lambda architecture}, Online article, July 205.
-\newline\urlprefix\url{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}
-
-\bibitem{microsoft2002application}
-M.~Press, L.~Joyner, G.~Malcolm, Application Architecture for. NET: Designing
-  Applications and Services, Microsoft Press, 2002.
-
-\bibitem{greefhorst2006achmea}
-D.~Greefhorst, P.~Gehner, Achmea streamlines application development and
-  integration, Via Nova Architectura.
-
-\bibitem{greefhorst1999een}
-D.~Greefhorst, Een applicatie-architectuur voor het web bij de bank—de pro's
-  en contra's van toestandsloosheid, Software Release Magazine 2.
-
-\bibitem{wu2002reference}
-H.~Wu, A reference architecture for Adaptive Hypermedia Applications, Citeseer,
-  2002.
-
-\bibitem{norta2007exploring}
-A.~H. Norta, Exploring dynamic inter-organizational business process
-  collaboration (2007).
-
 \bibitem{gan2019open}
 Y.~Gan, Y.~Zhang, D.~Cheng, A.~Shetty, P.~Rathi, N.~Katarki, A.~Bruno, J.~Hu,
   B.~Ritchken, B.~Jackson, et~al., An open-source benchmark suite for
@@ -660,6 +614,12 @@ P.~Viana, L.~Sato, A proposal for a reference architecture for long-term
   archiving, preservation, and retrieval of big data, in: 2014 IEEE 13th
   International Conference on Trust, Security and Privacy in Computing and
   Communications, IEEE, 2014, pp. 622--629.
+
+\bibitem{kreps2014questioning}
+J.~Kreps,
+  \href{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}{Questioning
+  the lambda architecture}, Online article, July 205.
+\newline\urlprefix\url{https://www.oreilly.com/radar/questioning-the-lambda-architecture/}
 
 \bibitem{demchenko2014defining}
 Y.~Demchenko, C.~De~Laat, P.~Membrey, Defining architecture components of the
