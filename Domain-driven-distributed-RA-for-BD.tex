@@ -6,6 +6,17 @@
 \usepackage[toc,page]{appendix}
 \usepackage{rotating}
 
+
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+            {-2.5ex\@plus -1ex \@minus -.25ex}%
+            {1.25ex \@plus .25ex}%
+            {\normalfont\normalsize\itshape}}
+\makeatother
+\setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
+\setcounter{tocdepth}{4}    % how many sectioning levels to show in ToC
+
+
 \modulolinenumbers[5]
 
 \journal{Journal of \LaTeX\ Templates}
@@ -830,83 +841,83 @@ Based on the result of our evaluation, stakeholders feedback, utility tree, and 
     Q\textsubscript{S} = f(Q\textsubscript{M}, Q\textsubscript{A}, Q\textsubscript{P})
 \end{equation}
 
-\paragraph{\textbf{Performance:}} In order to analyze our approach in-line with the utility tree, after having created the simulated scenarios, we used a cloud stress testing testing agent (StressStimulus). After having run this stess test a couple of times, it has become evident to us that cold start latency of AWS Lambda services can affect the performance requirements stated in the utility tree. A Lambda can take anywhere from 100ms to over a second on cold start time. This latency varies and hard to nail down, but even considering the latency, we have captured an average of 1000ms response time from our system which is inline with the utility tree. While replacing Lambdas with EC2s or Fargates could solve this issue, it would increase the cost, affect the maintainbility of the architecture (a server has to be provisioned and maintained), and would require rework of several services.
+\paragraph{Performance} In order to analyze our approach in-line with the utility tree, after having created the simulated scenarios, we used a cloud stress testing testing agent (StressStimulus). After having run this stess test a couple of times, it has become evident to us that cold start latency of AWS Lambda services can affect the performance requirements stated in the utility tree. A Lambda can take anywhere from 100ms to over a second on cold start time. This latency varies and hard to nail down, but even considering the latency, we have captured an average of 1000ms response time from our system which is inline with the utility tree. While replacing Lambdas with EC2s or Fargates could solve this issue, it would increase the cost, affect the maintainbility of the architecture (a server has to be provisioned and maintained), and would require rework of several services.
 
-% In addition, other Lambda like solutions exist that have actually sovled the cold start problem; one good example is cloud workers offered by CloudFlare. However the company chosen for the purposes of this evaluation is not yet open to a multi-cloud approach, and thus AWS is the only option. Moreover, one could implement predictable start-ups with provisioned concurrency, but that requires more effort and is outside the scope of this study. As our architecture is distributed, we have also measured the latency in between services as tail latency is a known issue in distributed systems. Due to the fact that our service mesh was hosted in a private network on a virtual cloud, we could not find any major issue with cloud latency, and our average response time was under 1000ms. Implementing a streaming processing in Databricks, we opted not to use micro-batch to have an accurate evaluation, and we decided not to configure the fair scheduling pool, so as to test the worst case scenario.
+In addition, other Lambda like solutions exist that have actually sovled the cold start problem; one good example is cloud workers offered by CloudFlare. However the company chosen for the purposes of this evaluation is not yet open to a multi-cloud approach, and thus AWS is the only option. Moreover, one could implement predictable start-ups with provisioned concurrency, but that requires more effort and is outside the scope of this study. As our architecture is distributed, we have also measured the latency in between services as tail latency is a known issue in distributed systems. Due to the fact that our service mesh was hosted in a private network on a virtual cloud, we could not find any major issue with cloud latency, and our average response time was under 1000ms. Implementing a streaming processing in Databricks, we opted not to use micro-batch to have an accurate evaluation, and we decided not to configure the fair scheduling pool, so as to test the worst case scenario.
 
-% After creating and analyzing various performance models of the system, it has come clear to us that latency, and side-effects like input/output, and mutation/transformations were the most important performance sensitivity points. Our performance model were built underlying the following cases;
+After creating and analyzing various performance models of the system, it has come clear to us that latency, and side-effects like input/output, and mutation/transformations were the most important performance sensitivity points. Our performance model were built underlying the following cases;
 
-% \begin{itemize}
-%     \item Priodic, regular data dispatch to the product domain
-%     \item Sending large volume of data (over 200mb) to the system, reaching the throughput threshold
-%     \item Sending many request simutaneously through the cloud stress testing tool
-% \end{itemize}
+\begin{itemize}
+    \item Priodic, regular data dispatch to the product domain
+    \item Sending large volume of data (over 200mb) to the system, reaching the throughput threshold
+    \item Sending many request simutaneously through the cloud stress testing tool
+\end{itemize}
 
-% The event-driven nature of the system really helped with handling throughput and concurrency. Whereas there has been bottlenecks in the areas of storage and network latency, the system managed to reach desired performance on average. Given this insight and after some rigorous testing, we characterize the system's performance sensitivity as follows;
+The event-driven nature of the system really helped with handling throughput and concurrency. Whereas there has been bottlenecks in the areas of storage and network latency, the system managed to reach desired performance on average. Given this insight and after some rigorous testing, we characterize the system's performance sensitivity as follows;
 
-% \begin{equation}
-%     Q\textsubscript{P} = h(s, l, cbp)
-% \end{equation}
+\begin{equation}
+    Q\textsubscript{P} = h(s, l, cbp)
+\end{equation}
 
-% That is the system is sensitive to side effects (s), latency (l), and concurrency back pressure (cbp).
+That is the system is sensitive to side effects (s), latency (l), and concurrency back pressure (cbp).
 
-% \subsubsection{Availablity:}
+\paragraph{Availablity:}
 
-% As guided by the utlity tree, the key stimulus to model for the prototype is the failure of the ingress (load balancer)  the data processing cluster and most importantly the event backbone. Due to the distributed nature of Cybermycelium, and the derived prototype, failure in one service, if not handled properly, can have a ripple effect on the system. This is one area, where we found the idea of 'event brokers' really helpful. By implementing circuit breakers in event brokers, we prevented the other nodes of the system to be affected by failure of one. We also archived the events that the node was about to receive before it failed.
+As guided by the utlity tree, the key stimulus to model for the prototype is the failure of the ingress (load balancer)  the data processing cluster and most importantly the event backbone. Due to the distributed nature of Cybermycelium, and the derived prototype, failure in one service, if not handled properly, can have a ripple effect on the system. This is one area, where we found the idea of 'event brokers' really helpful. By implementing circuit breakers in event brokers, we prevented the other nodes of the system to be affected by failure of one. We also archived the events that the node was about to receive before it failed.
 
-% Whereas the event archive has played an ancillary role in providing archive to various circuit breakers, it's main functionality was to provide event history to the event backbone in the case of failure. This is again achieved by circuit breaking at the broker level and event retrieval from the event archive. On the other hand, in relation to container orchestration and health check, Kubernetes provided with a declarative API to handle the state of the system. With setting replica sets, and necessary deployments, the master node kept ensuring that certain number of pods are always available. This implies that it's critical for master node to be available at all times.
+Whereas the event archive has played an ancillary role in providing archive to various circuit breakers, it's main functionality was to provide event history to the event backbone in the case of failure. This is again achieved by circuit breaking at the broker level and event retrieval from the event archive. On the other hand, in relation to container orchestration and health check, Kubernetes provided with a declarative API to handle the state of the system. With setting replica sets, and necessary deployments, the master node kept ensuring that certain number of pods are always available. This implies that it's critical for master node to be available at all times.
 
-% Based on these findings, we characterized system's availability as following (g is fraction of time that system is working);
+Based on these findings, we characterized system's availability as following (g is fraction of time that system is working);
 
-% \begin{equation}
-%     Q\textsubscript{A} = g(\lambda\textsubscript{E} , \mu\textsubscript{C}, \mu\textsubscript{S})
-% \end{equation}
+\begin{equation}
+    Q\textsubscript{A} = g(\lambda\textsubscript{E} , \mu\textsubscript{C}, \mu\textsubscript{S})
+\end{equation}
 
-% That is, system availablity is primarily affected by the failure rate of the event backbone ($\lambda \textsubscript{E}$), the time it takes for circuit breaker to trip and become available again ($\mu\textsubscript{C}$), and the time it takes for the service to recover from failure ($\mu\textsubscript{S}$).
+That is, system availablity is primarily affected by the failure rate of the event backbone ($\lambda \textsubscript{E}$), the time it takes for circuit breaker to trip and become available again ($\mu\textsubscript{C}$), and the time it takes for the service to recover from failure ($\mu\textsubscript{S}$).
 
-% One major factor that really helped alleviating many issues of the distributed systems, was the cloud-native aspect of Cybermycelium. Whereas this aspect of the architect has not beed discussed previously, the prototype was easily deployed in AWS with well-known Amazon web sevices. As we did not handle on-premise data centers, many of the hardware was handled by the cloud company.
+One major factor that really helped alleviating many issues of the distributed systems, was the cloud-native aspect of Cybermycelium. Whereas this aspect of the architect has not beed discussed previously, the prototype was easily deployed in AWS with well-known Amazon web sevices. As we did not handle on-premise data centers, many of the hardware was handled by the cloud company.
 
-% \subsubsection{Modifiability:}
+\paragraph{Modifiability:}
 
-% To analyze modifiability, we followed the guidelines of SAAM \cite{kazman1994saam}. The distributed and service driven nature of the prototype allowed us to easily achieve the utility tree and even further. All of our cloud based infrastructure has been written as Terraform code with HCL, which meant adding a new node in the system, was as easy as copying the worker groups block in the EKS configuration, and setting the hardware properties of it. We could then easily deploy different services and deployments and have them run our public docker images. Brokers were also streamlined, and we could spin up a new broker within minutes. One area that we found a bit challenging to modify was perhaps the Databricks cluster, and the EKS ALB ingress (Nginx).
+To analyze modifiability, we followed the guidelines of SAAM \cite{kazman1994saam}. The distributed and service driven nature of the prototype allowed us to easily achieve the utility tree and even further. All of our cloud based infrastructure has been written as Terraform code with HCL, which meant adding a new node in the system, was as easy as copying the worker groups block in the EKS configuration, and setting the hardware properties of it. We could then easily deploy different services and deployments and have them run our public docker images. Brokers were also streamlined, and we could spin up a new broker within minutes. One area that we found a bit challenging to modify was perhaps the Databricks cluster, and the EKS ALB ingress (Nginx).
 
-% Certification management was also easily handled through Istio, local CertManager and Let's encrypt. One area that could be taking a bit longer was the inclusion of private docker image secrets as a Kubernetes secret, and having it refreshed every 12 hours. To the best of our knowledge, cron jobs were the only way to achieve this, but the implementation was not straight forward.
+Certification management was also easily handled through Istio, local CertManager and Let's encrypt. One area that could be taking a bit longer was the inclusion of private docker image secrets as a Kubernetes secret, and having it refreshed every 12 hours. To the best of our knowledge, cron jobs were the only way to achieve this, but the implementation was not straight forward.
 
-% On the other hand, bringin up a scalable Kafka cluster was not that difficult, but there were so many configurations that one can choose to turn on or amend. This can potentially affect modifiability in the long run, when the company might have varying and sometimes conflicting requirements.
+On the other hand, bringin up a scalable Kafka cluster was not that difficult, but there were so many configurations that one can choose to turn on or amend. This can potentially affect modifiability in the long run, when the company might have varying and sometimes conflicting requirements.
 
-% Modifiability is also affected by the skillset of the engineers and how familiar they are with Kubernetes, Databricks and Istio.
+Modifiability is also affected by the skillset of the engineers and how familiar they are with Kubernetes, Databricks and Istio.
 
-% Taking all these into consideration, we characterize system's modifiability as follows (s is the skill set required);
+Taking all these into consideration, we characterize system's modifiability as follows (s is the skill set required);
 
-% \begin{equation}
-%     Q\textsubscript{M} = s(K, D, K)
-% \end{equation}
+\begin{equation}
+    Q\textsubscript{M} = s(K, D, K)
+\end{equation}
 
-% That is, the system modifiability is affected the Kubernetes maintenances (K), Databricks maintenances, versioning and configuration (D), and Kafka versioning, maintenance and configuration.
+That is, the system modifiability is affected the Kubernetes maintenances (K), Databricks maintenances, versioning and configuration (D), and Kafka versioning, maintenance and configuration.
 
 
-% \subsection{Tradeoff Points:}
+\paragraph{Tradeoff Points:}
 
-% As a result of these analyses, we identifed two tradeoff points;
+As a result of these analyses, we identifed two tradeoff points;
 
-% \begin{enumerate}
-%     \item Event backbon and event brokers
-%     \item Service mesh
-% \end{enumerate}
+\begin{enumerate}
+    \item Event backbon and event brokers
+    \item Service mesh
+\end{enumerate}
 
-% One area that arose many worries is the event backbone. Event backbone being the communication facilitator has raised a lot of questions and many worried that this might turn into a bloated architectural component like enterprise service bus (ESB) in the service oriented architectures (SOAs). We addressed many of these questions and issues both in a dicussion and the prototype. Implementing event archive meant that if the event backbone went down, we could restore the previous state of affairs and bring services to the correct state. The implementation of circuit breakers through the event brokers further solidifed the avaiability of the architecture and could deem to affect reliability too. Along the lines, event brokers helped us address some of the modifiability challenges. Having these event brokers setup, meant that different environments do not implement their own event processing mechanism, and the interface is unified across. This clear interface contributed positively to the overall modifiability of the system and allowed engineers to simply copy the broker for their services. In addition, brokers also improved interoperability, and hard to trace bugs duge to event processor missmatch.
+One area that arose many worries is the event backbone. Event backbone being the communication facilitator has raised a lot of questions and many worried that this might turn into a bloated architectural component like enterprise service bus (ESB) in the service oriented architectures (SOAs). We addressed many of these questions and issues both in a dicussion and the prototype. Implementing event archive meant that if the event backbone went down, we could restore the previous state of affairs and bring services to the correct state. The implementation of circuit breakers through the event brokers further solidifed the avaiability of the architecture and could deem to affect reliability too. Along the lines, event brokers helped us address some of the modifiability challenges. Having these event brokers setup, meant that different environments do not implement their own event processing mechanism, and the interface is unified across. This clear interface contributed positively to the overall modifiability of the system and allowed engineers to simply copy the broker for their services. In addition, brokers also improved interoperability, and hard to trace bugs duge to event processor missmatch.
 
-% Given all, Cybermycelium does not tend to dictate what has to be done, or kill the creativity of the archites, but rather aims to shed ligts on a novel perspective to designing BD systems. Therefore, the event backbone and event brokers introduce tradeoff between performance, availability and reliability. Whereas eliminating the event backbone may increase avaiability longitudinaly, and increase modifiability cross-sectionally, it may affect the performance quality attribute in a negative way. This is due to the fact that the event backbone is distributed in nature, can scale well to account for demans, can cache and remember communication paths, and merge event streams, provide with windowing techniques, and be configured to facilitate certain access patterns that are common to the system.
+Given all, Cybermycelium does not tend to dictate what has to be done, or kill the creativity of the archites, but rather aims to shed ligts on a novel perspective to designing BD systems. Therefore, the event backbone and event brokers introduce tradeoff between performance, availability and reliability. Whereas eliminating the event backbone may increase avaiability longitudinaly, and increase modifiability cross-sectionally, it may affect the performance quality attribute in a negative way. This is due to the fact that the event backbone is distributed in nature, can scale well to account for demans, can cache and remember communication paths, and merge event streams, provide with windowing techniques, and be configured to facilitate certain access patterns that are common to the system.
 
-% Anothe area where stakeholders were challenged was the idea of service mesh. Whereas this makes a lot of sense to developers who had to figure out a twisted platform work, the benefit perhaps was not that evident to everyone from the beginning. This is another area of tradeoff. While having the service mesh affects the modifiability of the system in a negative way from platform point of view, it does increase it from the data engineer, software engineer point of view. The service mesh may also affect performance slightly, but the effect is negligible. Service mesh also affects avaiability quality attribute positively by streamlining the platform interfaces, providing an orchestrator (control tower), and doing health checks through proxies.
+Anothe area where stakeholders were challenged was the idea of service mesh. Whereas this makes a lot of sense to developers who had to figure out a twisted platform work, the benefit perhaps was not that evident to everyone from the beginning. This is another area of tradeoff. While having the service mesh affects the modifiability of the system in a negative way from platform point of view, it does increase it from the data engineer, software engineer point of view. The service mesh may also affect performance slightly, but the effect is negligible. Service mesh also affects avaiability quality attribute positively by streamlining the platform interfaces, providing an orchestrator (control tower), and doing health checks through proxies.
 
-% \subsection{Limitation and future research}
+\paragraph{Limitation and future research}
 
-% Cybermycelium is a new perspective to BD system development and tends to absorb many of the well practiced patterns and ideas from various domains. Being distributed in nature, there are still many areas in which Cybermycelium can improve. For instance, we still don't have a great answer to tail latency issues which can affect system negatively. Besides that, we recived feedbacks that many developers find Cybermycelium a complex architecture that require a lot of skill to implement. It requires the understanding of event-driven systems, event streaming, service meshing, data mesh, cloud computing and even data mesh. We do not think that a modern distributed BD architecture should be simple, but we thrive to simplify the ways in which one can absorb Cybermycelium.
+Cybermycelium is a new perspective to BD system development and tends to absorb many of the well practiced patterns and ideas from various domains. Being distributed in nature, there are still many areas in which Cybermycelium can improve. For instance, we still don't have a great answer to tail latency issues which can affect system negatively. Besides that, we recived feedbacks that many developers find Cybermycelium a complex architecture that require a lot of skill to implement. It requires the understanding of event-driven systems, event streaming, service meshing, data mesh, cloud computing and even data mesh. We do not think that a modern distributed BD architecture should be simple, but we thrive to simplify the ways in which one can absorb Cybermycelium.
 
-% Taking all into consideration, we posit that distributed BD systems are still at infancy stage, and there's much work required to facilitate this area of research. These research could be in the areas of BD distributed patterns, event driven BD systems, data mesh, BD reference architecturse, and methods for creating BD distributed architectures.
+Taking all into consideration, we posit that distributed BD systems are still at infancy stage, and there's much work required to facilitate this area of research. These research could be in the areas of BD distributed patterns, event driven BD systems, data mesh, BD reference architecturse, and methods for creating BD distributed architectures.
 
-% Moreover, the security, privacy and metadata aspect of BD neeeds substantial work at macro and micro level. We need more mature technologies and better architectures that compose these technologies in a solution. This is one major area we have on our roadmap.
+Moreover, the security, privacy and metadata aspect of BD neeeds substantial work at macro and micro level. We need more mature technologies and better architectures that compose these technologies in a solution. This is one major area we have on our roadmap.
 
 \section{Discussion}
 
@@ -923,23 +934,6 @@ We posit that neither the attempt to onboard BD analytics workloads to data ware
 We also felt that the quality of many of BD RAs published does not seems to be enough to meet the industrial expectations. This is due to the challenges of developing BD RAs and the cost and resources required to evaluate these artifacts. It is also worth mentioning that a rigorous methodology for evaluating reference architectures are quite rare, and while there are studies that have attempted to address these issues (\cite{angelov2008towards}), there is a need for more research in this area.
 
 Given all, we posit that RAs can be considered an effective initial point to design and development of BD systems. These artifacts helps facilitating communication, capture requirements from various stakeholders, and catch design issues while they are still cheap. Based on this, therefore, more and more attention needs to be given to this area and its foundational methodological needs. This study does not aim to do a deep comparison of Cybermycelium and other RAs, the major architectural constructs, the challenges associated to current BD RAs, and the reasoning behind our artifact should elucidate the varying nature of our artifact.
-
-
-\section{Comments to address}
-
-
-\begin{enumerate}
-
-    
-    \item The explanation of the ATAM in §6 is not correct. Phase 1 and Phase 2 are iterations, using different stakeholders and techniques to elicit scenarios, but performing the same analysis. You might have picked up this misinterpretation from Ford and Richards, which indicates that maybe you are referencing work (i.e., Ref. 32) that you did not actually read.
-    
-    \item  The authors validate the proposed reference architecture by creating a prototype and usi ng ATAM to evaluate them. It would be interesting to know how the prototype has been designed, how the RA helped in the definition of the prototype, etc.
-    
-    \item   I addition, in the validation, the authors prose different metrics for the performance, availability, and modifiability, but the results for the implemented prototype are not provided.
-
-\end{enumerate}
-
-
 
 \section{Conclusion}
 
