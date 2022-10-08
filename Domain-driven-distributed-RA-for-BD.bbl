@@ -279,11 +279,6 @@ R.~Laigner, Y.~Zhou, M.~A.~V. Salles, Y.~Liu, M.~Kalinowski, Data management in
   microservices: State of the practice, challenges, and research directions,
   arXiv preprint arXiv:2103.00170.
 
-\bibitem{dragoni2017microservices}
-N.~Dragoni, S.~Giallorenzo, A.~L. Lafuente, M.~Mazzara, F.~Montesi,
-  R.~Mustafin, L.~Safina, Microservices: yesterday, today, and tomorrow,
-  Present and ulterior software engineering (2017) 195--216.
-
 \bibitem{QCON}
 \href{https://qconferences.com/}{Qcon software conferences} (2022).
 \newline\urlprefix\url{https://qconferences.com/}

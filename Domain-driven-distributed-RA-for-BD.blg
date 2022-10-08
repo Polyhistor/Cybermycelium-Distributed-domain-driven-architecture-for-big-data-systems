@@ -25,45 +25,45 @@ Warning--empty year in KazmanATAM
 Warning--empty pages in Nakagawa
 Warning--empty author in SAPRA
 Warning--empty journal in SAPRA
-You've used 151 entries,
+You've used 150 entries,
             2937 wiz_defined-function locations,
-            1439 strings with 31285 characters,
-and the built_in function-call counts, 42991 in all, are:
-= -- 3823
-> -- 1312
+            1434 strings with 31017 characters,
+and the built_in function-call counts, 42656 in all, are:
+= -- 3797
+> -- 1290
 < -- 44
-+ -- 538
-- -- 387
-* -- 2456
-:= -- 5443
-add.period$ -- 154
-call.type$ -- 151
-change.case$ -- 133
++ -- 530
+- -- 380
+* -- 2427
+:= -- 5393
+add.period$ -- 153
+call.type$ -- 150
+change.case$ -- 132
 chr.to.int$ -- 0
-cite$ -- 171
-duplicate$ -- 1594
-empty$ -- 5327
-format.name$ -- 475
-if$ -- 11632
+cite$ -- 170
+duplicate$ -- 1586
+empty$ -- 5297
+format.name$ -- 467
+if$ -- 11555
 int.to.chr$ -- 0
-int.to.str$ -- 151
-missing$ -- 144
-newline$ -- 494
-num.names$ -- 138
-pop$ -- 1285
+int.to.str$ -- 150
+missing$ -- 143
+newline$ -- 491
+num.names$ -- 137
+pop$ -- 1278
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 3112
+skip$ -- 3096
 stack$ -- 0
-substring$ -- 1871
-swap$ -- 425
+substring$ -- 1846
+swap$ -- 424
 text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 20
-while$ -- 316
-width$ -- 154
-write$ -- 1196
+while$ -- 313
+width$ -- 153
+write$ -- 1189
 (There were 20 warnings)
