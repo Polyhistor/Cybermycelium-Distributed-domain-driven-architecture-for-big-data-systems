@@ -753,13 +753,15 @@ The variable elements in Cybermycelium can be adjusted, modified and even omitte
 
 Of particular importance to development of a RA, is the evaluation of it. As discussed earlier, we aim to evaluate the correctness and utility of the RA by how it can be turned into an effective context-specific concrete architecture, following the guidelines of ATAM. The main goal of ATAM is to appraise the architectural decisions and their consequences in light of quality attributes. This method ensures that the architecture is under the right trajectory and in-line with the context. Architecture is a an amalagamation of risks, tradeoffs, and sensitivity points. Using ATAM increased our confidence by uncovering key architectural tradeoffs, risks, and sensitivity points.
 
-For ATAM to be successful there should not be a precise mathematical analysis of system's quality attributes, but rather trends should be identified where architectural patterns are correlated with a quality attribute of interest. For brevity purposes, we do not expand on what ATAM is, and the details of each steps in it, and we only explain how the evaluation has been conducted through ATAM. It is important to note that, this wasn't a setup in which an outside evaluation team would come to a company to evaluate an architecture in practice, but it was our prototype that we brought into a company to test its utility and relevance. While we could have achieved this with technical action research or leight weight architecture evaluation, we found ATAM to be in-line with our conceptual constructs, which are architectural constructs. ATAM provided us with a framework to discuss architectural concepts in a rigorous way \cite{wieringa2014design}. We created the prototype, and played the role of the evaluator, thus there was a risk of bias. To avoid bias, we invited a third-party researcher who is familiar with ATAM to observer the overall process and partake in architectural probing questions. 
+For ATAM to be successful there should not be a precise mathematical analysis of system's quality attributes, but rather trends should be identified where architectural patterns are correlated with a quality attribute of interest. For brevity purposes, we do not expand on what ATAM is, and the details of each steps in it, and we only explain how the evaluation has been conducted through ATAM. It is important to note that, this wasn't a setup in which an outside evaluation team would come to a company to evaluate an architecture in practice, but it was our prototype that we brought into a company to test its utility and relevance. 
+
+While we could have achieved this with technical action research or leight weight architecture evaluation, we found ATAM to be in-line with our conceptual constructs, which are architectural constructs. ATAM provided us with a framework to discuss architectural concepts in a rigorous way \cite{wieringa2014design}. We created the prototype, and played the role of the evaluator, thus there was a risk of bias. To avoid bias, we invited a third-party researcher who is familiar with ATAM to observer the overall process and partake in architectural probing questions. 
 
 For instantiation of the RA, We utilized ISO/IEC 25000 SQuaRE standard (Software Product Quality Requirements and Evaluation) \cite{ISO25000} for technology selection.  We did not fully adopt this standard, but were rather inspired by it to make a better decision. The quality model in the standard is based on characteristics, sub-characteristics and standards. This standard also references many other standards for maintenance and quality keeping of computer systems. The detailed explanation of the standards and its constituent elements are outside the scope of this study.
 
 By applying standard and the requirements of Cybermycelium to the pool of available tools in the industry, we succesfully created the prototype. We chose the tools are the mostly adopted and do support the architectural requirements of Cybermycelium. We did not want to develop tools from scratch, as that would delay our evaluation artefact and this would affect the stakehodlers negatively. In addition, many mature tools exist that statisfy our architectural requirements, so therefore 'reinventing the wheel' was unnecessary.
 
-We chose Node JS for all APIs and custom scripting, Nginx as our ingress, AWS Lambdas for stream and batch processing controllers, Kafka for event backbone, Kafka event brokers as the event broker, AWS application load balancer as the egress load balancer, Istio as the control tower, Envoy as the side car, Kubernetes as the container orchestrator, AWS S3 as the BD store and event archive, and Data Bricks for stream and batch processing. The prototype created out of Cybermycelium is depicted in figure \ref{fig:ConcreteCyberMycelium}
+We chose Node JS for all APIs and custom scripting, Nginx as our ingress, AWS Lambdas for stream and batch processing controllers, Kafka for event backbone, Kafka event brokers as the event broker, AWS application load balancer as the egress load balancer, Istio as the control tower, Envoy as the side car, Kubernetes as the container orchestrator, AWS S3 as the BD store and event archive, and Data Bricks for stream and batch processing. The prototype created out of Cybermycelium is depicted in Figure \ref{fig:ConcreteCyberMycelium}
 
 \begin{sidewaysfigure}
     % \centering
@@ -772,7 +774,7 @@ We aimed to incorporate most components of our RA into this instance, however lo
 
 \subsection{Phase 1:}
 
-This evaulation is undertaken in a subsidiary of a large-scale international company that has over 6000 employees all around the globe. The subsidiary company offers a pratice management software for veterinary practitioners via Software as a Service (Saas) and has over 15,000 customers from the USA, UK, Australia, New Zealand, Canada, Singapore and Ireland, among which are some of the biggest equine hospitals, universities and veterinary pracices. The company is currently at the stage of shifting from centralized synchronous architecture into decentralised event driven microservices architecture, and is ambitions to adopt artificial inteligence and BD.
+This evaulation is undertaken in a subsidiary of a large-scale international company that has over 6000 employees all around the globe. The subsidiary company offers a pratice management software for veterinary practitioners via Software as a Service (Saas) and has over 15,000 customers from the USA, UK, Australia, New Zealand, Canada, Singapore and Ireland, among which are some of the biggest equine hospitals, universities and veterinary pracices. The company is currently at the stage of shifting from centralized synchronous architecture into decentralised event driven microservices architecture, and is ambitious to adopt artificial inteligence and BD.
 
 The initial step was the identification ot relevant stakeholders. For this purpose we have approached the key stakeholders in the company's technical governance team. Our aim was to incorporate at least two lead architects of the company in this process. We emphasized on architects that have been with business for a long period of time. This was to ensure that we do not miss any important element in the process of evaluation. As a result, we invited two lead development architects, head of product, and a business analyst for phase 1.
 
@@ -788,20 +790,12 @@ In step 3, the prototype has been presented, our assumptions have been stated, a
 
 \subsubsection{Step 4: Identifying Architectural Approaches}
 
-To establish the architectural styles, we first analyzed the prototype with respect to key quality attributes chosen for this evaluation which are performance, availability and modifiability.
-
-\begin{itemize}
-    \item For performance, Nginx, Kafka, Istio, DataBricks and the AWS Application Load Balancer have been described.
-    \item For availability, Kafka, Event archive, Nginx, controllers, Data Lake and Istio have been discussed.
-    \item For modifiability, the concept of domain-driven design, the service mesh, zere coupling, the plug and play nature of the archetype, the ability to add desireable services through event brokers, and the distributed nature of the architecture has been discussed.
-\end{itemize}
-
-We then probed each of the quality attributes for potential risks, tradeoffs, and sensitivty/variability points.
+To establish the architectural styles, we first analyzed the prototype with regards to architectural patterns and princinples depicted in Section~\ref*{theory-section}. We then digged a bit deeper and justified our architectural decisions. We discussed the event-driven nature of the prototype, and discussed the usefulness of the domains.
 
 \subsubsection{Step 5: Utility Tree Elicitation:}
-In order to generate the utility tree, first we had to learn what are the most important quality attributes. While we learnt about these quality attributes in step 2, in this step we probed deeper. We first presented our assumptions, and double-checcked it with the stakeholders. Whereas some stakeholders raised concerns over privacy, the members unanimously agreed that performance, availability, and maintainability are the most important quality attributes. This was in-line with our assumptions. In this process, we rated the technical difficulty, and the key stakeholders rated the business importance.
+In order to generate the utility tree, first we had to learn what are the most important quality attributes. While we learnt about these quality attributes in step 2 shortly, in this step we probed deeper. We first presented our assumptions, and double-checcked it with the stakeholders. Whereas some stakeholders raised concerns over privacy, the members unanimously agreed that performance, availability, and maintainability are the most important quality attributes. This was in-line with our assumptions. In this process, we rated the technical difficulty, and the key stakeholders rated the business importance.
 
-Based on these premises, the utility tree has been generated (figure \ref{fig:utility-tree}).
+Based on these premises, the utility tree has been generated (Figure \ref{fig:utility-tree}).
 
 \begin{figure}[h!]
     \centering
@@ -814,7 +808,15 @@ Based on these premises, the utility tree has been generated (figure \ref{fig:ut
 
 After having scenarios prioritised and architectural approaches identified, it's time to analyze if the architectural approaches are the fitting for the given scenarios. In this step, we asked the lead architects to probe the architecture and we explained how the prototype is addressing each scenario. 
 
-The result of this step, was identification of sensitivity points, trade-offs, risks and non-risks. This step took longer than what we anticipated, as variety of questions arose and many aspects of the architecture was challenged. The detail is discussed in \ref{evaluation-results}. 
+We justified our architectural constructs by evaluating key quality attributes we've collected previously for the purposes of this evaluation. We explained the following for each quality attribute:
+
+\begin{itemize}
+    \item For performance, Nginx, Kafka, Istio, DataBricks and the AWS Application Load Balancer have been described.
+    \item For availability, Kafka, Event archive, Nginx, controllers, Data Lake and Istio have been discussed.
+    \item For modifiability, the concept of domain-driven design, the service mesh, zere coupling, the plug and play nature of the archetype, the ability to add desireable services through event brokers, and the distributed nature of the architecture has been discussed.
+\end{itemize}
+
+The result of this step, was identification of sensitivity points, trade-offs, risks and non-risks. This step took longer than what we anticipated, as variety of questions arose and many aspects of the architecture was challenged. The detail is discussed in Section~\ref{evaluation-results}. 
  
 
 \subsection{Phase 2:}
@@ -825,9 +827,9 @@ This phase is an iteration of phase one, so we collected scenarios, analyzed arc
 
 \subsubsection{Step 7: Brainstorm and Prioritize Scenarios}
 
-While utility tree was created in step 5, the purpose of this brainstorming was to get a pulse of the larger stakeholder community and capture more scenarios.
+While utility tree was created in step 5, the purpose of this brainstorming was to get a pulse of the larger stakeholder community and capture more scenarios. Scenarios are the quantum of ATAM, and help captring stimuli to which the architecture has to react. These stimuli help to highlight system's ability to too meet desired functional and non-functioanl requirements \cite{KazmanATAM}. 
 
-Scenarios are the quantum of ATAM, and help captring stimuli to which the architecture has to react. These stimuli help to highlight system's ability to too meet desired functional and non-functioanl requirements \cite{KazmanATAM}. Based on this premise, in this step, we asked stakeholders to come up with three different kind of scenarios namely growth scenarios (anticipated changes), use-case scenarios (typical usage of the system) and exploratory scenarios (extreme cases). The result of this created 20 scenarios, which we then asked stakeholders to vote on. The result of the voting yielded 5 scenarios which are described as two user journeys;
+Based on this premise, in this step, we asked stakeholders to come up with three different kind of scenarios namely growth scenarios (anticipated changes), use-case scenarios (typical usage of the system) and exploratory scenarios (extreme cases). The result of this created 20 scenarios, which we then asked stakeholders to vote on. The result of the voting yielded 5 scenarios which are described as two user journeys;
 
 \begin{itemize}
     \item A cat owner brings a cat to the veterinary hospital. The cat has symptoms of a lyme disease, and should be diagnosed in a timely manner to avoid master problems.
@@ -931,7 +933,7 @@ Given all, Cybermycelium does not tend to dictate what has to be done, or kill t
 
 Anothe area where stakeholders were challenged was the idea of service mesh. Whereas this makes a lot of sense to developers who had to figure out the twisted platform work, the benefit perhaps was not that evident to everyone from the beginning. This is another area of tradeoff. While having the service mesh affects the modifiability of the system in a negative way from platform point of view, it does increase it from data engineering and software engineer point of view. The service mesh may also affect performance slightly, but the effect is negligible. Service mesh also affects avaiability positively by streamlining the platform interfaces, providing an orchestrator ( control tower ), and doing health checks through proxies.
 
-\paragraph{Limitation and Future Research}
+\paragraph{Limitations}
 
 Cybermycelium is a new perspective to BD system development and tends to absorb many of the well-established patterns and ideas from various domains. Being distributed in nature, there are still many areas in which Cybermycelium can improve. For instance, we still don't have a great answer to tail latency issues which can affect system negatively. Besides that, we recived feedbacks that many developers find Cybermycelium a complex architecture that require a lot of skill to implement. It requires the understanding of event-driven systems, event streaming, service meshing, data mesh, cloud computing and even data mesh. We do not think that a modern distributed BD architecture should be simple, but we thrive to simplify the ways in which one can absorb Cybermycelium.
 
