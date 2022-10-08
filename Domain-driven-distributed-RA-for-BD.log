@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  8 OCT 2022 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2022.1.31)  8 OCT 2022 21:35
 entering extended mode
 **"c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Domain-driven-distributed-RA-for-BD.tex"
 ("c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Domain-driven-distributed-RA-for-BD.tex"
@@ -378,7 +378,7 @@ Package pdftex.def Info: Media/product-facets.jpg  used on input line 642.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [36] [37 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/product-facets.jpg>] [38] [39]
-<Media/Cybermycelium.jpg, id=773, 1528.71124pt x 740.7675pt>
+<Media/Cybermycelium.jpg, id=771, 1528.71124pt x 740.7675pt>
 File: Media/Cybermycelium.jpg Graphic file (type jpg)
 <use Media/Cybermycelium.jpg>
 Package pdftex.def Info: Media/Cybermycelium.jpg  used on input line 691.
@@ -388,7 +388,7 @@ Overfull \hbox (104.41338pt too wide) in paragraph at lines 691--692
 [][] 
  []
 
-<Media/Product Domain.jpg, id=774, 819.06pt x 529.98pt>
+<Media/Product Domain.jpg, id=772, 819.06pt x 529.98pt>
 File: Media/Product Domain.jpg Graphic file (type jpg)
 <use Media/Product Domain.jpg>
 Package pdftex.def Info: Media/Product Domain.jpg  used on input line 700.
@@ -401,13 +401,13 @@ Overfull \hbox (2.51176pt too wide) in paragraph at lines 741--742
 \OT1/cmr/m/n/10 The ser-vice dis-cov-ery node is re-spon-si-ble for this job. This is achieved
  []
 
-
+[50]
 Overfull \hbox (3.89574pt too wide) in paragraph at lines 743--746
 []\OT1/cmr/bx/n/10 Monitoring: \OT1/cmr/m/n/10 Mon-i-tor-ing sys-tems are in-te-gral to ro-bust-ness of highly
  []
 
-[50] [51] [52]
-<Media/concrete-mycelium.jpg, id=860, 1564.84625pt x 785.93625pt>
+[51] [52]
+<Media/concrete-mycelium.jpg, id=858, 1564.84625pt x 785.93625pt>
 File: Media/concrete-mycelium.jpg Graphic file (type jpg)
 <use Media/concrete-mycelium.jpg>
 Package pdftex.def Info: Media/concrete-mycelium.jpg  used on input line 766.
@@ -418,7 +418,7 @@ Overfull \hbox (104.41338pt too wide) in paragraph at lines 766--767
  []
 
 [53] [54 <c:/Users/Admin/OneDrive - AUT University/PHD Journey/Papers/Journal of Systems and Software - Cybermycelium/Media/concrete-mycelium.jpg>] [55]
-<Media/Utility-tree.jpg, id=876, 863.225pt x 572.1375pt>
+<Media/Utility-tree.jpg, id=874, 863.225pt x 572.1375pt>
 File: Media/Utility-tree.jpg Graphic file (type jpg)
 <use Media/Utility-tree.jpg>
 Package pdftex.def Info: Media/Utility-tree.jpg  used on input line 808.
@@ -428,12 +428,12 @@ Underfull \hbox (badness 5288) in paragraph at lines 17--25
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / doi . ieeecomputersociety . org / 10 . 1109 / APSEC53868 .
  []
 
-
+[67]
 Underfull \hbox (badness 10000) in paragraph at lines 45--49
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / databricks . com / p / whitepaper /
  []
 
-[67]
+
 Underfull \hbox (badness 10000) in paragraph at lines 51--55
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . supplychain247 . com / paper / big _ data _ and _ ai _
  []
@@ -479,37 +479,37 @@ Underfull \hbox (badness 3128) in paragraph at lines 528--532
  []
 
 [78]
-Underfull \hbox (badness 10000) in paragraph at lines 573--575
+Underfull \hbox (badness 10000) in paragraph at lines 568--570
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . gnu . org / software / make / manual / make . html #
  []
 
 
-Overfull \hbox (83.88458pt too wide) in paragraph at lines 587--591
+Overfull \hbox (83.88458pt too wide) in paragraph at lines 582--586
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . amazon . com / Microservices-[]Patterns-[]examples-[]Chris-[]Richardson /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--591
+Underfull \hbox (badness 10000) in paragraph at lines 582--586
 \OT1/cmtt/m/n/10 dp / 1617294543 / ref = tmm _ pap _ swatch _ 0 ? _encoding = UTF8 & qid =
  []
 
 [79]
-Underfull \hbox (badness 10000) in paragraph at lines 619--623
+Underfull \hbox (badness 10000) in paragraph at lines 614--618
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . oreilly . com / radar /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--635
+Underfull \hbox (badness 10000) in paragraph at lines 625--630
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . oracle . com / technetwork / topics / entarch /
  []
 
 [80]
-Underfull \hbox (badness 10000) in paragraph at lines 669--671
+Underfull \hbox (badness 10000) in paragraph at lines 664--666
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / www . scribd . com / document / 418835912 /
  []
 
 [81]
-Underfull \hbox (badness 4120) in paragraph at lines 697--702
+Underfull \hbox (badness 4120) in paragraph at lines 692--697
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 https : / / openauthentication . org / wp-[]content / uploads / 2015 /
  []
 
@@ -587,17 +587,17 @@ Package rerunfilecheck Info: File `Domain-driven-distributed-RA-for-BD.out' has 
 (rerunfilecheck)             Checksum: 60233F58B382C1D82E2B58413BD7FDEC;4302.
  ) 
 Here is how much of TeX's memory you used:
- 8520 strings out of 480795
- 136551 string characters out of 2913777
- 427576 words of memory out of 3000000
- 23966 multiletter control sequences out of 15000+200000
+ 8516 strings out of 480795
+ 136506 string characters out of 2913777
+ 427559 words of memory out of 3000000
+ 23963 multiletter control sequences out of 15000+200000
  536617 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,36p,1884b,1027s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,8n,36p,1883b,1023s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmss8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.pdf" (87 pages, 1328813 bytes).
+Output written on "c:/Users\Admin\OneDrive - AUT University\PHD Journey\Papers\Journal of Systems and Software - Cybermycelium\Domain-driven-distributed-RA-for-BD.pdf" (87 pages, 1328299 bytes).
 PDF statistics:
- 1371 PDF objects out of 1440 (max. 8388607)
- 426 named destinations out of 1000 (max. 500000)
+ 1367 PDF objects out of 1440 (max. 8388607)
+ 425 named destinations out of 1000 (max. 500000)
  489 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -559,11 +559,6 @@ V.~Khononov, Learning Domain-Driven Design, " O'Reilly Media, Inc.", 2021.
 \href{https://segment.com/}{The leading customer data platform}.
 \newline\urlprefix\url{https://segment.com/}
 
-\bibitem{HDFS}
-\href{https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html}{The hadoop
-  distributed file system}.
-\newline\urlprefix\url{https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html}
-
 \bibitem{Helm}
 \href{https://helm.sh/}{The package manager for kubernetes}.
 \newline\urlprefix\url{https://helm.sh/}
